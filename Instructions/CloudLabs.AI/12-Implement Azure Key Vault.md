@@ -4,11 +4,11 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 # Task 1: Create an Azure Key Vault
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **Key vaults**, then select **+ Add**.
+2. From the **All services** blade, search for and select **Key vaults**, then select **+ Create**.
 
-3. Configure the key vault (replace **xxxx** in the name of the key vault with the deployment ID). Leave the defaults for everything else.
+3. Configure the key vault (replace **xxxx** in the name of the key vault with the deployment ID). You can fetch the deployment ID from the Lab Environment output page. Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
