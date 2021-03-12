@@ -10,12 +10,12 @@ In this task, we will create a Function app.
 
 1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ New**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the DeploymentID and leave all other settings with their default values): 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the Deployment ID and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-[DeploymentID]** |
+    | Resource group | the name of **existing** resource group **myRGFunction-[DeploymentId]** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET** |
@@ -23,7 +23,7 @@ In this task, we will create a Function app.
     | Region | **East US** |
     | | |
 
-> **Note** : Deployment ID can be obtained from the Lab Environment output page.
+> Note : Deployment ID can be obtained from the Lab Environment output page.
 
 1. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
 
