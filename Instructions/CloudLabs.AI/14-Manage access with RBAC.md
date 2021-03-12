@@ -6,7 +6,7 @@ In this walkthrough, we will assign roles and view activity logs.
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Resource groups**
 
@@ -14,8 +14,10 @@ In this task, we will assign the Virtual machine contributor role.
 
     | Setting | Value |
     | -- | -- |
-    | Resource group | **myRGRBAC-[deployId]** |
+    | Resource group | **myRGRBAC-[DeploymentId]** |
     | | |
+    
+    **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
 4. Click on the existing resource group
 
@@ -25,7 +27,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![Screenshot of IAM roles blade. Owner, contributor, and reader roles are shown.](../images/1501.png)
 
-7. Switch to the **Role assignments** tab of the **myRGRBAC-[deployId] - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Assign the Virtual Machine Contributor role to your user account, then click **Save**. 
+7. Switch to the **Role assignments** tab of the **myRGRBAC-[DeploymentId] - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Assign the Virtual Machine Contributor role to your user account, then click **Save**. 
 
     | Setting | Value |
     | -- | -- |
@@ -34,7 +36,7 @@ In this task, we will assign the Virtual machine contributor role.
     | Select | your user account |
     | | |
 
-    **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to.
+    **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
 
     ![Screenshot of the Add role assignment page filled out with the necessary information.](../images/1502.png)
 
@@ -46,7 +48,7 @@ In this task, we will assign the Virtual machine contributor role.
 
 In this task, we will view the activity log to verify the role assignment, and then remove the role. 
 
-1. On the myRGRBAC-[deployId] resource group blade, click **Activity log**.
+1. On the myRGRBAC-[DeploymentId] resource group blade, click **Activity log**.
 
 2. Click **Add filter**, select **Operation**, and then **Create role assignment**.
 

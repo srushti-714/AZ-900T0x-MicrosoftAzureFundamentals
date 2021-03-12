@@ -6,7 +6,7 @@ In this walkthrough, we will verify the existing resource group, add a lock to r
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
 
@@ -16,7 +16,9 @@ In this task, we will verify the existing resource group for this exercise.
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the Azure portal, navigate to the existing resource group **myRGLocks-[deployId]**.
+1. In the Azure portal, navigate to the existing resource group **myRGLocks-[DeploymentId]**.
+
+    **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
 2. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
@@ -26,8 +28,11 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 4. Configure the new lock. When you are done click **OK**. 
 
+    | Setting | Value | 
+    | --- | --- |
     | Lock name | **RGLock** |
     | Lock Type | **Delete** |
+    | | |
 
 5. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
 
@@ -39,11 +44,12 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
 
-2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else.
+2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the Deployment ID). Leave the defaults for everything else.
 
+    | Setting | Value |
     | --- | --- |
     | Subscription | **Select your subscription** |
-    | Resource group | **myRGLocks-[deployId]** |
+    | Resource group | **myRGLocks-[DeploymentId]** |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
@@ -67,7 +73,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 In this task, we will remove the resource lock and test. 
 
-1. Return to the **myRGLocks-[deployId]** resource group blade and, in the **Settings** section, click **Locks**.
+1. Return to the **myRGLocks-[DeploymentId]** resource group blade and, in the **Settings** section, click **Locks**.
     
 2. Click **Delete** link to the right of the **RGLock** entry.
 

@@ -6,30 +6,32 @@ In this walkthrough, we will create a Function App to display a Hello message wh
 
 In this task, we will create a Function app.
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
+1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ New**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the deployment ID and leave all other settings with their default values): 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the Deployment ID and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-[deployId]**** |
+    | Resource group | the name of **existing** resource group **myRGFunction-[DeploymentId]**** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
-    | Runtime stack | **.NET Core** |
+    | Runtime stack | **.NET** |
     | Version | **3.1** |
     | Region | **East US** |
     | | |
 
-    
+> Note: Deployment ID can be obtained from the Lab Environment output page.    
 
-1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+4. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
 
-1. Wait for the notification that the resource has been created.
+5. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+6. Wait for the notification that the resource has been created.
+
+7. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
