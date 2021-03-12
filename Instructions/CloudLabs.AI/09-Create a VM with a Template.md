@@ -26,12 +26,12 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
-8. On the **Custom deployment** blade configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with Deployment ID). Leave the defaults for everything else. 
+8. On the **Custom deployment** blade configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGTemplate-[DeploymentId]** (use existing) |
+    | Resource group | **myRGTemplate-[DeploymentID]** (use existing) |
     | Location | **(US) East US** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
@@ -39,7 +39,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-Datacenter** |
     | | |
     
-   **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
+    **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
 
 9. Click **Review + Create**.
 
