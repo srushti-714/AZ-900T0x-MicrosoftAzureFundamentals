@@ -23,7 +23,7 @@ In this task, we will create a Function app.
     | Region | **East US** |
     | | |
 
-> Note : Deployment ID can be obtained from the Lab Environment output page.    
+> Note : Deployment ID can be obtained from the Lab Environment output page.
 
 1. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
 
