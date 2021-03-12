@@ -25,13 +25,13 @@ In this task, we will create a Function app.
 
 > Note : Deployment ID can be obtained from the Lab Environment output page.    
 
-4. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
+1. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
 
-5. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-6. Wait for the notification that the resource has been created.
+1. Wait for the notification that the resource has been created.
 
-7. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
