@@ -8,7 +8,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
 
-1. Sign in to the [Azure portal (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
 
@@ -17,15 +17,17 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-[deployId]** (use existing) |
+    | Resource group | **myRGVM-[DeploymentId]** (use existing) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
-    | Size | Standard D2s v3|
+    | Size | **Standard_D2s_v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
+
+> Note: Deployment ID can be obtained from the Lab Environment output page.
 
 4. Switch to the Networking tab, and look for the **Select inbound ports**:
 
@@ -91,9 +93,9 @@ In this task, install the Web Server role on the server and ensure the default I
 
 2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command.
 
-    ```PowerShell
-    Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
+    Install-WindowsFeature -name Web-Server -IncludeManagementTools
+    ```    
   
 3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM.
 

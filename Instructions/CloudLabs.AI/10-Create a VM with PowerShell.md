@@ -6,7 +6,7 @@ In this walk-through, we will configure the Cloud Shell, use Azure PowerShell mo
 
 In this task, we will configure Cloud Shell. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
@@ -26,21 +26,21 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 2. In the PowerShell session, within the Cloud Shell pane, get existing resource group. 
 
-    ```PowerShell
+    ```
     Get-AZResourceGroup
     ```
 
 3. Verify your resource group. 
 
-    ```PowerShell
+    ```
     Get-AzResourceGroup | Format-Table
     ```
 
-4. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line). Replace myRGPS-[deployId] in the below command with the Resource Group Name from the output of the previous command
+4. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line). Replace myRGPS-[DeploymentId] in the below command with the Resource Group Name from the output of the previous command
 
-    ```PowerShell
+    ```
     New-AzVm `
-    -ResourceGroupName "myRGPS-[deployId]" `
+    -ResourceGroupName "myRGPS-[DeploymentId]" `
     -Name "myVMPS" `
     -Location "East US" `
     -VirtualNetworkName "myVnetPS" `
@@ -48,7 +48,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** Wait for VM to deploy before closing PowerShell
+    **Note**: Deployment ID can be obtained from the Lab Environment output page. Wait for VM to deploy before closing PowerShell
 
 5. Close the PowerShell session Cloud Shell pane.
 
@@ -68,19 +68,19 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 3. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
 
-    ```PowerShell
+    ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
 4. Stop the virtual machine. When prompted confirm (Yes) to the action. 
 
-    ```PowerShell
+    ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
 
 5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
 
-    ```PowerShell
+    ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
