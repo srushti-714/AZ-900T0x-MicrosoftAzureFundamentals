@@ -25,7 +25,7 @@ In this task, we will create a new container instance for the web application.
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 	|||
-
+        
    **Note** - Deployment ID can be obtained from the Lab Environment output page.
 
 4. Configure the Networking tab (replace **xxxx** with the Deployment ID). Leave all other settings at their default values .
