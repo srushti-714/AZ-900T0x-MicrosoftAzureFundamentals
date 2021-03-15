@@ -17,7 +17,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-[DeploymentId]** (use existing) |
+    | Resource group | **myRGVM-[DeploymentID]** (use existing) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
@@ -27,7 +27,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
-> Note: Deployment ID can be obtained from the Lab Environment output page.
+   > **Note** : DeploymentID can be obtained from the Lab Environment output page.
 
 4. Switch to the Networking tab, and look for the **Select inbound ports**:
 
