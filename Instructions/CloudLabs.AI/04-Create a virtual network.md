@@ -99,11 +99,10 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 8. Try to ping vm2 (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall.
 
-
     ```
     ping vm2
     ```
-   
+
    ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
 
     **Note**: You will now open an RDP session to vm2 and allow incoming ICMP connections
@@ -112,17 +111,15 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 10. Open a **PowerShell** prompt and allow ICMP. This command allows ICMP inbound connections through the Windows firewall.
 
-
     ```
     New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
     ```
-    
+
    ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
 
    **Note**: You will now switch to the RDP session to vm1 and try the ping again
 
 11. Return to the RDP session to vm1 and try the ping again. You should now be successful. 
-
 
     ```
     ping vm2

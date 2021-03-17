@@ -4,7 +4,7 @@ In this walkthrough, we will view available support plan options and then practi
 
 # Task 1: View available support plan options and a technical support request
 
-1. Sign in to the [**Azure portal**](https://portal.azure.com).
+1. Sign in to the [**Azure portal**](https://portal.azure.com) with the Azure credentials from Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Help + support**, then select **Support plans**.
 
@@ -17,9 +17,10 @@ In this walkthrough, we will view available support plan options and then practi
     | Issue Type| **Technical** |
     | Subscription | **Choose your subscription** |
     | Service | **All services**, **Virtual Machine running Linux** |
+    | Resource | **General Question** |
     | Summary | **Disk access is very slow for large files** |
     | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput is lower than expected** |    
+    | Problem subtype | **Disk throughput or IOPS is lower than expected** |    
     | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
