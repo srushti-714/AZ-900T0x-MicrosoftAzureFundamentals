@@ -6,7 +6,7 @@ In this walkthrough, we will create a policy assignment that requires tagging, c
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Policy**.
 
@@ -18,7 +18,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
-6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
+6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the Tag name & **Contoso** for the Tag value. Click **Review + create**, and then **Create**.
 
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
 
@@ -39,12 +39,14 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGTags-[deployID]** (existing) |
+    | Resource group | **myRGTags** (select existing) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
     | | |
 
-3. Click **Review + create**. 
+    **Note:** Deployment ID can be obtained from the Lab Environment output page.
+
+3. Click **Review + create** then click **create**. 
 
     **Note:** We are testing to see what happens when the tag is not supplied. 
 
@@ -56,7 +58,7 @@ In this task, we will create storage accounts to test the required tagging.
 
     **Note - you need to wait 30 minutes for tagging to be complete.** 
 
-5. Close the **Error** pane and click **Previous** (bottom of the screen). Provide the tagging information. 
+5. Close the **Error** pane and again try to create storage account by following above **Step 1** and **Step 2**. Also Provide the tagging information. 
 
     | Setting | Value | 
     | --- | --- |
