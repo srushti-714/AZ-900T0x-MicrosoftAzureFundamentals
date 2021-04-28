@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+    "Name": "Secure network traffic",
+    "Language": "Spanish",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/13-Secure%20network%20traffic.md",
+        "Order": 1
+      }
+    ]
+  }]
