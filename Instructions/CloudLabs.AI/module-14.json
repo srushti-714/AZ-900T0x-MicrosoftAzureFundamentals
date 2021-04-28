@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+    "Name": "Manage access with RBAC",
+    "Language": "Spanish",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/14-Manage%20access%20with%20RBAC.md",
+        "Order": 1
+      }
+    ]
+  }]
