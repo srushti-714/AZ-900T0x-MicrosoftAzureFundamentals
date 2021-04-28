@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
+},
+{
+  "Name": "Implement resource tagging",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/16-Implement%20resource%20tagging.md",
+      "Order": 1
+    }
+  ]
 } ]
