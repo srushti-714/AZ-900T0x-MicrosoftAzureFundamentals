@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
+},
+ {
+  "Name": "Create a SQL database",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/06-Create%20a%20SQL%20database.md",
+      "Order": 1
+    }
+  ]
 } ]
