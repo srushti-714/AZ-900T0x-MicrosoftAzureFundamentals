@@ -1,4 +1,5 @@
-[ {
+[ 
+  {
   "Name": "Create a Web App",
   "Language": "English",
   "Files": [
@@ -7,4 +8,15 @@
       "Order": 1
     }
   ]
-} ]
+},
+  {
+  "Name": "Create a Web App",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/02-Create%20a%20Web%20App.md",
+      "Order": 1
+    }
+  ]
+}
+]
