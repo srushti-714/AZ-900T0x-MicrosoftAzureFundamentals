@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+  "Name": "Implement Azure Functions",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/08-Implement%20Azure%20Functions.md",
+      "Order": 1
+    }
+  ]
+}]
