@@ -7,4 +7,15 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+  "Name": "Create a VM with PowerShell",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/10-Create%20a%20VM%20with%20PowerShell.md",
+      "Order": 1
+    }
+  ]
+}
+]
