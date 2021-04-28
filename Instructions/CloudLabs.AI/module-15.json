@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+  "Name": "Manage resource locks",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/15-Manage%20resource%20locks.md",
+      "Order": 1
+    }
+  ]
+}]
