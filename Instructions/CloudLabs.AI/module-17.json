@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
+},
+{
+  "Name": "Create an Azure Policy",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/17-Create%20an%20Azure%20Policy.md",
+      "Order": 1
+    }
+  ]
 } ]
