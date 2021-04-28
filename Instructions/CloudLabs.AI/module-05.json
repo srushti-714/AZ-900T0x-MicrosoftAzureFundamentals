@@ -7,4 +7,15 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+  "Name": "Create blob storage",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/05-Create%20Blob%20storage.md",
+      "Order": 1
+    }
+  ]
+} 
+]
