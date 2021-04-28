@@ -7,4 +7,14 @@
       "Order": 1
     }
   ]
-} ]
+},
+{
+  "Name": "Use the Azure TCO Calculator",
+  "Language": "Spanish",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/20-Use%20the%20Azure%20TCO%20Calculator.md",
+      "Order": 1
+    }
+  ]
+}]
