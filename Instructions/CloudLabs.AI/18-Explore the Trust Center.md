@@ -1,18 +1,18 @@
-# 18 - Explore the Trust Center
+# 18 - Explore Microsoft Compliance Offerings
 
 In this walkthrough, we will access the Trust Center, Service Trust Portal (STP), and Compliance Manager.
 
-# Task 1: Access the Trust Center
+# Task 1: Access Microsoft Compliance Offerings
 
 1. In a browser, access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
 
-2. Notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
+2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
 3. In the **Global** group, click **ISO 27001**. 
 
     **Note:** The ISO 27001 Information Security Management Standards page is typical of the type of complaince information we provide.
 
-4. Notice there is an overview of the standard; in-scope cloud services; audits, reports and certificates; assessments and reports; FAQs; resources; and white papers. 
+4.  Notice there is an overview of the standard; in-scope cloud services; audits, reports and certificates; assessments and reports; FAQs; resources; and white papers. 
 
 5. Browse through any content of interest to you. 
 
@@ -30,7 +30,7 @@ In this walkthrough, we will access the Trust Center, Service Trust Portal (STP)
 
 4. If you have time, review any other information that is of interest to you. 
 
-# Task 3: Access the Compliance Manager
+# Task 3: Access the Compliance Manager via the Service Trust Portal
 
 1. The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. If you want to try the Compliance Manager you will need to login.
 
