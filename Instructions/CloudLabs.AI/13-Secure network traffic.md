@@ -57,12 +57,12 @@ In this task, we will create a network security group and associate it with the 
 
 1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add**
 
-2. On the **Basics** tab of the **Create network security group** blade, specify the following settings.
+2. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
 
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGSecure** |
+    | Resource group | **myRGSecure[DeploymentId]** |
     | Name | **myNSGSecure** |
     | Region | **(US) East US**  |
     | | |
