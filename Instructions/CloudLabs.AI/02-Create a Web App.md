@@ -18,13 +18,13 @@ In this task, you will create an Azure App Service Web App.
     | -- | -- |
     | Subscription | **Choose your subscription** |
     | Resource Group | **myRGWebApp1-[DeploymentId]** (use existing) |
-    | Name | **myDockerWebAppxxxx** |
+    | Name | **myDockerWebApp[DeploymentId]** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
     | Region | **East US** (ignore any service plan availability warnings) |
     | | |	
     
-    **Note** - Remember to change the **xxxx** so that it makes a unique **Name**. Deployment ID can be obtained from the Lab Environment output page.
+    **Note** - Remember to change the **[DeploymentId]** so that it makes a unique **Name**. Deployment ID can be obtained from the Lab Environment output page.
 
 4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise. 
 
