@@ -12,7 +12,7 @@ In this walkthrough, we will access the Trust Center, Service Trust Portal (STP)
 
     **Note:** The ISO 27001 Information Security Management Standards page is typical of the type of complaince information we provide.
 
-4. Notice there is an overview of the standard; in-scope cloud services; audits, reports and certificates; assessments and reports; FAQs; resources; and white papers. 
+4. On the Compliance page, notice there is an overview of the standard; in-scope cloud services; audits, reports and certificates; assessments and reports; FAQs; resources; and white papers. 
 
 5. Browse through any content of interest to you. 
 
