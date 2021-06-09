@@ -30,7 +30,7 @@ In this walkthrough, we will access the Trust Center, Service Trust Portal (STP)
 
 4. If you have time, review any other information that is of interest to you. 
 
-# Task 3: Access the Compliance Manager
+# Task 3: Access the Compliance Manager via the Service Trust Portal
 
 1. The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. If you want to try the Compliance Manager you will need to login.
 
