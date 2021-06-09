@@ -12,7 +12,7 @@ In this task, you will create an Azure App Service Web App.
 
 2. From the **All services** blade, search for and select **App Services**, and click **+ New**
 
-3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **xxxx** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan. 
+3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan. 
 
     | Setting | Value |
     | -- | -- |
