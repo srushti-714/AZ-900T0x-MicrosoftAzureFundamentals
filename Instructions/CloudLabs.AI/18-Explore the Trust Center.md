@@ -1,8 +1,8 @@
-# 18 - Explore the Trust Center
+# 18 - Explore Microsoft Compliance Offerings
 
 In this walkthrough, we will access the Trust Center, Service Trust Portal (STP), and Compliance Manager.
 
-# Task 1: Access the Trust Center
+# Task 1: Access Microsoft Compliance Offerings
 
 1. In a browser, access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
 
