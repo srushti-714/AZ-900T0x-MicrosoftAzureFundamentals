@@ -23,9 +23,7 @@ In this task, we will create a Function app.
     | Region | **East US** |
     | | |
 
-> Note : Deployment ID can be obtained from the Lab Environment output page.
-
-1. Next, Click on **Monitoring** tab of **Create Function App** then select **Yes** for **Enable Application Insights**
+   > Note : Deployment ID can be obtained from the Lab Environment output page.
 
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
@@ -45,13 +43,9 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/0702.png)
 
-1. On the **Templates** tab of the **New Function** blade, click **HTTP trigger**. 
+1. On the **Templates** tab of the **New Function** blade, click **HTTP trigger**. Click **Add**  
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702a.png)
-
-1. On the **Details** tab of the **New Function** blade, accept the default **New Function** name and **Authorization level**, and then click **Create Function**. 
-
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The webhook + api button and create button are highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0703.png)
 
 1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
