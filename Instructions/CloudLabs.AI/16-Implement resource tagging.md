@@ -58,7 +58,7 @@ In this task, we will create storage accounts to test the required tagging.
 
     **Note - you need to wait 30 minutes for tagging to be complete.** 
 
-5. Close the **Error** pane and again try to create storage account by following above **Step 1** and **Step 2**. Also Provide the tagging information. 
+5. Close the **Error** pane and click on **Tag** tab(left side of Review + create). Also Provide the tagging information. 
 
     | Setting | Value | 
     | --- | --- |
