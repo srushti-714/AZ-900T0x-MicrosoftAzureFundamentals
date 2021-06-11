@@ -47,7 +47,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Resource group |  **myRGVNet-[DeploymentId]** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter** |
+   | Image | **Windows Server 2019 Datacenter -Gen1** |
    | Size | **Standard D2s v3**|
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
