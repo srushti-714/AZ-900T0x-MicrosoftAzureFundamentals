@@ -46,7 +46,7 @@ In this task, we will create a Blob container and upload a blob file.
     | Public access level| **Private (no anonymous access)** |
     | | |
 
-    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/0402.png)
+  ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/0402.png)
 
 4. Click the **container1** container, and then click **Upload**.
 
