@@ -39,10 +39,10 @@ In this task, we will create a Blob container and upload a blob file.
 
 2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **OK**.
 
-    | Setting | Value |
-    | --- | --- |
-    | Name | **container1** |
-    | Public access level| **Private (no anonymous access)** |
+   | Setting | Value |
+   | ---- | ---- |
+   | Name | **container1**|
+   | Public access level| **Private (no anonymous access)** |
     
     ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/0402.png)
 
