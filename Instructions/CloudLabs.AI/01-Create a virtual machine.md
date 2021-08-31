@@ -20,7 +20,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Resource group | **myRGVM-[DeploymentID]** (use existing) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter - Gen1**|
+    | Image | **Windows Server 2019 Datacenter - Gen2**|
     | Size | **Standard_D2s_v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
