@@ -22,6 +22,8 @@ In this task, you will create an Azure App Service Web App.
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
     | Region | **East US** (ignore any service plan availability warnings) |
+    | | |	
+    
    	
       **Note:** Remember to change the **[DeploymentId]** so that it makes a unique **Name**. Deployment ID can be obtained from the Lab Environment output page.
 
