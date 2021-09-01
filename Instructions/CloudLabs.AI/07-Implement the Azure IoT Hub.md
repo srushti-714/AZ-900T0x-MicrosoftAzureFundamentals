@@ -38,9 +38,9 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the deployment in progress and deployment succeeded notifications in Azure portal.](../images/0601.png)
 
-2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ New**.
+2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ Add Device**.
 
-	![Screenshot of the IoT devices pane, highlighted within the IoT hub navigation blade, in Azure portal. The New button is highlighted to illustrate how to add a new IoT device identity to IoT hub.](../images/0602.png)
+	![Screenshot of the IoT devices pane, highlighted within the IoT hub navigation blade, in Azure portal. Add Device button is highlighted to illustrate how to add a new IoT device identity to IoT hub.](../images/IOT.png)
 
 3. Provide a name for your new IoT device, **myRaspberryPi**, and click the **Save** button. This will create a new IoT device identity in your Azure IoT Hub.
 
