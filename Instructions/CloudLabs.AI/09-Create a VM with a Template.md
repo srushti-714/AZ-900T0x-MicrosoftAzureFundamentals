@@ -14,7 +14,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     **Note**: Are there are any templates that are of interest to you?
 
-4. Search for or directly access the [Deploy a Virtual Machine ](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true) template.
+4. Select the **Deploy a simple Windows VM**
 
     **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
@@ -32,7 +32,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | **Choose your subscription**|
     | Resource group | **myRGTemplate-[DeploymentID]** (use existing) |
-    | Location | **(US) East US** |
+    | Location | **Keep default** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate*xxxx*** |
