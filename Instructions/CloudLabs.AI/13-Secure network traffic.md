@@ -18,7 +18,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Resource group | **myRGSecure-[deployId]** (use existing) |
     | Virtual machine name | **SimpleWinVM** |
     | Location | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter**|
+    | Image | **Windows Server 2019 Datacenter Gen 1**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
