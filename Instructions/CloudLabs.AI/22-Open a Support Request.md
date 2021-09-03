@@ -20,7 +20,7 @@ In this walkthrough, we will view available support plan options and then practi
     | Resource | **General Question** |
     | Summary | **Disk access is very slow for large files** |
     | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput is lower than expected** |    
+    | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
     | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
