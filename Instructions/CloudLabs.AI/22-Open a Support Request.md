@@ -8,7 +8,7 @@ In this walkthrough, we will view available support plan options and then practi
 
 2. From the **All services** blade, search for and select **Help + support**, then select **Support plans**.
 
-3. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. 
+3. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
 4. Click **+ New support request**. The ticket is created based on the values you specify. 
 
