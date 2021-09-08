@@ -87,7 +87,7 @@ Congratulations! You have deployed and connected to a Windows Server virtual mac
 
 In this task, install the Web Server role on the server and ensure the default IIS welcome page can be displayed.
 
-1. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
+1. Open up a PowerShell command prompt on the newly opened virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
 
     ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
 
