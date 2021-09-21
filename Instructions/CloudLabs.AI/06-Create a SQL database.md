@@ -9,7 +9,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click **+ New**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Create**. 
 
 3. On the **Basics** tab, fill in this information.  
 
@@ -49,7 +49,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
  
     | Setting | Value | 
     | --- | --- |
-    | Azure Defender for SQL| **Not now** |
+    | Enable Azure Defender for SQL| **Not now** |
 
 6. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database.
 
