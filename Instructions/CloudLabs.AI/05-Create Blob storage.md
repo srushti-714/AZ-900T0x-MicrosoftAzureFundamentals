@@ -19,7 +19,7 @@ In this task, we will create a new storage account.
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
-    | Replication | **Locally redundant storage (LRS)** |
+    | Redundancy | **Locally redundant storage (LRS)** |
     | Access tier (default) | **Hot** |
 
 
