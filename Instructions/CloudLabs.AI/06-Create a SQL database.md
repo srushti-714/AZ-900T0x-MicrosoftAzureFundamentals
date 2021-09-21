@@ -76,9 +76,11 @@ In this task, we will configure the SQL server and run a SQL query.
 
 3. Login as **sqluser** with the password **Pa$$w0rd1234**.
 
-4. You will not be able to login. Read the error closely and make note of the IP address that needs to be allowed through the firewall. 
+4.  If you are not able to login. Read the error closely and make note of the IP address that needs to be allowed through the firewall. 
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
+    
+    **Note:** If you are able to login proceed with step 9.
 
 5. From the **db1** blade, click **Overview**. 
 
