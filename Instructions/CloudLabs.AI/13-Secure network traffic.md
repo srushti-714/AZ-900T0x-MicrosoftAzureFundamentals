@@ -6,7 +6,7 @@ In this walk-through, we will configure a network security group.
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** then select Virtual machines.
 
