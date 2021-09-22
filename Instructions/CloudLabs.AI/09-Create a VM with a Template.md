@@ -41,9 +41,9 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     
     **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
 
-9. Click **Review + Create**.
-
-10. Monitor your deployment. 
+  9. Click **Review + Create**.
+  10. Click the **Create** 
+  11. Monitor your deployment. 
 
 # Task 2: Verify and monitor your virtual machine deployment
 
