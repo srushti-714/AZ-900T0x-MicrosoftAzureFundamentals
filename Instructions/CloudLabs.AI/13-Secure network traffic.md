@@ -8,7 +8,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add**.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** then select Virtual machines.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -55,7 +55,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 In this task, we will create a network security group and associate it with the network interface.
 
-1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add**
+1. From the **All services** blade, search for and select **Network security groups** and then click **+ create**
 
 2. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
 
