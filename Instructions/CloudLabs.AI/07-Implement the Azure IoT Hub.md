@@ -6,9 +6,9 @@ In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and 
 
 In this task, we will create an IoT hub. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add**.
+2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Create**.
 
 3. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details (replace **xxxx** in the name of the storage account with the deployment ID):
 
