@@ -34,7 +34,7 @@ In this task, we will add a resource lock to the resource group and test deletin
     | Lock Type | **Delete** |
     | | |
 
-5. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
+5. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **Delete**. You receive an error message stating the resource group is locked and can't be deleted.
 
     ![Screenshot of the delete locks failed.](../images/1602.png)
 
@@ -42,7 +42,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
+1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the Deployment ID). Leave the defaults for everything else.
 
