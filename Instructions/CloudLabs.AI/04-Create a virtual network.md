@@ -37,7 +37,7 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**. 
+1. From the **All services** blade, search for **Virtual machines** and then click **+ Create**. 
 
 2. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
