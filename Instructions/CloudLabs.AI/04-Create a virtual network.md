@@ -8,7 +8,7 @@ In this task, we will create a virtual network.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ New**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Create**. 
 
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
@@ -47,7 +47,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Resource group |  **myRGVNet-[DeploymentId]** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter -Gen1** |
+   | Image | **Windows Server 2019 Datacenter -Gen2** |
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
