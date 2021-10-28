@@ -6,6 +6,8 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 In this task, we will create a virtual network. 
 
+**Note:** Before beginning the lab, disable both the public and private firewall in your virtual machine by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
+
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Create**. 
@@ -79,7 +81,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 # Task 3: Test the connection 
 
-In this task, we will allow ICMP connections and test whether the virtual machines can communicate (ping) each other. 
+In this task, we will try to test whether the virtual machines can communicate (ping) each other. If not we will install a rule to allow an ICMP connection. Usually ICMP coonnections are automatically blocked.
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
@@ -93,37 +95,19 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 5. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
 
-6. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+6. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
-7. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+    **Repeat step 1 to 6 for vm2.**
 
-8. Try to ping vm2 (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall.
+ **Note:** In your newly created virtual machine(vm1,vm2), disable both the public and private firewall by opening the Start    menu > Settings > Network and Internet > Locate Windows Firewall
 
+7. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+
+8. Try to ping vm2 (make sure vm2 is running). 
     ```
     ping vm2
     ```
+ 9.You should be successful. You have pinged VM2 from VM1.
+   
 
-   ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
-
-    **Note**: You will now open an RDP session to vm2 and allow incoming ICMP connections
-
-9. Connect to **vm2** using RDP. You can follow steps **2 to 6**.
-
-10. Open a **PowerShell** prompt and allow ICMP. This command allows ICMP inbound connections through the Windows firewall.
-
-    ```
-    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
-    ```
-
-   ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
-
-   **Note**: You will now switch to the RDP session to vm1 and try the ping again
-
-11. Return to the RDP session to vm1 and try the ping again. You should now be successful. 
-
-    ```
-    ping vm2
-    ```
-
-Congratulations! You have configured and deployed two virtual machines in a virtual network. You have also configured the Windows firewall so one of the virtual machines allows incoming ping requests. 
-
+Congratulations! You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
