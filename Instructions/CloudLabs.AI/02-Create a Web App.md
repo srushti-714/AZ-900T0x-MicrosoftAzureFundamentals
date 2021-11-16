@@ -24,7 +24,7 @@ In this task, you will create an Azure App Service Web App.
     | Region | **East US** (ignore any service plan availability warnings) |
     | | |
     
-    **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
+**Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
 4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise. 
 
@@ -36,10 +36,9 @@ In this task, you will create an Azure App Service Web App.
     | Image Source | **Docker Hub** |
     | Access Type | **Public** |
     | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
-    | | |	
+    | | |
 
-
-5. Click **Review + create**, and then click **Create**. 
+5. Click **Review + create**, and then click **Create**.
 
 # Task 2: Test the Web App
 
@@ -47,9 +46,9 @@ In this task, we will test the web app.
 
 1. Wait for the Web App to deploy.
 
-2. From **Notifications** click **Go to resource**. 
+2. From **Notifications** click **Go to resource**.
 
-3. On the **Overview** blade, locate the **URL** entry. 
+3. On the **Overview** blade, locate the **URL** entry.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/0801.png)
 
@@ -57,6 +56,4 @@ In this task, we will test the web app.
 
     ![Screenshot of the Welcome to Azure Container Instance page.](../images/0802.png)
 
-5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see correspoding telemetry being displayed in the charts. This includes number of requests and average response time. 
-
-
+5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see correspoding telemetry being displayed in the charts. This includes number of requests and average response time.
