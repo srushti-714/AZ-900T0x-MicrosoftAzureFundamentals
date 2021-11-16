@@ -1,18 +1,18 @@
 # 02 - Create a Web App
 
-In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message. 
+In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message.
 
 # Task 1: Create a Web App
 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
-In this task, you will create an Azure App Service Web App. 
+In this task, you will create an Azure App Service Web App.
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page. 
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **App Services**, and click **+ Create**
 
-3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan. 
+3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
 
     | Setting | Value |
     | -- | -- |
@@ -26,9 +26,9 @@ In this task, you will create an Azure App Service Web App.
     
 **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
-4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise. 
+4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
 
-    **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message. 
+    **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
     | Setting | Value |
     | -- | -- |
