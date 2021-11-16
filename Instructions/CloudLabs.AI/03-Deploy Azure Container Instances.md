@@ -3,7 +3,7 @@
 
 In this walkthrough we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page. 
 
-# Task 1: Create a container instance
+## Task 1: Create a container instance
 
 In this task, we will create a new container instance for the web application. 
 
@@ -47,7 +47,7 @@ In this task, we will create a new container instance for the web application.
 
 8. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
 
-# Task 2: Verify deployment of the container instance
+## Task 2: Verify deployment of the container instance
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
 
