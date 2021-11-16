@@ -2,7 +2,7 @@
 
 In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
 
-# Task 1: Configure the Cloud Shell
+## Task 1: Configure the Cloud Shell
 
 In this task, we will configure Cloud Shell.
 
@@ -18,7 +18,8 @@ In this task, we will configure Cloud Shell.
 
 5. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
 
-# Task 2: Create a resource group and virtual machine
+
+## Task 2: Create a resource group and virtual machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.
 
@@ -59,7 +60,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
-# Task 3: Execute commands in the Cloud Shell
+
+## Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell.
 
@@ -85,7 +87,8 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-# Task 4: Review Azure Advisor Recommendations
+## Task 4: Review Azure Advisor Recommendations
+
 
 **Note:** This same task is in the Create a VM with Azure CLI lab.
 
