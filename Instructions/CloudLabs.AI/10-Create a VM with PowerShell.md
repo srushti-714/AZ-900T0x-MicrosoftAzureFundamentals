@@ -1,10 +1,10 @@
 # 10 - Create a VM with PowerShell
 
-In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations. 
+In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
 
 # Task 1: Configure the Cloud Shell
 
-In this task, we will configure Cloud Shell. 
+In this task, we will configure Cloud Shell.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
@@ -12,25 +12,25 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
 
-3. If you have previously used the Cloud Shell, proceed to the next task. 
+3. If you have previously used the Cloud Shell, proceed to the next task.
 
 4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
-5. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize. 
+5. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
 
 # Task 2: Create a resource group and virtual machine
 
-In this task, we will use PowerShell to create a resource group and a virtual machine.  
+In this task, we will use PowerShell to create a resource group and a virtual machine.
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-2. In the PowerShell session, within the Cloud Shell pane, get existing resource group. 
+2. In the PowerShell session, within the Cloud Shell pane, get existing resource group.
 
     ```
     Get-AZResourceGroup
     ```
 
-3. Verify your resource group. 
+3. Verify your resource group.
 
     ```
     Get-AzResourceGroup | Format-Table
@@ -48,7 +48,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-    **Note**: Deployment ID can be obtained from the Lab Environment output page. Wait for VM to deploy before closing PowerShell
+
+**Note**: Deployment ID can be obtained from the Lab Environment output page. Wait for VM to deploy before closing PowerShell
 
 5. Close the PowerShell session Cloud Shell pane.
 
@@ -56,11 +57,11 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1001.png)
 
-7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed. 
+7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
 # Task 3: Execute commands in the Cloud Shell
 
-In this task, we will practice executing PowerShell commands from the Cloud Shell. 
+In this task, we will practice executing PowerShell commands from the Cloud Shell.
 
 1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
@@ -72,13 +73,13 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. Stop the virtual machine. When prompted confirm (Yes) to the action. 
+4. Stop the virtual machine. When prompted confirm (Yes) to the action.
 
     ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
 
-5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
+5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
     ```
     Get-AzVM -name myVMPS -status | Format-Table -autosize
@@ -86,28 +87,26 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 # Task 4: Review Azure Advisor Recommendations
 
-**Note:** This same task is in the Create a VM with Azure CLI lab. 
+**Note:** This same task is in the Create a VM with Azure CLI lab.
 
-In this task, we will review Azure Advisor recommendations for our virtual machine. 
+In this task, we will review Azure Advisor recommendations for our virtual machine.
 
-1. From the **All services** blade, search for and select **Advisor**. 
+1. From the **All services** blade, search for and select **Advisor**.
 
-2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by High Availability, Security, Performance, and Cost. 
+2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by High Availability, Security, Performance, and Cost.
 
     ![Screenshot of the Advisor Overview page. ](../images/1003.png)
 
-3. Select **All recommendations** and take time to view each recommendation and suggested actions. 
+3. Select **All recommendations** and take time to view each recommendation and suggested actions.
 
-    **Note:** Depending on your resources, your recommendations will be different. 
+    **Note:** Depending on your resources, your recommendations will be different.
 
     ![Screenshot of the Advisor All recommendations page. ](../images/1004.png)
 
-4. Notice that you can download the recommendations as a CSV or PDF file. 
+4. Notice that you can download the recommendations as a CSV or PDF file.
 
-5. Notice that you can create alerts. 
+5. Notice that you can create alerts.
 
-6. If you have time, continue to experiment with Azure PowerShell. 
+6. If you have time, continue to experiment with Azure PowerShell.
 
 Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
-
-
