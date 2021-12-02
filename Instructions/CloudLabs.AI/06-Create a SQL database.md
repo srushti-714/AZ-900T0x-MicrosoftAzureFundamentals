@@ -26,10 +26,11 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     | Setting | Value | 
     | --- | --- |
-    | Server name | **sqlserverxxxx** (must be unique) | 
+    | Server name | **sqlserverxxxx** (must be unique) |
+    | Location | **(US) East US** |
+    | Authentication method | **Use SQL authentication** | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
-    | Location | **(US) East US** |
     | | |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
