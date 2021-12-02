@@ -22,11 +22,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 6. If prompted, sign in to the Azure with the Azure credentials from the Lab Environment output page.
 
-7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
+7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. 
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
-8. On the **Custom deployment** blade configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
+8. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
