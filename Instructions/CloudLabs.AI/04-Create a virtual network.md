@@ -99,15 +99,15 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     **Repeat step 1 to 6 for vm2.**
 
- **Note:** In your newly created virtual machine(vm1,vm2), disable both the public and private firewall by opening the Start    menu > Settings > Network and Internet > Locate Windows Firewall
+7. In your newly created virtual machine(vm1,vm2), disable both the public and private firewall by opening the Start    menu > Settings > Network and Internet > Locate Windows Firewall
 
-7. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+8. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
-8. Try to ping vm2 (make sure vm2 is running). 
+9. Try to ping vm2 (make sure vm2 is running). 
     ```
     ping vm2
     ```
- 9.You should be successful. You have pinged VM2 from VM1.
+ 10. You should be successful. You have pinged VM2 from VM1.
    
 
 Congratulations! You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
