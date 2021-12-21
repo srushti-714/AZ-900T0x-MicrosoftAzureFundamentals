@@ -99,7 +99,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     **Repeat step 1 to 6 for vm2.**
 
-7. In your newly created virtual machine(vm1,vm2), disable both the public and private firewall by opening the Start    menu > Settings > Network and Internet > Locate Windows Firewall
+7. In **both** newly created virtual machines(vm1,vm2), connect via RDP and disable both the public and private firewall by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall.
 
 8. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
