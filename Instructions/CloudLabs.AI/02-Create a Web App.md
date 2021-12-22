@@ -14,6 +14,8 @@ In this task, you will create an Azure App Service Web App.
 
 3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
 
+    **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
+
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
@@ -24,7 +26,6 @@ In this task, you will create an Azure App Service Web App.
     | Region | **East US** (ignore any service plan availability warnings) |
     | | |
     
-**Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
 4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
 
