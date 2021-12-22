@@ -73,7 +73,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
 
-4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (.\azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/0103.png)
 
