@@ -24,7 +24,7 @@ In this task, we will create a new container instance for the web application.
 	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
-	|||
+	
 	
 	
   	**Note**: DeploymentId can be obtained from the Lab Environment output page.
