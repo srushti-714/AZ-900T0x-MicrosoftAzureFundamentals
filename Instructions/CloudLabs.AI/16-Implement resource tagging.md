@@ -18,7 +18,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
-6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
+6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** forTag Name. Click **Review + create**, and then **Create**.
 
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
 
@@ -32,7 +32,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 In this task, we will create storage accounts to test the required tagging. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**.
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else.
 
@@ -62,7 +62,8 @@ In this task, we will create storage accounts to test the required tagging.
 
     | Setting | Value | 
     | --- | --- |
-    | Tag name | **Company:Contoso** (may not be in the drop-down list) |
+    | Name | **Company** (may not be in the drop-down list) |
+    | Value| **Contoso** (may not be in the drop-down list) |
     | | |
 
 6. Click **Review + create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
