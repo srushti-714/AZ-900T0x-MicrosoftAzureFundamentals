@@ -16,7 +16,7 @@ In this walkthrough, we will access the Compliance Offerings, Service Trust Port
 
 1. In a browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
-2. Notice the **Audit Report** section. In this section are independent audit reports for different Microsoft's Cloud services.If you want to try the Compliance Manager you will need to login.
+2. Notice the **Audit Report** section. In this section are independent audit reports for different Microsoft's Cloud services. If you want to try the Compliance Manager you will need to login.
 
     **Note:** At this time of this writing, **ISO 27001** related content is accessible via a clickable label. Click the label to open the page displaying ISO 27001 related content. If that is not available, choose another item. 
 
