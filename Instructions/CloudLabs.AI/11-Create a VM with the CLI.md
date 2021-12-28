@@ -52,6 +52,8 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     >**Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
     
+    **Note**: Deployment ID can be obtained from the Lab Environment output page.
+    
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 5. When the command finishes running, in the browser window, close the Cloud Shell pane.
