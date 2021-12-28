@@ -81,4 +81,4 @@ In this task, we will remove the resource lock and test.
 3. Return to the storage account blade and confirm you can now delete the resource.
 
 Congratulations! You created a resource group, added a lock to resource group and tested deletion, tested deleting a resource in the resource group, and removed the resource lock. 
-**wait for 5 minutes for the validation**
+**wait for 10 minutes for the validation**
