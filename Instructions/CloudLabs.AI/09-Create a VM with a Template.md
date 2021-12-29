@@ -36,7 +36,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate*xxxx*** |
-    | Windows OS version | **2019-Datacenter** |
+    | Windows OS version | **2019-datacenter-gensecond** |
     | | |
     
     **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
