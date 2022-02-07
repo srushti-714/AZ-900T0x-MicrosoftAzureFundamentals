@@ -39,8 +39,8 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-datacenter-gensecond** |
     | | |
     
-    **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
-
+    **Note**: Deployment ID can be obtained from the Lab Environment output page.
+    
   9. Click **Review + Create**.
   10. Click the **Create** 
   11. Monitor your deployment. 
