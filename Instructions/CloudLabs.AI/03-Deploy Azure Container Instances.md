@@ -15,8 +15,8 @@ In this task, we will create a new container instance for the web application.
 
 	| Setting| Value|
 	|----|----|
-	| Subscription | **Use default supplied** |
-	| Resource group | **Create new Resource group** |
+	| Subscription | **Choose your subscription** |
+	| Resource group | **myRGContainer-[DeploymentID]** (Use Existing) |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
