@@ -14,8 +14,8 @@ In this task, we will create a new storage account.
 
     | Setting | Value | 
     | --- | --- |
-   | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet-[DeploymentId]** |
+    | Subscription | **Choose your subscription** |
+    | Resource group | **myRGStorage-[deployId]** (use existing) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
