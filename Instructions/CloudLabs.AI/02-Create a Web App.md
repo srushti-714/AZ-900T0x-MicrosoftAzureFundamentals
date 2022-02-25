@@ -18,8 +18,8 @@ In this task, you will create an Azure App Service Web App.
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGWebApp1-[DeploymentId]** (use existing) |
+    | Subscription | **Use default supplied** |
+    | Resource Group | **Create new Resource group** |
     | Name | **myDockerWebApp[DeploymentId]** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
