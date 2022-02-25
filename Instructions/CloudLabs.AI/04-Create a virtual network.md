@@ -45,8 +45,8 @@ In this task, we will create two virtual machines in the virtual network.
 
    | Setting | Value | 
    | --- | --- |
-   | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet-[DeploymentId]** |
+   | Subscription | **Use default supplied**  |
+   | Resource group |  **Select default in dropdown** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
    | Image | **Windows Server 2019 Datacenter -Gen2** |
