@@ -18,8 +18,8 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Name | **vnet1** |
     | Address space |**10.1.0.0/16** |
-    | Subscription | **Select your subscription** |
-    | Resource group | **myRGVNet-[DeploymentId]** (use existing) |
+   | Subscription | **Choose your subscription**  |
+   | Resource group |  **myRGVNet-[DeploymentId]** |
     | Location | **(US) East US** |
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
