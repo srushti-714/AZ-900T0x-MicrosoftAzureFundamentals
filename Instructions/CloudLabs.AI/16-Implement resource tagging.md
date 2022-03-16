@@ -14,19 +14,19 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag on resources** definition, then click **Select**.
+5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag and its value on resources** definition, then click **Select**.
 
-   ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
+   ![image](https://user-images.githubusercontent.com/33771500/158537770-d1876a65-7758-4506-a9fe-9c29090ffc57.png)
 
-6. On the **Assign policy** blade, in the **Parameters** tab, type **Company** for Tag Name. Click **Review + create**, and then **Create**.
+
+6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
+ 
 
-    ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
+7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
 
-7. The **Require a tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
-
-   ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
+   ![image](https://user-images.githubusercontent.com/33771500/158538467-3411c059-a605-4a05-9fa4-4c3591c7789f.png)
 
 # Task 2: Create a storage account to test the required tagging
 
