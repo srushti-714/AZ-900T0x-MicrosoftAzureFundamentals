@@ -24,7 +24,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Size | **Standard_D2s_v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
-    | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
+    | Inbound port rules - | **Allow select ports **|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
    > **Note** : DeploymentID can be obtained from the Lab Environment output page.
@@ -51,7 +52,6 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
 
 8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
-* **Verify Port 80 and 3389 were opened**
 
 # Task 2: Connect to the virtual machine
 
