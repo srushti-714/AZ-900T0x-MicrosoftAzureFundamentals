@@ -108,6 +108,8 @@ In this task, we will try to test whether the virtual machines can communicate (
     ping vm2
     ```
  10. You should be successful. You have pinged VM2 from VM1.
+    
+   ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
    
 
 Congratulations! You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
