@@ -24,7 +24,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Size | **Standard_D2s_v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
-    | Inbound port rules - | **Allow select ports **|
+    | Inbound port rules  | **Allow select ports**|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
