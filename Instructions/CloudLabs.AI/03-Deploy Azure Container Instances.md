@@ -24,7 +24,6 @@ In this task, we will create a new container instance for the web application.
 	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
-	|||
 	
    **Note**: DeploymentId can be obtained from the Lab Environment output page.
 	
@@ -33,7 +32,6 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|--|--|
 	| DNS name label| **mycontainerdnsxxxx** |
-	|||
 	
 	
    **Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxx) and re-deploy. 
