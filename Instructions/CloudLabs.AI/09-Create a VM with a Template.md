@@ -38,7 +38,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | DNS label prefix | **myvmtemplate*xxxx*** |
     | Windows OS version | **2019-datacenter-gensecond** |
     
-      **Note**: DeploymentId can be obtained from the Lab Environment output page.
+    **Note**: DeploymentId can be obtained from the Lab Environment output page.
     
   9. Click **Review + Create**.
   10. Click the **Create** 
