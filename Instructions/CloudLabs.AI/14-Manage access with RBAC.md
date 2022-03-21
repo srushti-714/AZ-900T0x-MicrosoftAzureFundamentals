@@ -16,8 +16,8 @@ In this task, we will assign the Virtual machine contributor role.
     | -- | -- |
     | Resource group | **myRGRBAC-[DeploymentId]** |
     
-      **Note**: Deployment ID can be obtained from the Lab Environment output page.
-
+     **Note:** Deployment ID can be obtained from the Lab Environment output page.
+     
 4. Click on the existing resource group
 
 5. You will be directed to the overview page of the resource group
