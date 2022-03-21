@@ -1,6 +1,6 @@
 # 11 - Create a VM with the CLI
 
-In this walk-through, we will configure the Cloud Shell, use Azure CLI to create a resource group and virtual machine, and review Azure Advisor recommendations. 
+In this walk-through, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations. 
 
 # Task 1: Configure the Cloud Shell
 
