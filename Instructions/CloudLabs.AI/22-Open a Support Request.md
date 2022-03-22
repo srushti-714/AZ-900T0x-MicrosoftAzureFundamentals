@@ -10,13 +10,14 @@ In this walkthrough, we will view available support plan options and then practi
 
 3. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
-4. Click **+ New support request**. The ticket is created based on the values you specify. 
+4. Click **+ Create a support request**. The ticket is created based on the values you specify. 
 
     | Setting | Value|
     |----|--------|
     | Issue Type| **Technical** |
     | Subscription | **Choose your subscription** |
-    | Service | **All services**, **Virtual Machine running Linux** |
+    | Service | **All services** |
+    | Service type | **Virtual Machine running Linux** |
     | Resource | **General Question** |
     | Summary | **Disk access is very slow for large files** |
     | Problem type | **VM performance** |
