@@ -16,8 +16,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag and its value on resources** definition, then click **Select**.
 
-   ![image](https://user-images.githubusercontent.com/33771500/158537770-d1876a65-7758-4506-a9fe-9c29090ffc57.png)
-
+   ![Add tags.](../images/Az-900lab16.0.png)
 
 6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company : Contoso** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
@@ -26,7 +25,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
 
-   ![image](https://user-images.githubusercontent.com/33771500/158538467-3411c059-a605-4a05-9fa4-4c3591c7789f.png)
+   ![Add tags.](../images/AZ-900lab16.1.png)
 
 # Task 2: Create a storage account to test the required tagging
 
