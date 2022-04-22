@@ -1,12 +1,12 @@
 # 17 - Create an Azure Policy
 
-In this walkthrough, we will create an Azure Policy to restrict deployment of Azure resources to a specific location.
+In this walkthrough, we will create an Azure Policy to restrict the deployment of Azure resources to a specific location.
 
 # Task 1: Create a Policy assignment
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and login with the **Username** and **Password** provided in the Lab Environment Tab.
+1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Lab Environment Tab.
 
 2. From the **All services** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
@@ -20,7 +20,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 6. Ensure your subscription is selected. Your subscription name might be different. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
 
-    **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however we chose to assign the policy at subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
+    **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
     ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/1402.png)
 
@@ -30,7 +30,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
    ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/1403.png)
 
-8.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
+8.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
 
     ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/1404.png)
 
@@ -42,7 +42,7 @@ In this task, we will test the Allowed location policy.
 
 1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**.
 
-2. Configure the storage account (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else. 
+2. Configure the storage account (replace **XXXX** in the name of the storage account with the deployment ID). Leave the defaults for everything else. 
 
     | Setting | Value | 
     | --- | --- |
@@ -52,7 +52,7 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
-     You will receive the error under Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
+     You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
      
      **Note**: Deployment ID can be obtained from the Environment Detail tab.
 
@@ -62,11 +62,11 @@ In this task, we will remove the Allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. From the **All services** blade, search for and select **Policy**, and then click your **Allowed locations** policy.
+1. From the **All services** blade, search for and select **Policy** and then click your **Allowed locations** policy.
 
     **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
-    **Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created prior to the policy assignment.
+    **Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
 
 2. Click **Delete Assignment** in the top menu.
 
@@ -77,9 +77,9 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 4. Try to create another storage account to ensure the policy is no longer in effect.
 
     **Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
-    - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help cost tracking. 
-    - *Data Residency and Security compliance*: You could also have data residency requirements, and create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular datacenter to ensure data and security compliance requirements.
+    - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
+    - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-Congratulations! You have created an Azure Policy to restrict deployment of Azure resources to a particular datacenter.
+Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
 
 
