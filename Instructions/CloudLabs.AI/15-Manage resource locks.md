@@ -1,12 +1,12 @@
 # 15 - Manage resource locks
 
-In this walkthrough, we will verify the existing resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
+In this walkthrough, we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
 
 # Task 1: Verify the existing resource group
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and login with the **Username** and **Password** provided in the Lab Environment Tab.
+1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Lab Environment Tab.
 
 2. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
 
@@ -42,7 +42,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
-2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the Deployment ID). Leave the defaults for everything else.
+2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **XXXX** in the name of the storage account with the Deployment ID). Leave the defaults for everything else.
 
     | Setting | Value |
     | --- | --- |
@@ -72,11 +72,11 @@ In this task, we will remove the resource lock and test.
 
 1. Return to the **myRGLocks-[DeploymentId]** resource group blade and, in the **Settings** section, click **Locks**.
     
-2. Click **Delete** link to the right of the **RGLock** entry.
+2. Click the **Delete** link to the right of the **RGLock** entry.
 
     ![Screenshot of the Lock with the Delete link highlighted.](../images/1604.png)
 
 3. Return to the storage account blade and confirm you can now delete the resource.
 
-Congratulations! You created a resource group, added a lock to resource group and tested deletion, tested deleting a resource in the resource group, and removed the resource lock. 
+Congratulations! You created a resource group, added a lock to the resource group and tested deletion, tested deleting a resource in the resource group and removed the resource lock. 
 **wait for 10 minutes for the validation**
