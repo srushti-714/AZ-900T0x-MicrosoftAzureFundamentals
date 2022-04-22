@@ -6,9 +6,9 @@ In this walk-through, we will configure a network security group.
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and login with the **Username** and **Password** provided in the Lab Environment Tab.
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** then select Virtual machines.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** then select Azure Virtual machines.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -18,6 +18,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Resource group | **myRGSecure-[deployId]** (use existing) |
     | Virtual machine name | **SimpleWinVM** |
     | Location | **(US) East US**|
+    | Availability option | **No infrastructure redundancy required** |
     | Image | **Windows Server 2019 Datacenter Gen 2**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
@@ -73,7 +74,7 @@ In this task, we will create a network security group and associate it with the 
 
 5. Under **Settings** click **Network interfaces** and then **Associate**.
 
-6. Select the network interface you identified in the previous task. 
+6. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
 
 # Task 3: Configure an inbound security port rule to allow RDP
 
