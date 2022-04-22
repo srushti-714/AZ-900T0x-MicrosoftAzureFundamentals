@@ -8,7 +8,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Double click on the **Microsoft Edge** icon on the VM desktop to open the browser
 
-2. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find a number of popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
+2. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
 
 3. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?
 
@@ -20,11 +20,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 6. If prompted, sign in to the Azure with the **Username** and **Password** provided in the **Environment Details** Tab.
 
-7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Go to line no 95 and Change the name to **myVMTemplate**, and **Save** your changes. 
+7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for the virtual machine name. Go to line no 95 and Change the name to **myVMTemplate**, and **Save** your changes. 
 
-    ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
+    ![Screenshot of the template with the VM name change highlighted.](../images/0901.png)
 
-8. Now configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
+8. Now configure the parameters required by the template (replace ***XXXX*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
@@ -44,7 +44,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 # Task 2: Verify and monitor your virtual machine deployment
 
-In this task, we will verify the virtual machine deployed correctly. 
+In this task, we will verify the virtual machine is deployed correctly. 
 
 1. From the **All services** blade, search for and select **Virtual machines**.
 
@@ -60,11 +60,11 @@ In this task, we will verify the virtual machine deployed correctly.
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
-5. Click on any chart. Note that you can **Add metric** and change the chart type.
+5. Click on any chart. Note that you can **Add metrics** and change the chart type.
 
 6. Return to the **Overview** blade.
 
-7. Click on the **Activity log** (left pane). Activity logs record such events as creation or modification of resources. 
+7. Click on the **Activity log** (left pane). Activity logs record such events as the creation or modification of resources. 
 
 8. Click **Add filter**, and experiment with searching for different event types and operations. 
 
