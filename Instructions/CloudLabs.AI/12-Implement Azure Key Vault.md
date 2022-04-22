@@ -4,7 +4,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 # Task 1: Create an Azure Key Vault
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and log in with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Key vaults**, then select **+ Create**.
 
@@ -48,9 +48,9 @@ In this task, we will add a password to the key vault.
 
 4. Once the secret has been successfully created, click on the **ExamplePassword**, and note it has a status of **Enabled**
 
-5. Click the current version, note the the **Secret Identifier**. This is the url value that you can now use with applications. It provides a centrally managed and securely stored password.
+5. Click the current version, and note the **Secret Identifier**. This is the URL value that you can now use with applications. It provides a centrally managed and securely stored password.
 
 6. Click the button **Show Secret Value**, to display the password you specified earlier.
 
-Congratulations! You have created an Azure Key vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
+Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
 
