@@ -6,23 +6,21 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine.
 
-1. Double click on the Microsoft Edge icon in the VM desktop to open browser
+1. Double click on the **Microsoft Edge** icon on the VM desktop to open the browser
 
-2. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages.
+2. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find a number of popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
 
-3. Browse through the many different types of templates that are available. 
+3. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?
 
-    **Note**: Are there are any templates that are of interest to you?
+4. Search and Select the **Deploy a simple Windows VM**.
 
-4. Select the **Deploy a simple Windows VM**
-
-    **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
+    **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
 5. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
-6. If prompted, sign in to the Azure with the Azure credentials from the Lab Environment output page.
+6. If prompted, sign in to the Azure with the **Username** and **Password** provided in the **Environment Details** Tab.
 
-7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. 
+7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Go to line no 95 and Change the name to **myVMTemplate**, and **Save** your changes. 
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
@@ -38,7 +36,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | DNS label prefix | **myvmtemplate*xxxx*** |
     | Windows OS version | **2019-datacenter-gensecond** |
 
-   **Note**: DeploymentId can be obtained from the Lab Environment output page.
+   **Note**: DeploymentId can be obtained from the **Environment Details** Tab.
     
   9. Click **Review + Create**.
   10. Click the **Create** 
