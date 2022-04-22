@@ -6,11 +6,11 @@ In this walkthrough, we will create a policy assignment that requires tagging, c
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and sign in to the Azure with the Username and Password provided in the Lab **Environment Details** Tab
 
 2. From the **All services** blade, search for and select **Policy**.
 
-3. Scroll down to the **Authoring** section, click **Assignments**, and then click **Assign Policy** from the top of the  page.
+3. Scroll down to the **Authoring** section, click **Assignments**, and then click **Assign Policy** from the top of the page.
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
@@ -23,7 +23,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
  
 
-7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
+7. The **Require a tag and its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
 
    ![Add tags.](../images/AZ-900lab16.1.png)
 
@@ -49,7 +49,7 @@ In this task, we will create storage accounts to test the required tagging.
 
     **Note:** We are testing to see what happens when the tag is not supplied. 
 
-4. You will receive a Validation failed message. Click the **Click here to view details** message. On the **Errors** blade, on the **Summary** tab note the error message stating that resource was disallowed by Policy.
+4. You will receive a Validation failed message. Click the **Click here to view details** message. On the **Errors** blade, on the **Summary** tab note the error message stating that the resource was disallowed by Policy.
 
     **Note:** If you view the Raw Error tab you will see the specific tag name that is required. 
 
@@ -57,7 +57,7 @@ In this task, we will create storage accounts to test the required tagging.
 
     **Note - you need to wait 30 minutes for tagging to be complete.** 
 
-5. Close the **Error** pane and click on **Tag** tab(left side of Review + create). Also Provide the tagging information. 
+5. Close the **Error** pane and click on **Tag** tab(left side of Review + create). Also, Provide the tagging information. 
 
     | Setting | Value | 
     | --- | --- |
