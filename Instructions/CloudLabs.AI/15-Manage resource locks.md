@@ -6,11 +6,9 @@ In this walkthrough, we will verify the existing resource group, add a lock to r
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and login with the **Username** and **Password** provided in the Lab Environment Tab.
 
 2. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
-
-
 
 # Task 2:  Add a Lock to the resource group and test deletion
 
