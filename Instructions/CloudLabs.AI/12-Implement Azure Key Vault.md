@@ -4,7 +4,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 # Task 1: Create an Azure Key Vault
 
-1. Click on the Azure Portal icon on the VM desktop and log in with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and log in with the Azure using the Username and Password provided in the Lab **Environment Details** Tab.
 
 2. From the **All services** blade, search for and select **Key vaults**, then select **+ Create**.
 
