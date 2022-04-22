@@ -6,7 +6,7 @@ In this walkthrough, we will assign roles and view activity logs.
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop and sign in to the Azure with the Username and Password provided in the Lab **Environment Details** Tab
 
 2. From the **All services** blade, search for and select **Resource groups**
 
@@ -26,7 +26,7 @@ In this task, we will assign the Virtual machine contributor role.
 
 ![image](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
- 7. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: User, group, or service principal. Then click + Select members and type in your name to the popup search function and hit 'select.' Then hit 'Review and Assign' 
+ 7. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: the user, group, or service principal. Then click + Select members and type in your name to the popup search function and hit 'select.' Then hit 'Review and Assign' 
 
     ![image](https://user-images.githubusercontent.com/89808319/144266255-3a0f8574-9358-4c21-8f95-3503747e77c8.png)
 
@@ -35,7 +35,7 @@ In this task, we will assign the Virtual machine contributor role.
 
 8. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor. 
 
-    **Note**: This assignment does not actually grant you any additional provileges, since your account has already the Owner role, which includes all privilges associated with the Contributor role.
+    **Note**: This assignment does not grant you any additional privileges, since your account has already the Owner role, which includes all privileges associated with the Contributor role.
 
 # Task 2: Monitor role assignments and remove a role
 
@@ -47,11 +47,11 @@ In this task, we will view the activity log to verify the role assignment, and t
 
     ![Screenshot of the Activity log page with configured filter.](../images/1503.png)
 
-3. Verify the Activity log shows your role assignment.(With your User Id). 
+3. Verify the Activity log shows your role assignment. (With your User Id). 
 
     **Note**: Can you figure out how to remove your role assignment?
 
-Congratulations! You have assigned roles and viewed activity logs. 
+Congratulations! You have assigned roles and viewed the activity logs. 
 
 
 
