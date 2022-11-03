@@ -25,7 +25,7 @@ In this task, we will configure Cloud Shell.
     |  -- | -- |
     | Resource Group | **Create new resource group** |
     | Storage account (Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
-    | File share (create new) | **shellstorage** |
+    | File share (create new) | **shellstorage** | 
 
 5. Select **Create Storage**
 
