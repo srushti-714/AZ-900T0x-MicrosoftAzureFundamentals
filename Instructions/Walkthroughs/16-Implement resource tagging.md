@@ -25,11 +25,11 @@ In this task, we will configure the **Require a tag on resources** policy and as
     
     ![Screenshot of disallowed due to policy error.](../images/new7.png) 
  
-5.   Under **Available Definations** blade, search **Require a tag and its value on resources (1)** and then select **Require a tag and its value on resources (2)**,          click on **Select (3)**
+5. On the  **Available Definations** blade, search **Require a tag and its value on resources (1)** and then select **Require a tag and its value on resources (2)**,          click on **Select (3)**
 
      ![](../images/new8.png) 
    
-6.  On the **Parameters** tab, type Tag name as **Company (1)** and Tag value as  **Contoso (2)**, and then Click on **Review + create (3)**
+6. On the **Parameters** tab, type Tag name as **Company (1)** and Tag value as  **Contoso (2)**, and then Click on **Review + create (3)**
 
      ![](../images/new9.png) 
 
@@ -68,7 +68,7 @@ In this task, we will create storage accounts to test the required tagging.
     | --- | --- |
     | Tag name | **Company:Contoso** (may not be in the drop-down list) |
 
-6. Click **Review + create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
+6. Click **Review + create** and verify that the validation was successful. Click on **Create** to deploy the storage account. 
 
 # Task 3: View all resources with a specific tag
 
