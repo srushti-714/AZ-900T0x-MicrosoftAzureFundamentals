@@ -12,7 +12,7 @@ In this task, you will create an Azure App Service Web App.
 
 2. From the **All services** blade, search for and select **App Services**, and click **+ Create**
 
-3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
+3. On the **Basics** tab of the **Create Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
 
     **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
@@ -55,6 +55,6 @@ In this task, we will test the web app.
 
 4. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
-    ![Screenshot of the Welcome to Azure Container Instance page.](../images/0802.png)
+    ![Screenshot of the Welcome to Azure Container Instance page.](../images/08-02.png)
 
 5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see correspoding telemetry being displayed in the charts. This includes number of requests and average response time.
