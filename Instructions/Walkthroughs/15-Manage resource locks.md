@@ -20,7 +20,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 4. In the **Settings** section, click **Locks**, and then click **+ Add**. 
 
-    ![Screenshot of the myRGLocks resource group with the Locks pane displaying.](../images/1601.png)
+    ![Screenshot of the myRGLocks resource group with the Locks pane displaying.](../images/new4.png)
 
 5. Configure the new lock. When you are done click **OK**. 
 
@@ -32,7 +32,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 6. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
 
-    ![Screenshot of the delete locks failed.](../images/1602.png)
+    ![Screenshot of the delete locks failed.](../images/new1.png)
 
 # Task 2: Test deleting a member of the resource group
 
@@ -74,7 +74,7 @@ In this task, we will remove the resource lock and test.
     
 2. Click **Delete** link to the far right of the **myRGLocks-XXXXXXXX** entry, to the right of **Edit**.
 
-    ![Screenshot of the Lock with the Delete link highlighted.](../images/1604.png)
+    ![Screenshot of the Lock with the Delete link highlighted.](../images/new3.png)
 
 3. Return to the storage account blade and confirm you can now delete the resource.
 
