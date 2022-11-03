@@ -11,7 +11,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Key vaults**, then select **+Add +New +Create **.
+2. From the **All services** blade, search for and select **Key vaults**, then select **+Create**.
 
 3. Configure the key vault (replace **xxxx** in the name of the key vault with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
@@ -23,7 +23,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
     | Location | **East US** |
     | Pricing tier | **Standard** |
     
-    **Note** replace **xxxx** to find a unique name.
+    **Note** : Replace **xxxx** to deployment id .
 4. Click **Review + create**, and then click **Create**. 
 
 5. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
@@ -38,7 +38,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
         
 In this task, we will add a password to the key vault. 
 
-1. Under **Settings** click **Secrets**, then click **+ Generate/Import**.
+1. Under **Objects** click **Secrets**, then click **+ Generate/Import**.
 
 2. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret.
 

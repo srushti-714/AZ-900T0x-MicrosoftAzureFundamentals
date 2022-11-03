@@ -15,7 +15,7 @@ In this task, we will configure Cloud Shell.
 **
 2. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/new29.png)
 
 3. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
@@ -25,7 +25,7 @@ In this task, we will configure Cloud Shell.
     |  -- | -- |
     | Resource Group | **Create new resource group** |
     | Storage account (Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)) | **cloudshellxxxxxxx** |
-    | File share (create new) | **shellstorage** |
+    | File share (create new) | **shellstorage** | 
 
 5. Select **Create Storage**
 
@@ -60,7 +60,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 6. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1001.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/new30.png)
 
 7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed. 
 
@@ -101,13 +101,13 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost. 
 
-    ![Screenshot of the Advisor Overview page. ](../images/1003.png)
+    ![Screenshot of the Advisor Overview page. ](../images/new31.png)
 
 3. Select **All recommendations** and take time to view each recommendation and suggested actions. 
 
     **Note:** Depending on your resources, your recommendations will be different. 
 
-    ![Screenshot of the Advisor All recommendations page. ](../images/1004.png)
+    ![Screenshot of the Advisor All recommendations page. ](../images/new32.png)
 
 4. Notice that you can download the recommendations as a CSV or PDF file. 
 

@@ -13,7 +13,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add, + Create, + New** Virtual Machine.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Create** Virtual Machine.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -35,7 +35,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | -- | -- |
     | NIC network security group | **None**|
 
-5. Switch to the **Management** tab, and in its **Monitoring** section, select the following setting:
+5. Switch to the **Monitoring** section, select the following setting:
 
     | Settings | Values |
     | -- | -- |
@@ -57,7 +57,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 In this task, we will create a network security group and associate it with the network interface. 
 
-1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add, + Create, + New**
+1. From the **All services** blade, search for and select **Network security groups** and then click on **+ Add, + Create, + New**
 
 2. On the **Basics** tab of the **Create network security group** blade, specify the following settings.
 
@@ -87,7 +87,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 3. Attempt to connect to the virtual machine by selecting RDP and downloading an running the RDP file. By default the network security group does not allow RDP. Close the error window. 
 
 
-    ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
+    ![Screenshot of the error message that the virtual machine connection has failed.](../images/new37.png)
 
 4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group denies all inbound traffic except traffic within the virtual network and load balancer probes.
 
