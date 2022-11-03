@@ -62,7 +62,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 6. Access your new storage account and from the **Overview** pane, click **Delete**. You receive an error message stating the resource or its parent has a delete lock. 
 
-    ![Screenshot of the error deleting the storage account.](../images/1603.png)
+    ![Screenshot of the error deleting the storage account.](../images/new28.png)
 
     **Note**: Although we did not create a lock specifically for the storage account, we did create a lock at the resource group level, which contains the storage account. As such, this *parent* level lock prevents us from deleting the resource and the storage account inherits the lock from the parent.
 
