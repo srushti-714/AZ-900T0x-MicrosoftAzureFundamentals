@@ -55,7 +55,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 3. Locate the Fully Qualified Domain Name (FQDN).
 
-	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/0202.png)
+	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/02-02.png)
 
 2. Copy the container's FQDN into the URL text box web browser and press **Enter**. The Welcome page should display. 
 

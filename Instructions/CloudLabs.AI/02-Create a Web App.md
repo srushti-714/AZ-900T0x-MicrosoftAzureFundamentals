@@ -12,7 +12,7 @@ In this task, you will create an Azure App Service Web App.
 
 2. From the **All services** blade, search for and select **App Services**, and click **+ Create**
 
-3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
+3. On the **Basics** tab of the **Create Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
 
     **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
@@ -51,7 +51,7 @@ In this task, we will test the web app.
 
 3. On the **Overview** blade, locate the **URL** entry.
 
-    ![Screenshot of the web app properties blade. The URL is highlighted.](../images/0801.png)
+    ![Screenshot of the web app properties blade. The URL is highlighted.](../images/08-02.png)
 
 4. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
