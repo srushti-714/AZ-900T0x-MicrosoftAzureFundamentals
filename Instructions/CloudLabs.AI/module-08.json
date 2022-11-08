@@ -3,8 +3,12 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/08-Implement%20Azure%20Functions.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/LabIntro.md",
       "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/08-Implement%20Azure%20Functions.md",
+      "Order": 2
     }
   ]
 },
@@ -14,7 +18,7 @@
   "Files": [
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/08-Implement%20Azure%20Functions.md",
-      "Order": 1
+      "Order": 2
     }
   ]
 }]
