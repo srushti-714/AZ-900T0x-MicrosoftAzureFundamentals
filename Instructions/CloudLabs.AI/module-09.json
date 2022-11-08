@@ -3,8 +3,12 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/09-Create%20a%20VM%20with%20a%20Template.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/LabIntro.md",
       "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/09-Create%20a%20VM%20with%20a%20Template.md",
+      "Order": 2
     }
   ]
 },
@@ -14,7 +18,7 @@
   "Files": [
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0xES-MicrosoftAzureFundamentals/stage/Instructions/Walkthroughs/09-Create%20a%20VM%20with%20a%20Template.md",
-      "Order": 1
+      "Order": 2
     }
   ]
 }]
