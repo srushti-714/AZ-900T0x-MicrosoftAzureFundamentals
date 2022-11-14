@@ -8,7 +8,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Lab Environment Tab.
 
-2. From the **All services** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
+2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
 3. Return to the **Policy** page, under the **Authoring** section click **Assignments**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope. 
 
@@ -40,7 +40,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**.
+1. In the Azure Portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Storage accounts**, and then click **+ Create**.
 
 2. Configure the storage account (replace **XXXX** in the name of the storage account with the deployment ID). Leave the defaults for everything else. 
 
@@ -52,6 +52,8 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
+    Click on **Review** and once validation gets success, click on **Create**.
+    
      You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
      
      **Note**: Deployment ID can be obtained from the Environment Detail tab.
