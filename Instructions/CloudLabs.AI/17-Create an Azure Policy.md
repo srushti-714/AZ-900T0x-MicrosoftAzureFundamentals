@@ -6,7 +6,7 @@ In this walkthrough, we will create an Azure Policy to restrict the deployment o
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Lab Environment Tab.
+1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Environment Details Tab.
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
@@ -64,7 +64,7 @@ In this task, we will remove the Allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. From the **All services** blade, search for and select **Policy** and then click your **Allowed locations** policy.
+1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy** and then click your **Allowed locations** policy.
 
     **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
