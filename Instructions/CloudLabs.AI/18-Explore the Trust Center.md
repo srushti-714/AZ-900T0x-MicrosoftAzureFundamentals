@@ -8,7 +8,7 @@ In this walkthrough, we will access the Compliance Offerings and Service Trust P
 
 2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
-3. In the **Global** group, click **ISO 27001**. Scroll through the information provided. Scrolling down on the page will take you to a section **Compliance offerings specifically for Azure** 
+3. In the **Global** group, click **ISO 27001**. Scroll through the information provided. Scrolling down on the page will take you to a section **Microsoft Purview Compliance Manager**.
 
     **Note:** The ISO 27001 Information Security Management Standards page is typical of the type of compliance information we provide.
 
