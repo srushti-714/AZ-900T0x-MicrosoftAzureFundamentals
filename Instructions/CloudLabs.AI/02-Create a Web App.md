@@ -10,7 +10,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **App Services**, and click **+ Create**
+2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
 
 3. On the **Basics** tab of the **Create Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
 
