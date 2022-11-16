@@ -9,7 +9,7 @@ In this task, we will create a new container instance for the web application.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **All services** blade, search for and select **Container instances** and then click **+ Create**. 
+2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
 
 3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
@@ -57,7 +57,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/02-02.png)
 
-2. Copy the container's FQDN into the URL text box web browser and press **Enter**. The Welcome page should display. 
+2. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
 	![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
 
