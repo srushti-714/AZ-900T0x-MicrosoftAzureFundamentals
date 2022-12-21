@@ -39,7 +39,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     **Note** - Verify that both port 80 and 3389 are selected
 
-5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+5. Switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
