@@ -27,7 +27,6 @@ In this task, we will create a Function app.
 
 1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
 
-    > Note : If you are not able to enable Application Insights in the Monitoring tab, then try changing the **Version** to 3.1 in the Basics tab.
 
     | Settings | Value |
     | -- | --|
