@@ -19,7 +19,7 @@ In this task, we will create a new container instance for the web application.
 	| Resource group | **myRGContainer-[DeploymentID]** (Use Existing) |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
-	| Image source| **Docker Hub or other registry**|
+	| Image source| **Other registry**|
 	| Image type| **Public**|
 	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
 	| OS type| **Linux** |
@@ -59,7 +59,10 @@ In this task, we verify that the container instance is running by ensuring that 
 
 2. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
-	![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
+  **Note**: It might take 10-15 minutes to load the page.
+ 
+ ![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
+	
 
 **Note**: You could also use the container IP address in your browser. 
 
