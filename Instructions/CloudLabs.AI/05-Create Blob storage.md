@@ -20,8 +20,8 @@ In this task, we will create a new storage account.
     | Location | **(US) East US**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
-    | Access tier (default) | **Hot** |
 
+4. On the **Advanced** tab of the **Create storage account** add  Access tier (default) **Hot**.
 
 5. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
