@@ -17,7 +17,7 @@ In this task, we will create a virtual network.
     | Setting | Value | 
     | --- | --- |
     | Name | **vnet1** |
-    | Address space |**10.1.0.0/16** |
+    | Address space |**10.1.0.0/16** |[delete the dafault one]
    | Subscription | **Choose your subscription**  |
    | Resource group |  **myRGVNet-[DeploymentId]** |
     | Location | **(US) East US** |
