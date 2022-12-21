@@ -14,24 +14,38 @@ In this task, we will create a virtual network.
 
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
+
     | Setting | Value | 
     | --- | --- |
     | Name | **vnet1** |
-    | Address space |**10.1.0.0/16** |[delete the dafault one]
    | Subscription | **Choose your subscription**  |
    | Resource group |  **myRGVNet-[DeploymentId]** |
     | Location | **(US) East US** |
-    | Subnet - Name | **default** |
-    | Subnet Address range | **10.1.0.0/24** |
+ 
+ **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
-    **Note**: Deployment ID can be obtained from the Lab Environment output page.
+4. On the **Create virtual network** blade, go to the IP Addresses tab and delete precreated IP address and create the new address space.
+
+    | Setting | Value | 
+    | --- | --- |
+    | Address space |**10.1.0.0/16**|
+    
+ 5. Click on **+ Add Subnet** and enter the following (leave the defaults for everything else):
+  
+    | Setting | Value | 
+    | --- | --- |
+    | Subnet Name |**default**|
+    | Subnet Address range | **10.1.0.0/24**|
+  
+    
+ 
 
    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
 
-4. Click the **Review + create** button. Ensure the validation passes.
+6. Click the **Review + create** button. Ensure the validation passes.
 
-5. Click the **Create** button to deploy the virtual network. 
+7. Click the **Create** button to deploy the virtual network. 
 
     **Note**: In your organization, how will you know which virtual networks and IP addressing you will need?
 
@@ -85,7 +99,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
-2. On the **Overview** blade, click the **Connect** button.
+2. On the **Overview** blade, click the **Connect** button and select RDP.
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. 
 
