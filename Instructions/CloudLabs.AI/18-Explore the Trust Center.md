@@ -4,7 +4,7 @@ In this walkthrough, we will access the Compliance Offerings and Service Trust P
 
 # Task 1: Access Microsoft Compliance Offerings
 
-1. In a browser, access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
+1. In a own browser, access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
 
 2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
@@ -14,7 +14,7 @@ In this walkthrough, we will access the Compliance Offerings and Service Trust P
 
 # Task 2: Access the Service Trust Portal (STP)
 
-1. In a browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
+1. In a own browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
 2. Notice the **Reports, Whitepapers and Artifacts** section. In this section their are independent audit reports for different Microsoft Cloud services.
  
