@@ -71,7 +71,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. From the **All services** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
 
-    ![Screenshot of the SQL database and server that have just been deployed.](../images/az-900mod-6img-2.png)
+    ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
 
 2. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)**.
 
