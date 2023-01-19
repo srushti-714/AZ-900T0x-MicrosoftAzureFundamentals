@@ -18,8 +18,8 @@ In this task, we will create a virtual network.
     | Setting | Value | 
     | --- | --- |
     | Name | **vnet1** |
-   | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet-[DeploymentId]** |
+    | Subscription | **Choose your subscription**  |
+    | Resource group |  **myRGVNet-[DeploymentId]** |
     | Location | **(US) East US** |
  
  **Note**: Deployment ID can be obtained from the Lab Environment output page.
@@ -30,7 +30,7 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Address space |**10.1.0.0/16**|
     
- 5. Click on **+ Add Subnet** and enter the following (leave the defaults for everything else):
+ 5. Click on **+ Add Subnet** and enter the following (Delete if any subnet exists already with the name default):
   
     | Setting | Value | 
     | --- | --- |
