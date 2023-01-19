@@ -40,7 +40,7 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the IoT devices pane, highlighted within the IoT hub navigation blade, in Azure portal. Add Device button is highlighted to illustrate how to add a new IoT device identity to IoT hub.](../images/06011.png)
 
-3. Provide a name for your new IoT device, **myRaspberryPi**, and click the **Save** button. This will create a new IoT device identity in your Azure IoT Hub.
+3. Provide a **Device ID** for your new IoT device, **[deployId]**, and click the **Save** button. This will create a new IoT device identity in your Azure IoT Hub.
 
 4. If you do not see your new device, **Refresh** the IoT Devices page. 
 
