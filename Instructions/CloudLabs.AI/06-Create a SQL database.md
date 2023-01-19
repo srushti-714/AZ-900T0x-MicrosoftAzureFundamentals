@@ -77,7 +77,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 3. Login as **sqluser** with the password **Pa$$w0rd1234**.
 
-4.  If you are not able to login. Read the error closely and make note of the IP address that needs to be allowed through the firewall. 
+4.  If you are not able to login. 
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
     
@@ -89,7 +89,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 6. From the SQL server **Overview** blade, click **Set server firewall**.
 
-7. Click **Add client IP** (top menu bar) to add the IP address referenced in the error. Be sure to **Save** your changes. 
+7. Scroll down to the Firewall rules section and click on **+ Add your client IPv4 address**. Be sure to **Save** your changes. 
 
     ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/0506.png)
 
