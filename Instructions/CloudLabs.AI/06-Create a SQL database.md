@@ -71,7 +71,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. From the **All services** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
 
-    ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
+    ![Screenshot of the SQL database and server that have just been deployed.](../images/az-900mod-6img-2.png)
 
 2. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)**.
 
@@ -91,7 +91,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 7. Scroll down to the Firewall rules section and click on **+ Add your client IPv4 address**. Be sure to **Save** your changes. 
 
-    ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/0506.png)
+    ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/az-900mod-6img-2.png)
 
 8. Return to your SQL database and the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
