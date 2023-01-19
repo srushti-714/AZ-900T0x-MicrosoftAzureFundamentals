@@ -25,7 +25,7 @@ In this task, we will create a Function app.
 
    > Note : Deployment ID can be obtained from the Lab Environment output page.
 
-1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
+<!--1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
 
 
     | Settings | Value |
@@ -36,12 +36,12 @@ In this task, we will create a Function app.
     | | |
     
     > Note : Deployment ID can be obtained from the Lab Environment output page.
+-->
+4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+5. Wait for the notification that the resource has been created.
 
-1. Wait for the notification that the resource has been created.
-
-1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+6. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
@@ -80,11 +80,11 @@ In this task, we will use the Webhook + API function to display a message when t
     **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
-
+<!--
 1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1** blade, in the **Developer** section, click **Monitor**. For more advanced analysis, click **Run query in Application Insights**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
-
+-->
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
 
 
