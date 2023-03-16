@@ -8,34 +8,31 @@ In this task, we will create a Function app.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ New/Create**.
+1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Create**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the Deployment ID and leave all other settings with their default values): 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
 
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-[DeploymentId]** |
-    | Function App name | **function-xxxx** |
+    | Resource group | the name of **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>**  |
+    | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>** |
     | Publish | **Code** |
     | Runtime stack | **.NET** |
-    | Version | **6** |
+    | Version | **6 (LTS)** |
     | Region | **East US** |
     | | |
-
-   > Note : Deployment ID can be obtained from the Lab Environment output page.
 
 <!--1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
 
 
     | Settings | Value |
     | -- | --|
-    | Name | **function-xxxx** |
+    | Name | **function-<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **East US** |
-    | Workspace | **workspace-xxxx** |
+    | Workspace | **workspace-<inject key="DeploymentID" enableCopy="false"/>** |
     | | |
     
-    > Note : Deployment ID can be obtained from the Lab Environment output page.
 -->
 4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
@@ -55,7 +52,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/AZ-900lab8.1.png)
 
-1. On the **Templates** tab of the **New Function** blade, click **HTTP trigger**. Click **Create**  
+1. On the **Templates** tab of the **Create Function** blade, click **HTTP trigger**. Click **Create**  
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/AZ-900lab8.2.png)
 
