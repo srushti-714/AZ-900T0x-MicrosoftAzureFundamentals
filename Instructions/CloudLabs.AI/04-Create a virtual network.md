@@ -15,14 +15,13 @@ In this task, we will create a virtual network.
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
 
-    | Setting | Value | 
-    | --- | --- |
-    | Name | **vnet1** |
-    | Subscription | **Choose your subscription**  |
-    | Resource group |  **myRGVNet-[DeploymentId]** |
-    | Location | **(US) East US** |
+   | Setting | Value | 
+   | ---     | ---   |
+   | Name    | **vnet1** |
+   | Subscription | **Choose your subscription**  |
+   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
+   | Location | **(US) East US** |
  
- **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
 4. On the **Create virtual network** blade, go to the IP Addresses tab and delete precreated IP address and create the new address space.
 
@@ -30,7 +29,7 @@ In this task, we will create a virtual network.
     | --- | --- |
     | Address space |**10.1.0.0/16**|
     
- 5. Click on **+ Add Subnet** and enter the following (Delete if any subnet exists already with the name default):
+ 5. Click on **+ Add Subnet** and enter the following (Delete if any subnet exists already with the name default) then click on **Add**:
   
     | Setting | Value | 
     | --- | --- |
@@ -60,7 +59,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Setting | Value | 
    | --- | --- |
    | Subscription | **Use default supplied**  |
-   | Resource group |  **Select default in dropdown** |
+   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
    | Image | **Windows Server 2019 Datacenter -Gen2** |
@@ -85,7 +84,7 @@ In this task, we will create two virtual machines in the virtual network.
 
     | Setting | Value |
     | --- | --- |
-    | Resource group | **myRGVNet-[DeploymentId]** |
+    | Resource group | **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
@@ -126,4 +125,8 @@ In this task, we will try to test whether the virtual machines can communicate (
    ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
    
 
-Congratulations! You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
+   > - **Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
