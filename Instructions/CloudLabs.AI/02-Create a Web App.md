@@ -12,15 +12,15 @@ In this task, you will create an Azure App Service Web App.
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
 
-3. On the **Basics** tab of the **Create Web App** blade, specify the following settings (replace **[DeploymentId]** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan.
+3. On the **Basics** tab of the **Create Web App** blade.
 
     **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGWebApp1-[DeploymentId]** (use existing) |
-    | Name | **myDockerWebApp[DeploymentId]** |
+    | Resource Group | **myRGWebApp1-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
+    | Name | **myDockerWebApp<inject key="DeploymentID" enableCopy="false"/>** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
     | Region | **East US** (ignore any service plan availability warnings) |
@@ -49,9 +49,9 @@ In this task, we will test the web app.
 
 2. From **Notifications** click **Go to resource**.
 
-3. On the **Overview** blade, locate the **URL** entry.
+3. On the **Overview** blade, locate the **Default Domain** entry.
 
-    ![Screenshot of the web app properties blade. The URL is highlighted.](../images/08-02.png)
+    ![Screenshot of the web app properties blade. The URL is highlighted.](../images/AZ-900-module-02-app-service.png)
 
 4. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
