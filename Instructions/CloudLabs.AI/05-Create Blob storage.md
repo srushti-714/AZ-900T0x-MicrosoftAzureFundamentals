@@ -10,13 +10,13 @@ In this task, we will create a new storage account.
 
 2. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
-3. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else.
+3. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGStorage-[deployId]** (use existing) |
-    | Storage account name | **storageaccountxxxx** |
+    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
@@ -71,4 +71,10 @@ In this task, we will create a Blob container and upload a blob file.
     ![Screenshot of the storage account Insights page.](../images/0403.PNG)
 
 Congratulations! You have created a storage account, then worked with storage blobs.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
