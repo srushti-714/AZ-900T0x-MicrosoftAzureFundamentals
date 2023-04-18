@@ -52,7 +52,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     >**Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
     
-    **Note**: Deployment ID can be obtained from the Lab Environment output page.
+    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
     
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
@@ -89,6 +89,8 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
     az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
     ```
 
+**Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+
 # Task 4: Review Azure Advisor Recommendations
 
 In this task, we will review Azure Advisor recommendations.
@@ -114,4 +116,10 @@ In this task, we will review Azure Advisor recommendations.
 6. If you have time, continue to experiment with Azure CLI. 
 
 Congratulations! You have configured Cloud Shell, created a virtual machine using Azure CLI, practiced with Azure CLI commands, and viewed Advisor recommendations.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
