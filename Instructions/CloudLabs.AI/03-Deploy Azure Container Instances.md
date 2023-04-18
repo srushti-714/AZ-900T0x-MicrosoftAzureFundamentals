@@ -16,7 +16,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|----|----|
 	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer-[DeploymentID]** (Use Existing) |
+	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** (Use Existing) |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Other registry**|
@@ -25,17 +25,16 @@ In this task, we will create a new container instance for the web application.
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 
-	**Note**: DeploymentId can be obtained from the Lab Environment output page.
 	
-4. Configure the Networking tab (replace **xxxx** with the Deployment ID). Leave all other settings at their default values .
+4. Configure the Networking tab . Leave all other settings at their default values .
 
 	| Setting| Value|
 	|--|--|
-	| DNS name label| **mycontainerdnsxxxx** |
+	| DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" />** |
 
-	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxx) and re-deploy.
+	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
 
-	![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900d03.png)
+![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900-01.png)
 
 5. Click **Review and Create** to start the automatic validation process.
 
@@ -55,7 +54,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 3. Locate the Fully Qualified Domain Name (FQDN).
 
-	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/02-02.png)
+![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/AZ-900-02.png)
 
 2. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
@@ -67,4 +66,10 @@ In this task, we verify that the container instance is running by ensuring that 
 **Note**: You could also use the container IP address in your browser. 
 
 Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
