@@ -17,7 +17,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-[DeploymentID]** (use existing) |
+    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen2**|
@@ -109,6 +109,9 @@ In this task, install the Web Server role on the server and ensure the default I
 
     ![Screenshot of the default IIS web server welcome page being accessed via the public ip address in a web browser.](../images/0108.png)
 
-Congratulations! You have created a web server that is accessible via its public IP address. If you had a web application to host, you could deploy application files to the virtual machine and host them for public access on the deployed virtual machine.
 
-
+> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
