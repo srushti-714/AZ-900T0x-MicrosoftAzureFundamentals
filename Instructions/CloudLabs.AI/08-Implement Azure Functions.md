@@ -6,7 +6,7 @@ In this walkthrough, we will create a Function App to display a Hello message wh
 
 In this task, we will create a Function app.
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Click on the Azure Portal icon on the VM desktop.
 
 1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Create**.
 
@@ -22,16 +22,8 @@ In this task, we will create a Function app.
     | Version | **6 (LTS)** |
     | Region | **East US** |
     | | |
-
-1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
-
-
-    | Settings | Value |
-    | -- | --|
-    | Name | **function-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **East US** |
-    | Workspace | **workspace-<inject key="DeploymentID" enableCopy="false"/>** |
-    |           |                                                               |
+    
+    ![Screenshot of the Function App page with the new Function app.](../images/AZ-900-functionapp.png)
     
 4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
