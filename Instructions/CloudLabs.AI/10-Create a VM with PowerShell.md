@@ -80,6 +80,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
+    **Note:DeployId is <inject key="DeploymentID" enableCopy="false" />**
 
 5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
@@ -113,3 +114,9 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 6. If you have time, continue to experiment with Azure PowerShell.
 
 Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
