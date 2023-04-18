@@ -19,7 +19,7 @@ In this task, we will configure Cloud Shell.
 5. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
 
 
-## Task 2: Create a resource group and virtual machine
+## Task 2: Create a virtual machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.
 
@@ -50,7 +50,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -PublicIpAddressName "myPublicIpPS"
     ```
 
-**Note**: Deployment ID can be obtained from the Lab Environment output page. Wait for VM to deploy before closing PowerShell
+**Note**: Wait for VM to deploy before closing PowerShell
 
 5. Close the PowerShell session Cloud Shell pane.
 
@@ -80,7 +80,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
-    **Note:DeployId is <inject key="DeploymentID" enableCopy="false" />**
+    **Note**: Replace myRGPS-[deployId] with **myRGPS-<inject key="DeploymentID" enableCopy="false" />**
 
 5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
