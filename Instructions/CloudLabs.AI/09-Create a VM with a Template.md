@@ -18,6 +18,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 5. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
+
 6. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
 
 7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and locate the parameter for the virtual machine name. Go to line no 109 and Change the name to **myVMTemplate**, and **Save** your changes. 
@@ -30,7 +31,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | **Choose your subscription**|
     | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
-    | Location | **Keep default** |
+    | Region | **Keep default** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate-<inject key="DeploymentID" enableCopy="false"/>** |

@@ -25,10 +25,12 @@
     ![](../images/AZ-900-module08-jumpvm.png)
 
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the following username and click on **Next**.
+   * Username: <inject key="AzureAdUserEmail"></inject>
 
     ![](../images/portal1.png)
      
 1. Now enter the password and click on Sign in.
+   * Password: <inject key="AzureAdUserPassword"></inject>
   
     ![](../images/portal2.png)
 
