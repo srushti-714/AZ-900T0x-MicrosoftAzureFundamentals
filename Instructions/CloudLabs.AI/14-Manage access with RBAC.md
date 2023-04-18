@@ -6,17 +6,16 @@ In this walkthrough, we will assign roles and view activity logs.
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. Click on the Azure Portal icon on the VM desktop and sign in to the Azure with the Username and Password provided in the Lab **Environment Details** Tab
+1. Click on the Azure Portal icon on the VM desktop.
 
-2. From the **All services** blade, search for and select **Resource groups**
+2. From the **Search resources, services, and docs** blade, search for and select **Resource groups**
 
 3. Then view the existing resource group. 
 
     | Setting | Value |
     | -- | -- |
-    | Resource group | **myRGRBAC-[DeploymentId]** |
+    | Resource group | **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/>** |
 
-    **Note:** Deployment ID can be obtained from the Lab Environment output page.
      
 4. Click on the existing resource group
 
@@ -26,9 +25,9 @@ In this task, we will assign the Virtual machine contributor role.
 
 ![image](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
- 7. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: the user, group, or service principal. Then click + Select members and type your azure account name to the popup search function and hit 'select.' Then hit 'Review and Assign'.
+ 7. Switch to the **Role assignments** tab of the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. In  Assignment type keep things as default, then switch to Roles tab, Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: the user, group, or service principal. Then click + Select members and type your azure account name (Username: <inject key="AzureAdUserEmail"></inject>) to the popup search function and hit 'select.' Then hit 'Review + Assign'.
 
-    ![image](https://user-images.githubusercontent.com/89808319/144266255-3a0f8574-9358-4c21-8f95-3503747e77c8.png)
+    ![image](../images/AZ-900-module-14-addrole.png)
 
      **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
 
@@ -41,7 +40,7 @@ In this task, we will assign the Virtual machine contributor role.
 
 In this task, we will view the activity log to verify the role assignment, and then remove the role. 
 
-1. On the myRGRBAC-[DeploymentId] resource group blade, click **Activity log**.
+1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> resource group blade, click **Activity log**.
 
 2. Click **Add filter**, select **Operation**, and then **Create role assignment**.
 
@@ -51,7 +50,13 @@ In this task, we will view the activity log to verify the role assignment, and t
 
     **Note**: Can you figure out how to remove your role assignment?
 
-Congratulations! You have assigned roles and viewed the activity logs. 
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+     > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+ 4. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
 
 
