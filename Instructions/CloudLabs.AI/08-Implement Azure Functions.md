@@ -23,7 +23,7 @@ In this task, we will create a Function app.
     | Region | **East US** |
     | | |
 
-<!--1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
+1. Switch to the **Monitoring** tab and click **Create new** for Application Insights. On the **Create new Application Insights** tab, click **Create new** for Workspace and specify the following settings (replace **xxxx** in the name of the function with the Deployment ID).
 
 
     | Settings | Value |
@@ -31,9 +31,8 @@ In this task, we will create a Function app.
     | Name | **function-<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **East US** |
     | Workspace | **workspace-<inject key="DeploymentID" enableCopy="false"/>** |
-    | | |
+    |           |                                                               |
     
--->
 4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
 5. Wait for the notification that the resource has been created.
@@ -82,6 +81,10 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
 
-Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out. 
 
 
