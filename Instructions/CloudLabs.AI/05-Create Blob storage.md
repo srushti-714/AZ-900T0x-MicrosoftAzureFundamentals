@@ -29,7 +29,7 @@ In this task, we will create a new storage account.
 
 7. From the Home page, search for and select **Storage accounts** and ensure your new storage account is listed.
 
-    ![Screenshot of the newly created storage account in the Azure portal .](../images/0401.png)
+    ![Screenshot of the newly created storage account in the Azure portal .](../images/AZ-9000501.png)
 
 # Task 2: Work with blob storage
 
@@ -44,7 +44,7 @@ In this task, we will create a Blob container and upload a blob file.
    | Name | **container1**|
    | Public access level| **Private (no anonymous access)** |
     
-    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/0402.png)
+    ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/AZ-9000502.png)
 
 4. Click the **container1** container, and then click **Upload**.
 
@@ -68,7 +68,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 3. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
-    ![Screenshot of the storage account Insights page.](../images/0403.PNG)
+    ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
 Congratulations! You have created a storage account, then worked with storage blobs.
 
