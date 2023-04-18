@@ -78,3 +78,5 @@ Congratulations! You have created a storage account, then worked with storage bl
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
