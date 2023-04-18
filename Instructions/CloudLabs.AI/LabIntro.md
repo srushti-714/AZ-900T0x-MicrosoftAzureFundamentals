@@ -4,7 +4,7 @@
 
 1. To get the lab environment details, you can select the **Environment Details** tab.
 
-    ![](../images/image-100.png)
+    ![](../images/AZ-900-gettingstarted.png)
 
 1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
 
@@ -12,29 +12,19 @@
 
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
-    ![](../images/image002.jpg)
+    ![](../images/AZ-900-module-08-resources.png)
     
 1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
 
-    ![](../images/image-901.jpg)
+    ![](../images/AZ-900-module-08-numbering.png)
 
 ### Log in to Azure Portal and verify the pre-deployed resources.
 
 1. In the virtual machine (VM) on the left, click on the Azure Portal as shown below.
 
-    ![](../images/azure.png)
+    ![](../images/AZ-900-module08-jumpvm.png)
 
-1. When you click on Azure portal, the edge browser will ask you to sign in to sync data, click on **Start without your data**.
-
-    ![](../images/welcomegmail.png)
-
-1. On the next window, click on **Confirm and start browsing**.
-
-     ![](../images/welcomegamail2.png)
-
-1. Now, you will see two tabs in the edge browser, close the first tab named with Microsoft Edge.
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the following username and click on **Next**.
-1. On the Sign in to Microsoft Azure window, you will see the login screen, enter the username and click on Next.
 
     ![](../images/portal1.png)
      
