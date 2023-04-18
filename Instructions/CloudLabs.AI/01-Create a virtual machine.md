@@ -112,3 +112,4 @@ In this task, install the Web Server role on the server and ensure the default I
 Congratulations! You have created a web server that is accessible via its public IP address. If you had a web application to host, you could deploy application files to the virtual machine and host them for public access on the deployed virtual machine.
 
 
+6. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
