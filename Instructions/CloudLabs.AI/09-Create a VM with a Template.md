@@ -18,25 +18,24 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 5. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
-6. If prompted, sign in to the Azure with the **Username** and **Password** provided in the **Environment Details** Tab.
+6. If prompted, sign in to the Azure with the **Username** <inject key="Username" enableCopy="false"/> and **Password** <inject key="Password" enableCopy="false"/>.
 
-7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for the virtual machine name. Go to line no 146 and Change the name to **myVMTemplate**, and **Save** your changes. 
+7. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and locate the parameter for the virtual machine name. Go to line no 109 and Change the name to **myVMTemplate**, and **Save** your changes. 
 
     ![Screenshot of the template with the VM name change highlighted.](../images/9011.jpg)
 
-8. Now configure the parameters required by the template (replace ***XXXX*** in the DNS label prefix with DeploymentID). Leave the defaults for everything else. 
+8. Now configure the parameters required by the template. Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGTemplate-[DeploymentID]** (use existing) |
+    | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
     | Location | **Keep default** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplate*xxxx*** |
+    | DNS label prefix | **myvmtemplate-<inject key="DeploymentID" enableCopy="false"/>** |
     | Windows OS version | **2019-datacenter-gensecond** |
 
-   **Note**: DeploymentId can be obtained from the **Environment Details** Tab.
     
   9. Click **Review + Create**.
   10. Click the **Create** 
@@ -70,4 +69,8 @@ In this task, we will verify the virtual machine is deployed correctly.
 
     ![Screenshot of the Add filters page with Event type selected.](../images/0904.png)
 
-
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
