@@ -149,4 +149,4 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
- 10. Select the **Resources** tab, then in actions select deallocate.
+ 10. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
