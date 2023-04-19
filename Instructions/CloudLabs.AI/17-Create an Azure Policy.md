@@ -48,7 +48,7 @@ In this task, we will test the Allowed location policy.
     | --- | --- |
     | Subscription | **Use your subscription** |
     | Resource group | **myRGPolicy** (use existing) |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/** |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
     | | |
 
