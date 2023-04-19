@@ -6,7 +6,7 @@ In this walkthrough, we will create an Azure Policy to restrict the deployment o
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Environment Details Tab.
+1.  If not before login to Azure portal, Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject> .
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
@@ -24,15 +24,15 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/1402.png)
 
-7. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Select**.
+7. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Add**.
 
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
-   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/1403.png)
+   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/location.png)
 
 8.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
 
-    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/1404.png)
+    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/allowedlocation.png)
 
 9. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
@@ -48,7 +48,7 @@ In this task, we will test the Allowed location policy.
     | --- | --- |
     | Subscription | **Use your subscription** |
     | Resource group | **myRGPolicy** (use existing) |
-    | Storage account name | **storageaccountxxxx** |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/** |
     | Location | **(US) East US** |
     | | |
 
@@ -56,7 +56,6 @@ In this task, we will test the Allowed location policy.
     
      You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
      
-     **Note**: Deployment ID can be obtained from the Environment Detail tab.
 
 # Task 3: Delete the policy assignment
 
