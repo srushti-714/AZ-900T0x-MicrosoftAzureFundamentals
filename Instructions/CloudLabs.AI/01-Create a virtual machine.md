@@ -115,3 +115,5 @@ In this task, install the Web Server role on the server and ensure the default I
 > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+6. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.

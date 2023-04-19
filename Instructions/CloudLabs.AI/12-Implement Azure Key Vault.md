@@ -8,13 +8,13 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 2. From the **All services** blade, search for and select **Key vaults**, then select **+ Create**.
 
-3. Configure the key vault (replace **xxxx** in the name of the key vault with the deployment ID). You can fetch the deployment ID from the Lab Environment output page. Leave the defaults for everything else.
+3. Configure the key vault. Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGKV-[deployId]** (use existing) |
-    | Key vault name | **keyvaulttestxxx** |
+    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **East US** |
     | Pricing tier | **Standard** |
     | | |
@@ -54,3 +54,10 @@ In this task, we will add a password to the key vault.
 
 Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+ Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective

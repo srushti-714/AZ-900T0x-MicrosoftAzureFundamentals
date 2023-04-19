@@ -6,7 +6,7 @@ In this walkthrough, we will create an Azure Policy to restrict the deployment o
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Environment Details Tab.
+1.  If not before login to Azure portal, Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject> .
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
@@ -16,23 +16,23 @@ In this task, we will configure the allowed location policy and assign it to our
 
 5. On the **Assign Policy** page, select the Scope selector by clicking the ellipsis.
 
-    ![Screenshot of the scope selector ellipses.](../images/1401.png)
+    ![Screenshot of the scope selector ellipses.](../images/scope.png)
 
 6. Ensure your subscription is selected. Your subscription name might be different. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
-    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/1402.png)
+    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/scope2.png)
 
-7. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Select**.
+7. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Add**.
 
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
-   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/1403.png)
+   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/location.png)
 
 8.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
 
-    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/1404.png)
+    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/allowedloc.png)
 
 9. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
@@ -42,13 +42,13 @@ In this task, we will test the Allowed location policy.
 
 1. In the Azure Portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Storage accounts**, and then click **+ Create**.
 
-2. Configure the storage account (replace **XXXX** in the name of the storage account with the deployment ID). Leave the defaults for everything else. 
+2. Configure the storage account. Leave the defaults for everything else. 
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
     | Resource group | **myRGPolicy** (use existing) |
-    | Storage account name | **storageaccountxxxx** |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
     | | |
 
@@ -56,7 +56,12 @@ In this task, we will test the Allowed location policy.
     
      You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
      
-     **Note**: Deployment ID can be obtained from the Environment Detail tab.
+   
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 # Task 3: Delete the policy assignment
 
@@ -72,7 +77,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 2. Click **Delete Assignment** in the top menu.
 
-   ![Screenshot of the Delete Assignment menu item.](../images/1407.png)
+   ![Screenshot of the Delete Assignment menu item.](../images/delete.png)
 
 3. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
