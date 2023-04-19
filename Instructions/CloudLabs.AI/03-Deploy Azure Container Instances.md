@@ -34,7 +34,7 @@ In this task, we will create a new container instance for the web application.
 
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
 
-![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900-01.png)
+    ![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900-01.png)
 
 5. Click **Review and Create** to start the automatic validation process.
 
@@ -54,16 +54,16 @@ In this task, we verify that the container instance is running by ensuring that 
 
 3. Locate the Fully Qualified Domain Name (FQDN).
 
-![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/AZ-900-02.png)
+   ![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/AZ-900-02.png)
 
 2. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
-  **Note**: It might take 10-15 minutes to load the page.
+   **Note**: It might take 10-15 minutes to load the page.
  
- ![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
+   ![Screenshot of the ACI welcome message shown in a web browser.](../images/AZ-900-0300.png)
 	
 
-**Note**: You could also use the container IP address in your browser. 
+   **Note**: You could also use the container IP address in your browser. 
 
 Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
 
@@ -73,5 +73,5 @@ Congratulations! You have used Azure Portal to successfully deploy an applicatio
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+  Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
