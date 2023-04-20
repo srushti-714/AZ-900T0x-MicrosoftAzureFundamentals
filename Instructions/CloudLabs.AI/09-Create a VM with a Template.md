@@ -46,7 +46,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 In this task, we will verify the virtual machine is deployed correctly. 
 
-1. From the **All services** blade, search for and select **Virtual machines**.
+1. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**.
 
 2. Ensure your new virtual machine was created. 
 
