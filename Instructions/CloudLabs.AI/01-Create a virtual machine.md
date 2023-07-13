@@ -85,7 +85,7 @@ Congratulations! You have deployed and connected to a Windows Server virtual mac
 
 # Task 3: Host a Basic Website on your New Cloud VM
 
-In this task, we will install the Web Server role on the server and host a basic website.
+In this task, install the Web Server role on the server and host a basic website.
 
 1. In the Server Manager (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
 
@@ -119,7 +119,7 @@ In this task, we will install the Web Server role on the server and host a basic
 
     ![](../images/az900-t3_s12.png)
 
-10.  Create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
+10. Create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
 
     ```
     <html>
@@ -130,7 +130,7 @@ In this task, we will install the Web Server role on the server and host a basic
     </html>
     ```
 
-11. Now back in the Azure portal, navigate to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+11. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
     ![](../images/az900-t3_vm_pip.png)
 
@@ -138,10 +138,12 @@ In this task, we will install the Web Server role on the server and host a basic
 
     ![](../images/az900-t3_last.png)
 
-> - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-13. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+13. Select the **Resources** tab, then in actions select deallocate for deallocate the VM, it will be Cost effective.
+
+You have successfully completed this lab.
