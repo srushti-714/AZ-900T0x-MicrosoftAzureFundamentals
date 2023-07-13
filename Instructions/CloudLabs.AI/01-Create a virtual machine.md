@@ -130,7 +130,7 @@ In this task, we will install the Web Server role on the server and host a basic
     </html>
     ```
 
-11. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
+11. Now back in the Azure portal, navigate to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
     ![](../images/az900-t3_vm_pip.png)
 
