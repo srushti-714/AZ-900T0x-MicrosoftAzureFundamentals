@@ -85,7 +85,7 @@ Congratulations! You have deployed and connected to a Windows Server virtual mac
 
 # Task 3: Host a Basic Website on your New Cloud VM
 
-In this task, install the Web Server role on the server and host a basic website.
+In this task, we will install the Web Server role on the server and host a basic website.
 
 1. In the Server Manager (which should launch automatically) once you connect to the vm, select **Add roles and features** as shown below in the screenshot: 
 
