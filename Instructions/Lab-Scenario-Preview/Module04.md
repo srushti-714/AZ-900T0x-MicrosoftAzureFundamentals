@@ -15,3 +15,4 @@ After completing this lab, you will be able to:
 - Test the connection
 
 ## Architecture Diagram
+![](media/Az900lab04.png)
