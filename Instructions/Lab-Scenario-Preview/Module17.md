@@ -15,4 +15,5 @@ After completing this lab, you will be able to:
 - Delete the policy assignment
 
 ## Architecture Diagram
+
 ![](../images/az900lab17.png)

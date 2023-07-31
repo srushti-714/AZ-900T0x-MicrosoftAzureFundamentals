@@ -14,4 +14,5 @@ After completing this lab, you will be able to:
 - Review the pricing estimate
 
 ## Architecture Diagram
+
 ![](../images/az900lab19.png)

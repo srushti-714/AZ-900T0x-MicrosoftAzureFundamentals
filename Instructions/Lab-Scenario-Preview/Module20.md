@@ -14,4 +14,5 @@ After completing this lab, you will be able to:
 - Review the results and save a copy
 
 ## Architecture Diagram
+
 ![](../images/az900lab20.png)

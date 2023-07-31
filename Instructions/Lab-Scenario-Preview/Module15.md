@@ -16,4 +16,5 @@ After completing this lab, you will be able to:
 - Remove the resource lock
 
 ## Architecture Diagram
+
 ![](../images/az900lab15.png)

@@ -14,4 +14,5 @@ After completing this lab, you will be able to:
 - Access the Service Trust Portal (STP)
 
 ## Architecture Diagram
+
 ![](../images/az900lab18.png)

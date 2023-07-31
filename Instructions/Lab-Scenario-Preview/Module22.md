@@ -14,4 +14,5 @@ After completing this lab, you will be able to:
 - Create a billing support request
 
 ## Architecture Diagram
+
 ![](../images/az900lab22.png)
