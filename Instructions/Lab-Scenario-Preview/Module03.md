@@ -15,4 +15,4 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-![](../images/az900lab05.PNG)
+![](../images/az900lab03.PNG)
