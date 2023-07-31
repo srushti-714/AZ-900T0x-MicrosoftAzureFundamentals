@@ -17,3 +17,5 @@ After completing this lab, you will be able to:
 ## Architecture Diagram
 
 ![](../images/az900lab04.PNG)
+
+Now that you know what the lab is going to be all about, you can launch next item **Hands-on Lab** which includes lab environment and lab guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/a3e01def-c63c-47d6-85e9-0f06d6204bce) if you want to go through detailed guide prior to launching lab environment.
