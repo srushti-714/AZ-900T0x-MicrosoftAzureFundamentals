@@ -15,4 +15,4 @@ After completing this lab, you will be able to:
 - Host a Basic Website on your New Cloud VM.
 
 ## Architecture Diagram
-![](media/Az900lab01.png)
+![](media/az900lab01.png)

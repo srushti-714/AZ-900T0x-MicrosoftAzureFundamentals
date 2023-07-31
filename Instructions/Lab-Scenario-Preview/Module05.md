@@ -15,4 +15,4 @@ After completing this lab, you will be able to:
 - Monitor the storage account
 
 ## Architecture Diagram
-![](media/Az900lab05.png)
+![](media/az900lab05.png)

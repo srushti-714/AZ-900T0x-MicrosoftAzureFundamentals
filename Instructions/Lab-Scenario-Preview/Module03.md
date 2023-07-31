@@ -14,4 +14,4 @@ After completing this lab, you will be able to:
 - Verify deployment of the container instance
 
 ## Architecture Diagram
-![](media/Az900lab03.png)
+![](media/az900lab03.png)
