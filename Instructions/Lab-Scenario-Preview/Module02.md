@@ -14,4 +14,5 @@ After completing this lab, you will be able to:
 - Test the Web App
 
 ## Architecture Diagram
-![](media/az900lab02.png)
+
+![](../images/az900lab02.PNG)
