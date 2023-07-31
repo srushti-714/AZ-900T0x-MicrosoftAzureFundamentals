@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Create a HTTP triggered function and test
 
 ## Architecture Diagram
+
+![](../images/az900lab09.PNG)

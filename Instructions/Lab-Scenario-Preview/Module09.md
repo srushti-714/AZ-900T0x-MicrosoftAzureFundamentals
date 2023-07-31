@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Verify and monitor your virtual machine deployment
 
 ## Architecture Diagram
+
+![](../images/az900lab09.PNG)

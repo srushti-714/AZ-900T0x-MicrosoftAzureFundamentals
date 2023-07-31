@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Test the database.
 
 ## Architecture Diagram
+
+![](../images/az900lab06.PNG)

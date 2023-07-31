@@ -15,3 +15,5 @@ After completing this lab, you will be able to:
 - Test the device using the Raspberry Pi Simulator
 
 ## Architecture Diagram
+
+![](../images/az900lab07.PNG)
