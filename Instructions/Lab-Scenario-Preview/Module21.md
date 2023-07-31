@@ -21,3 +21,4 @@ After completing this lab, you will be able to:
 - Calculate the Application Composite SLA percentage uptime
 
 ## Architecture Diagram
+![](../images/az900lab21.png)
