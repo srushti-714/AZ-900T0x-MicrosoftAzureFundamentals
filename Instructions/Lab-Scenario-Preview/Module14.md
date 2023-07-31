@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Monitor role assignments and remove a role
 
 ## Architecture Diagram
+
+![](../images/az900lab14.png)

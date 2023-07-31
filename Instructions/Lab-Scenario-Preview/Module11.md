@@ -16,3 +16,5 @@ After completing this lab, you will be able to:
 - Review Azure Advisor Recommendations
 
 ## Architecture Diagram
+
+![](../images/az900lab11.png)

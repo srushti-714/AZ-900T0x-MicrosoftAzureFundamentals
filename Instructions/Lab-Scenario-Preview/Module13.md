@@ -16,3 +16,5 @@ After completing this lab, you will be able to:
 - Configure an outbound security port rule to deny Internet access
 
 ## Architecture Diagram
+
+![](../images/az900lab13.png)

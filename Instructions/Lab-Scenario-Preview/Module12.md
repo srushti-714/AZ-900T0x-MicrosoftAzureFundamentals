@@ -14,3 +14,5 @@ After completing this lab, you will be able to:
 - Add a secret to the Key Vault
 
 ## Architecture Diagram
+
+![](../images/az900lab12.png)
