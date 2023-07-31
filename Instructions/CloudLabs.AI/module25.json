@@ -1,0 +1,12 @@
+[ {
+  "Name": "Lab Intropage",
+  "Language": "English",
+  "Files": [
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/stage/Instructions/Labs/LabIntro.md",
+        "Order": 1
+     }
+    
+    
+  ]
+} ]
