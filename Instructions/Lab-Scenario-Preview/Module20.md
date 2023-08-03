@@ -1,4 +1,4 @@
-# Lab Scenario Preview: AZ-900: Azure Fundamentals: Describe Azure management and governance
+# Lab Scenario Preview: AZ-900: Describe Azure management and governance
 
 ## Lab 20 - Use the Azure TCO Calculator
 
