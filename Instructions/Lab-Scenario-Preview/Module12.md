@@ -1,4 +1,4 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
 
 ## Lab 12 - Implement Azure Key Vault
 

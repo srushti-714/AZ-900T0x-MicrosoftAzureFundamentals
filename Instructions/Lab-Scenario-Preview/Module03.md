@@ -1,4 +1,4 @@
-# Lab Scenario Preview: AZ-900: Azure Fundamentals: Describe Azure architecture and services
+# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
 
 ## Lab 03 - Deploy Azure Container Instances
 

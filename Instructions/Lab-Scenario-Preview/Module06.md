@@ -1,6 +1,6 @@
-# Lab Scenario Preview: 
+# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
 
-## Lab 06 - Create a SQL database
+## Lab 06 - Secure network traffic
 
 ### Lab overview
 
