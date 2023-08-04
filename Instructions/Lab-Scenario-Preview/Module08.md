@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 08 - Implement Azure Functions
 
-## Lab 08 - Implement Azure Functions
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request.
 
