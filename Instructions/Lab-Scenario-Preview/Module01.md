@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 01: Create a virtual machine in the portal
 
-## Lab 01: Create a virtual machine in the portal
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
 
