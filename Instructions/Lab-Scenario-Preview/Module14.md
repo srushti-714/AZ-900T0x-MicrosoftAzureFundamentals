@@ -1,6 +1,4 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services  
-
-## Lab 14 - Manage access with RBAC
+# Lab Scenario Preview: Lab 14 - Manage access with RBAC 
 
 ### Lab overview
 
