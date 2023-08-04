@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 05 - Create blob storage
 
-## Lab 05 - Create blob storage
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
