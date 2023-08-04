@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 10 - Create a VM with PowerShell
 
-## Lab 10 - Create a VM with PowerShell
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
 
