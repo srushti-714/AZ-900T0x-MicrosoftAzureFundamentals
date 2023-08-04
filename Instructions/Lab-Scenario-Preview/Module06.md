@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview:  Lab 06 - Secure network traffic
 
-## Lab 06 - Secure network traffic
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
