@@ -1,6 +1,6 @@
 # Lab Scenario Preview: Lab 15 - Manage resource locks
 
-### Lab overview
+## Lab overview
 
 In this walkthrough,  we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock.
 
