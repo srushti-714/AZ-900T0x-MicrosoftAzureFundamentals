@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
+# Lab Scenario Preview: Lab 21 - Calculate Composite SLAs
 
-## Lab 21 - Calculate Composite SLAs
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will determine availability SLA of Azure services and then calculate application composite SLA-based expected availability.
 
