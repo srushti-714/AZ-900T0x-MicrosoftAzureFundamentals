@@ -1,1 +1,12 @@
-
+[
+  {
+  "Name": "Lab 1: Create a virtual machine in the portal",
+  "Language": "English",
+  "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/Lab-Scenario-Preview/Module01.md",
+        "Order": 1
+      }
+    ]
+  } 
+]
