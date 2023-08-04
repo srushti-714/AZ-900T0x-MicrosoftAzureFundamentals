@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
+# Lab Scenario Preview: Lab 19 - Use the Pricing Calculator
 
-## Lab 19 - Use the Pricing Calculator
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will use the Azure Pricing Calculator to generate a cost estimate for an Azure virtual machine and related network resources.
 
