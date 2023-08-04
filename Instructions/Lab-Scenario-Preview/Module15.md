@@ -1,6 +1,4 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
-
-## Lab 15 - Manage resource locks
+# Lab Scenario Preview: Lab 15 - Manage resource locks
 
 ### Lab overview
 
