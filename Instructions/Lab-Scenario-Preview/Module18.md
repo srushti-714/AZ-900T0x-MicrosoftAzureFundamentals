@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
+# Lab Scenario Preview: Lab 18 - Explore Microsoft Compliance Offerings
 
-## Lab 18 - Explore Microsoft Compliance Offerings
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will access the Compliance Offerings and Service Trust Portal (STP).
 
