@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 12 - Implement Azure Key Vault
 
-## Lab 12 - Implement Azure Key Vault
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create an Azure Key vault and then create a password secret within that key vault, providing a securely stored, centrally managed password for use with applications.
 
