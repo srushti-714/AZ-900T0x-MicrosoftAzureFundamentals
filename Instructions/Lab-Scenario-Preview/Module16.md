@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
+# Lab Scenario Preview: Lab 16 - Implement resource tagging
 
-## Lab 16 - Implement resource tagging
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
