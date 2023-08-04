@@ -1,6 +1,4 @@
-# Lab Scenario Preview: AZ-900: Describe Azure management and governance
-
-## Lab 22 - Open a Support Request
+# Lab Scenario Preview: Lab 22 - Open a Support Request
 
 ### Lab overview
 
