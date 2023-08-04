@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 09 - Create a VM with a Template
 
-## Lab 09 - Create a VM with a Template
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
