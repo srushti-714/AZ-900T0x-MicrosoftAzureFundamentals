@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 07 - Implement an Azure IoT Hub
 
-## Lab 07 - Implement an Azure IoT Hub
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi simulator to your Azure IoT Hub, and you view metrics for the messaging activity in Azure Portal.
 
