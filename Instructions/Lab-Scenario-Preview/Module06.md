@@ -1,4 +1,4 @@
-# Lab Scenario Preview:  Lab 06 - Secure network traffic
+# Lab Scenario Preview:  Lab 06 - Create a SQL database
 
 ## Lab overview
 
