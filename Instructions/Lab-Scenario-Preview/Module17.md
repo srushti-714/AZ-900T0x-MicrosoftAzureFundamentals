@@ -1,6 +1,6 @@
 # Lab Scenario Preview: Lab 17 - Create an Azure Policy
 
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create an Azure Policy to restrict the deployment of Azure resources to a specific location.
 
