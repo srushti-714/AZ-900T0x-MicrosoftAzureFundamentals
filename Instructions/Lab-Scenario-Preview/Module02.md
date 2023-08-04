@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 02: Create a Web App
 
-## Lab 02: Create a Web App
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message.
 
