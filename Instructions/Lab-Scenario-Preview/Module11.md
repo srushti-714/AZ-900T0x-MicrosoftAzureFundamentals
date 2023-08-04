@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services
+# Lab Scenario Preview: Lab 11 - Create a VM with the CLI
 
-## Lab 11 - Create a VM with the CLI
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations.
 
