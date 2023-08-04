@@ -1,8 +1,6 @@
-# Lab Scenario Preview: AZ-900: Describe Azure architecture and services 
+# Lab Scenario Preview: Lab 13 - Secure network traffic
 
-## Lab 13 - Secure network traffic
-
-### Lab overview
+## Lab overview
 
 In this walkthrough, we will configure a network security group.
 
