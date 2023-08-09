@@ -16,4 +16,4 @@ After completing this lab, you will be able to:
 
 ![](../images/az900lab05.PNG)
 
-Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/f3dcfe01-9410-4c1f-9201-a859a374be70)if you want to go through a detailed guide prior to launching the lab environment. 
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/f3dcfe01-9410-4c1f-9201-a859a374be70) if you want to go through a detailed guide prior to launching the lab environment. 
