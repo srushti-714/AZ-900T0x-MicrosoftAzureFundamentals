@@ -9,7 +9,7 @@ In this walkthrough, we will create a SQL database in Azure and then query the d
 After completing this lab, you will be able to:
 
 - Create the database
-- Test the database.
+- Test the database
 
 ## Architecture Diagram
 
