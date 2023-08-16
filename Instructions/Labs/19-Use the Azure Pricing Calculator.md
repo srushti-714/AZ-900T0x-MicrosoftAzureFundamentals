@@ -106,3 +106,5 @@ In this task, we will review the results of the Azure Pricing Calculator.
     ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/AZ-900-cost.png)
 
 Congratulations! You downloaded an estimate from the Azure Pricing Calculator.
+
+## You have successfully completed this lab.

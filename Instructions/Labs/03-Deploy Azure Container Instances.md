@@ -75,3 +75,4 @@ Congratulations! You have used Azure Portal to successfully deploy an applicatio
 
   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
+## You have successfully completed this lab.

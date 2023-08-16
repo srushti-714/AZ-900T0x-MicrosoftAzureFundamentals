@@ -122,3 +122,5 @@ Congratulations! You have configured Cloud Shell, created a virtual machine usin
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
+## You have successfully completed this lab.

@@ -125,3 +125,4 @@ Congratulations! You have configured Cloud Shell, created a virtual machine usin
 
 Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
+## You have successfully completed this lab.

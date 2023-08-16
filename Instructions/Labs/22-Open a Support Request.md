@@ -56,3 +56,5 @@ Congratulations! You have viewed the available support plan options and practice
 **Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
 Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
+## You have successfully completed this lab.

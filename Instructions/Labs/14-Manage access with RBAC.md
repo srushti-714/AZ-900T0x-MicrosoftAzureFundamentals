@@ -58,5 +58,4 @@ In this task, we will view the activity log to verify the role assignment, and t
  
  4. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
-
-
+## You have successfully completed this lab.

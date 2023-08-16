@@ -99,3 +99,4 @@ In this walkthrough, we created a policy assignment that required tagging, creat
 
 6. The testing is completed and validation also completed, then select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
+## You have successfully completed this lab.s
