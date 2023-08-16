@@ -1,0 +1,12 @@
+[
+    {
+    "Name": "Lab 10 - Create a VM with PowerShell",
+    "Language": "English",
+    "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/Labs/Lab-Scenario-Preview/Module10.md",
+          "Order": 1
+        }
+      ]
+    } 
+  ] 
