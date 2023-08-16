@@ -116,3 +116,5 @@ In this task, we will configure the SQL server and run a SQL query.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 11. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+
+## You have successfully completed this lab.

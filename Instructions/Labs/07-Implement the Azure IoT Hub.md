@@ -83,6 +83,4 @@ Congratulations! You have set up Azure IoT Hub to collect sensor data from an Io
 
 Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
-
-
-
+## You have successfully completed this lab.

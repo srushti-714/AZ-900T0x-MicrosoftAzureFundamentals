@@ -146,4 +146,4 @@ In this task, install the Web Server role on the server and host a basic website
 
 13. Select the **Resources** tab, then in actions select deallocate for deallocate the VM, it will be Cost effective.
 
-You have successfully completed this lab.
+## You have successfully completed this lab.

@@ -89,4 +89,4 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
 
-
+## You have successfully completed this lab.

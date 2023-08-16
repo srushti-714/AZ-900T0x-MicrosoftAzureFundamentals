@@ -23,3 +23,5 @@ In this walkthrough, we will access the Compliance Offerings and Service Trust P
 4. Click on download and if asking for a Service level agreement, click on agree.
 
 Congratulations! In this walkthrough, you accessed the Trust Center and Service Trust Portal (STP).
+
+## You have successfully completed this lab.
