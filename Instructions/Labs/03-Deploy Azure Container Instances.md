@@ -1,7 +1,20 @@
 
-# 03 - Deploy Azure Container Instances
+# Lab 03 - Deploy Azure Container Instances
 
 In this walkthrough we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page. 
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a container instance
++ Task 2: Verify deployment of the container instance
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
 
 ## Task 1: Create a container instance
 
@@ -11,7 +24,7 @@ In this task, we will create a new container instance for the web application.
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
 
-3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 1
+3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
 	| Setting| Value|
 	|----|----|
@@ -65,14 +78,20 @@ In this task, we verify that the container instance is running by ensuring that 
 
    **Note**: You could also use the container IP address in your browser. 
 
-Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
+    Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
-  Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
-
+### Review
+In this lab, you have completed:
+- Create a container instance
+- Verify deployment of the container instance
+  
 ## You have successfully completed this lab.
+
