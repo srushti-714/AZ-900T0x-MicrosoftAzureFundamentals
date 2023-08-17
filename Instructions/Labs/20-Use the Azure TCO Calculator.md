@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../Images/sc900lab1.png)
+![](../images/az900lab20.png)
 
 # Task 1: Configure the TCO calculator
 
