@@ -4,6 +4,21 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 **Note**: Take time during this walk-through to click and read the Informational icons. 
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create the virtual machine
++ Task 2: Connect to the virtual machine
++ Task 3: Host a Basic Website on your New Cloud VM
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
+
+
 # Task 1: Create the virtual machine
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
@@ -145,5 +160,11 @@ In this task, install the Web Server role on the server and host a basic website
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 13. Select the **Resources** tab, then in actions select deallocate for deallocate the VM, it will be Cost effective.
+
+### Review
+In this lab, you have completed:
+- Create the virtual machine
+- Connect to the virtual machine
+- Host a Basic Website on your New Cloud VM
 
 ## You have successfully completed this lab.
