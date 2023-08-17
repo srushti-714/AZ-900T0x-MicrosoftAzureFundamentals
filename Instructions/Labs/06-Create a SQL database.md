@@ -1,7 +1,20 @@
 
-# 06 - Create a SQL database
+# Lab 06 - Create a SQL database
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create the database
++ Task 2: Test the database
+
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
 
 # Task 1: Create the database
 
@@ -64,7 +77,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 8. Go to the resource tab to locate the SQL database you created. You may need to refresh.
 
-# Task 2: Test the database.
+# Task 2: Test the database
 
 In this task, we will configure the SQL server and run a SQL query. 
 
@@ -109,12 +122,18 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the database Query Editor pane with the SQL code having been run successfully and the output visible in the results pane.](../images/0508.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 11. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+
+
+### Review
+In this lab, you have completed:
+- Create the database
+- Test the database
 
 ## You have successfully completed this lab.
