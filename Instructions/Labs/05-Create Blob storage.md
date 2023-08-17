@@ -1,4 +1,4 @@
-# 05 - Create blob storage
+# Lab 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
