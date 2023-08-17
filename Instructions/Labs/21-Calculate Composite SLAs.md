@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ## Architecture diagram
 
-![](../Images/sc900lab1.png)
+![](../images/az900lab21.png)
 
 # Task 1: Determine the SLA uptime percentage values for our application
 
