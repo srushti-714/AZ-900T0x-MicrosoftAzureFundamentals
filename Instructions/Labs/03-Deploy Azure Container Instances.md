@@ -11,7 +11,7 @@ In this task, we will create a new container instance for the web application.
 
 2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
 
-3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
+3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 1
 
 	| Setting| Value|
 	|----|----|
