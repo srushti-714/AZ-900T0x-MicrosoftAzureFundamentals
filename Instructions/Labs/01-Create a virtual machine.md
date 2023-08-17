@@ -18,7 +18,6 @@ In this lab, you will complete the following tasks:
 
 ![](../Images/sc900lab1.png)
 
-
 # Task 1: Create the virtual machine
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
