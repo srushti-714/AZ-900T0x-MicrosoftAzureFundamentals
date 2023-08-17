@@ -1,8 +1,23 @@
-# 13 - Secure network traffic
+# Lab 13 - Secure network traffic
 
 In this walk-through, we will configure a network security group.
 
-# Task 1: Create a virtual machine (10 min)
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a virtual machine
++ Task 2: Create a network security group
++ Task 3: Configure an inbound security port rule to allow RDP
++ Task 4: Configure an outbound security port rule to deny Internet access
+  
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
+
+# Task 1: Create a virtual machine 
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
@@ -143,12 +158,20 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 9. Browse to **https://www.microsoft.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-     > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
- 10. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+ 
+10. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+
+### Review
+In this lab, you have completed:
+- Create a virtual machine
+- Create a network security group
+- Configure an inbound security port rule to allow RDP
+- Configure an outbound security port rule to deny Internet access
+  
 ## You have successfully completed this lab.
