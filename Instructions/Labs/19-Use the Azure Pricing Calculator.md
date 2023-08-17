@@ -1,6 +1,19 @@
-# 19 - Use the Pricing Calculator
+# Lab 19 - Use the Pricing Calculator
 
 In this walkthrough, we will use the Azure Pricing Calculator to generate a cost estimate for an Azure virtual machine and related network resources.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Configure the pricing calculator
++ Task 2: Review the pricing estimate
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
 
 # Task 1: Configure the pricing calculator
 
@@ -105,6 +118,11 @@ In this task, we will review the results of the Azure Pricing Calculator.
 
     ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/AZ-900-cost.png)
 
-Congratulations! You downloaded an estimate from the Azure Pricing Calculator.
+   Congratulations! You downloaded an estimate from the Azure Pricing Calculator.
 
+### Review
+In this lab, you have completed:
+- Configure the pricing calculator
+- Review the pricing estimate
+  
 ## You have successfully completed this lab.
