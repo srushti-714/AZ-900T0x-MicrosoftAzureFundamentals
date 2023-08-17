@@ -1,8 +1,8 @@
-# 01 - Create a virtual machine in the portal
+# Lab 01 - Create a virtual machine in the portal
 
 In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test. 
 
-**Note**: Take time during this walk-through to click and read the Informational icons. 
+>**Note**: Take time during this walk-through to click and read the Informational icons. 
 
 ## Objectives
 
