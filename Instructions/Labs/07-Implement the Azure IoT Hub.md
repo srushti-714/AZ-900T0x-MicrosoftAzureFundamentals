@@ -1,6 +1,20 @@
-# 07 - Implement an Azure IoT Hub
+# Lab 07 - Implement an Azure IoT Hub
 
 In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi simulator to your Azure IoT Hub, and you view metrics for the messaging activity in Azure Portal.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create an IoT hub
++ Task 2: Add an IoT device
++ Task 3: Test the device using the Raspberry Pi Simulator
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
 
 # Task 1: Create an IoT hub
 
@@ -70,17 +84,23 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information.
 
-	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/AZ-9000703.png)
+   ![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/AZ-9000703.png)
 
 
-Congratulations! You have set up Azure IoT Hub to collect sensor data from an IoT device.
+   Congratulations! You have set up Azure IoT Hub to collect sensor data from an IoT device.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
+### Review
+In this lab, you have completed:
+- Create an IoT hub
+- Add an IoT device
+- Test the device using the Raspberry Pi Simulator
+  
 ## You have successfully completed this lab.
