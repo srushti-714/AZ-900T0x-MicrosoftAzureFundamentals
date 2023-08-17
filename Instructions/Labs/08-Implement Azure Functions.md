@@ -1,6 +1,19 @@
-# 08 - Implement Azure Functions
+# Lab 08 - Implement Azure Functions
 
 In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request. 
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a Function app
++ Task 2: Create a HTTP triggered function and test
+
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
 
 # Task 1: Create a Function app
 
@@ -74,11 +87,16 @@ In this task, we will use the Webhook + API function to display a message when t
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out. 
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 1. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
+### Review
+In this lab, you have completed:
+- Create a Function app
+- Create a HTTP triggered function and test
+  
 ## You have successfully completed this lab.
