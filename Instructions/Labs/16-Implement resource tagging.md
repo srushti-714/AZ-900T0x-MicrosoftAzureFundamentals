@@ -1,6 +1,21 @@
-# 16 - Implement resource tagging
+# Lab 16 - Implement resource tagging
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a Policy assignment
++ Task 2: Create a storage account to test the required tagging
++ Task 3: View all resources with a specific tag
++ Task 4: Delete the policy assignment
+
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../images/az900lab16.png)
 
 # Task 1: Create a Policy assignment
 
@@ -73,13 +88,12 @@ In this task, we will create storage accounts to test the required tagging.
 4. Click **Add filter** and add the **Company** tag key as the filter category. With the filter applied, only your storage account will be listed.
 
     ![Screenshot of the All Resources filter with Company selected.](../images/AZ-900-module-16-tags.png)
-    
-    
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:-
-     > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-     > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+       
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 # Task 4: Delete the policy assignment
 
@@ -99,4 +113,11 @@ In this walkthrough, we created a policy assignment that required tagging, creat
 
 6. The testing is completed and validation also completed, then select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
-## You have successfully completed this lab.s
+### Review
+In this lab, you have completed:
+- Create a Policy assignment
+- Create a storage account to test the required tagging
+- View all resources with a specific tag
+- Delete the policy assignment
+  
+## You have successfully completed this lab.

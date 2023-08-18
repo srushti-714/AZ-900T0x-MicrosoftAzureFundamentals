@@ -1,6 +1,20 @@
-# 05 - Create blob storage
+# Lab 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a storage account
++ Task 2: Work with blob storage
++ Task 2: Monitor the storage account
+
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../images/az900lab05.PNG) 
 
 # Task 1: Create a storage account
 
@@ -70,14 +84,20 @@ In this task, we will create a Blob container and upload a blob file.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
-Congratulations! You have created a storage account, then worked with storage blobs.
+   Congratulations! You have created a storage account, then worked with storage blobs.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
+### Review
+In this lab, you have completed:
+- Create a storage account
+- Work with blob storage
+- Monitor the storage account
 
 ## You have successfully completed this lab.

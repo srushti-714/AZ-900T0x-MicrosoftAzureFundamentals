@@ -1,6 +1,20 @@
-# 04 - Create a virtual network
+# Lab 04 - Create a virtual network
 
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a virtual network
++ Task 2: Create two virtual machines
++ Task 3: Test the connection
+
+## Estimated timing: 20 minutes
+
+## Architecture diagram
+
+![](../images/az900lab04.PNG) 
 
 # Task 1: Create a virtual network
 
@@ -124,13 +138,18 @@ In this task, we will try to test whether the virtual machines can communicate (
     
    ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
    
-
-   > - **Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 11. Select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
 
+### Review
+In this lab, you have completed:
+- Create a virtual network
+- Create two virtual machines
+- Test the connection
+ 
 ## You have successfully completed this lab.

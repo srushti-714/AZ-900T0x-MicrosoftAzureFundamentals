@@ -1,6 +1,21 @@
-# 10 - Create a VM with PowerShell
+# Lab 10 - Create a VM with PowerShell
 
 In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Configure the Cloud Shell
++ Task 2: Create a virtual machine
++ Task 3: Execute commands in the Cloud Shell
++ Task 4: Review Azure Advisor Recommendations
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../images/az900lab10.JPG)
 
 ## Task 1: Configure the Cloud Shell
 
@@ -113,14 +128,21 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 6. If you have time, continue to experiment with Azure PowerShell.
 
-Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
+   Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
+### Review
+In this lab, you have completed:
+- Configure the Cloud Shell
+- Create a virtual machine
+- Execute commands in the Cloud Shell
+- Review Azure Advisor Recommendations
 
 ## You have successfully completed this lab.

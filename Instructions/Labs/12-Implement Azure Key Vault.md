@@ -1,6 +1,19 @@
-# 12 - Implement Azure Key Vault
+# Lab 12 - Implement Azure Key Vault
 
 In this walkthrough, we will create an Azure Key vault and then create a password secret within that key vault, providing a securely stored, centrally managed password for use with applications.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create an Azure Key Vault
++ Task 2: Add a secret to the Key Vault
+
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../images/az900lab12.png)
 
 # Task 1: Create an Azure Key Vault
 
@@ -52,12 +65,19 @@ In this task, we will add a password to the key vault.
 
 6. Click the button **Show Secret Value**, to display the password you specified earlier.
 
-Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
+   Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-> - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
- Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+
+### Review
+In this lab, you have completed:
+- Create an Azure Key Vault
+- Add a secret to the Key Vault
+  
+## You have successfully completed this lab.

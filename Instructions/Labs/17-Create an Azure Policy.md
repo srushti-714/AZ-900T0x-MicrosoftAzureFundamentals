@@ -1,6 +1,20 @@
-# 17 - Create an Azure Policy
+# Lab 17 - Create an Azure Policy
 
 In this walkthrough, we will create an Azure Policy to restrict the deployment of Azure resources to a specific location.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Create a Policy assignment
++ Task 2: Test Allowed location policy
++ Task 3: Delete the policy assignment
+
+## Estimated timing: 10 minutes
+
+## Architecture diagram
+
+![](../images/az900lab17.png)
 
 # Task 1: Create a Policy assignment
 
@@ -52,15 +66,14 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
-    Click on **Review** and once validation gets success, click on **Create**.
+3. Click on **Review** and once validation gets success, click on **Create**.
     
-     You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
-     
-   
+   **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
+      
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 # Task 3: Delete the policy assignment
@@ -87,6 +100,12 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
+    Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
 
+### Review
+In this lab, you have completed:
+- Create a Policy assignment
+- Test Allowed location policy
+- Delete the policy assignment
+  
 ## You have successfully completed this lab.

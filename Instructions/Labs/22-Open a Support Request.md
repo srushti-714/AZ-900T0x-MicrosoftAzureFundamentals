@@ -1,6 +1,19 @@
-# 22 - Open a Support Request
+# Lab 22 - Open a Support Request
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: View available support plan options and a technical support request
++ Task 2: Create a billing support request
+  
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../images/az900lab22.png)
 
 # Task 1: View available support plan options and a technical support request
 
@@ -51,10 +64,15 @@ In this walkthrough, we will view available support plan options and then practi
 
 4. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
-Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
+   Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
 
-**Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
+   **Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
-Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
+   Select the **Resources** tab, then in actions select deallocate to deallocate the VM, it will be Cost effective
 
+### Review
+In this lab, you have completed:
+- View available support plan options and a technical support request
+- Create a billing support request
+  
 ## You have successfully completed this lab.

@@ -1,4 +1,4 @@
-# 21 - Calculate Composite SLAs
+# Lab 21 - Calculate Composite SLAs
 
 In this walkthrough, we will determine availability SLA of Azure services and then calculate application composite SLA-based expected availability.
 
@@ -8,6 +8,19 @@ Our example application consists of these Azure services. We will not go in to d
 + **Azure AD B2C**: To authenticate user logins and manage profiles.
 + **Application Gateway**: To manage application access, and scaling. 
 + **Azure SQL Database**: To store application data. 
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Determine the SLA uptime percentage values for our application
++ Task 2: Calculate the Application Composite SLA percentage uptime
+  
+## Estimated timing: 5 minutes
+
+## Architecture diagram
+
+![](../images/az900lab21.png)
 
 # Task 1: Determine the SLA uptime percentage values for our application
 
@@ -43,6 +56,11 @@ Our example application consists of these Azure services. We will not go in to d
 
     This is the SLA-based expected availability of our application with the current services and architecture.
 
-Congratulations! You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
+    Congratulations! You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
 
+### Review
+In this lab, you have completed:
+- Determine the SLA uptime percentage values for our application
+- Calculate the Application Composite SLA percentage uptime
+  
 ## You have successfully completed this lab.
