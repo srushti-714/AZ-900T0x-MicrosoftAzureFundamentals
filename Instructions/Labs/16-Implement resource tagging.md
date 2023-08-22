@@ -109,9 +109,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 5. If you have time, create another resource without a tag to ensure the policy is no longer in effect.
 
-In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
-
-6. The testing is completed and validation also completed, then select the **Resources** tab, then in actions select deallocate for deallocated the VM, it will be Cost effective.
+   In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
 
 ### Review
 In this lab, you have completed:
