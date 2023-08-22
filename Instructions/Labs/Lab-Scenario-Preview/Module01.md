@@ -8,9 +8,9 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 After completing this lab, you will be able to:
 
-- Create a virtual machine in the Azure portal.
-- Connect to the virtual machine.
-- Host a Basic Website on your New Cloud VM.
+- Create a virtual machine in the Azure portal
+- Connect to the virtual machine
+- Host a Basic Website on your New Cloud VM
 
 ## Architecture Diagram
 
