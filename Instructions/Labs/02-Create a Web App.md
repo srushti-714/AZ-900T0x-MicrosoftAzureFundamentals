@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab02.PNG) 
 
-# Task 1: Create a Web App
+## Task 1: Create a Web App
 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
@@ -54,7 +54,7 @@ In this task, you will create an Azure App Service Web App.
 
 5. Click **Review + create**, and then click **Create**.
 
-# Task 2: Test the Web App
+## Task 2: Test the Web App
 
 In this task, we will test the web app.
 
