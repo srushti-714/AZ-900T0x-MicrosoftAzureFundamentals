@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Test deleting a member of the resource group
 + Task 4: Remove the resource lock
 
-## Estimated timing: 5 minutes
+## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
