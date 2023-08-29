@@ -1,8 +1,10 @@
 # Lab 12 - Implement Azure Key Vault
 
+## Lab overview
+
 In this walkthrough, we will create an Azure Key vault and then create a password secret within that key vault, providing a securely stored, centrally managed password for use with applications.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -15,7 +17,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab12.png)
 
-# Task 1: Create an Azure Key Vault
+### Task 1: Create an Azure Key Vault
 
 1. Click on the Azure Portal icon on the VM desktop and log in with the Azure using the Username and Password provided in the Lab **Environment Details** Tab.
 
