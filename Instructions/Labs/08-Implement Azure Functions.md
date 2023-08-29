@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab08.PNG) 
 
-# Task 1: Create a Function app
+### Task 1: Create a Function app
 
 In this task, we will create a Function app.
 
@@ -38,11 +38,11 @@ In this task, we will create a Function app.
     
     ![Screenshot of the Function App page with the new Function app.](../images/AZ-900-functionapp.png)
     
-4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-5. Wait for the notification that the resource has been created.
+1. Wait for the notification that the resource has been created.
 
-6. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/az-204_03-01.png)
 
