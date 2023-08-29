@@ -1,9 +1,11 @@
 
 # Lab 06 - Create a SQL database
 
+## Lab overview
+
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
