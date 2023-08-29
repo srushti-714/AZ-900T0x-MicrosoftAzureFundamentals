@@ -37,7 +37,7 @@ In this lab, you will complete the following tasks:
 
 1. Click on download and if asking for a Service level agreement, click on agree.
 
-   **Note**: Congratulations! In this walkthrough, you accessed the Trust Center and Service Trust Portal (STP).
+   >**Congratulations!** In this walkthrough, you accessed the Trust Center and Service Trust Portal (STP).
 
 ### Review
 In this lab, you have completed:
