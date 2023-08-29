@@ -1,8 +1,10 @@
 # Lab 05 - Create blob storage
 
+## Lab overview
+
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
