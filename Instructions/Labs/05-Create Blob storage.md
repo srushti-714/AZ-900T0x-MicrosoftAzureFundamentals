@@ -84,8 +84,6 @@ In this task, we will create a Blob container and upload a blob file.
 
     ![Screenshot of the storage account Insights page.](../images/AZ-9000503.png)
 
-    >**Note**: Congratulations! You have created a storage account, then worked with storage blobs.
-
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
     > - Hit the Validate button for the corresponding task.
