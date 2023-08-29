@@ -1,8 +1,10 @@
 # Lab 14 - Manage access with RBAC
 
-In this walkthrough, we will assign roles and view activity logs. 
+### Lab overview
 
-## Objectives
+In this walkthrough, we will assign roles and view activity logs.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
