@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 + Task 1: View available support plan options and a technical support request
 + Task 2: Create a billing support request
   
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
