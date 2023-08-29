@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create an Azure Key Vault
 + Task 2: Add a secret to the Key Vault
 
-## Estimated timing: 5 minutes
+## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
