@@ -1,8 +1,10 @@
 # Lab 11 - Create a VM with the CLI
 
-In this walk-through, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations. 
+## Lab overview
 
-## Objectives
+In this walkthrough, we will configure the Cloud Shell, use Azure CLI to create a virtual machine, and review Azure Advisor recommendations.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -17,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab11.png)
 
-# Task 1: Configure the Cloud Shell
+### Task 1: Configure the Cloud Shell
 
 In this task, we will configure Cloud Shell. 
 
@@ -33,7 +35,7 @@ In this task, we will configure Cloud Shell.
 
 1. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize. 
 
-# Task 2: Use CLI to create a virtual machine
+### Task 2: Use CLI to create a virtual machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.  
 
