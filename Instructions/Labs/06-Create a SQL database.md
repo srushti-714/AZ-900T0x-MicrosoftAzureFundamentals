@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create the database
 + Task 2: Test the database
 
-## Estimated timing: 20 minutes
+## Estimated timing: 45 minutes
 
 ## Architecture diagram
 
