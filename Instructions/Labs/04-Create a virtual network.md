@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Create two virtual machines
 + Task 3: Test the connection
 
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
