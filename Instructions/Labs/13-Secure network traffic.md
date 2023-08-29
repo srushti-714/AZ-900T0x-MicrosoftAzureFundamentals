@@ -1,8 +1,10 @@
 # Lab 13 - Secure network traffic
 
-In this walk-through, we will configure a network security group.
+## Lab overview
 
-## Objectives
+In this walkthrough, we will configure a network security group.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
