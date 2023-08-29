@@ -128,7 +128,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 6. If you have time, continue to experiment with Azure PowerShell.
 
-   Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
+   >**Note**: Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
