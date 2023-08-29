@@ -1,8 +1,10 @@
 # Lab 09 - Create a VM with a Template
 
+## Lab overview
+
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
