@@ -17,15 +17,15 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab13.png)
 
-# Task 1: Create a virtual machine 
+### Task 1: Create a virtual machine 
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
 1. Click on the Azure Portal icon on the VM desktop.
 
-2. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**, and then click **+ Create** then select Azure Virtual machines.
+1. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**, and then click **+ Create** then select Azure Virtual machines.
 
-3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
     | Settings | Values |
     |  -- | -- |
@@ -41,39 +41,39 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Inbound port rules | **None**|
     | | |
 
-4. Switch to the **Networking** tab, and configure the following setting:
+1. Switch to the **Networking** tab, and configure the following setting:
 
     | Settings | Values |
     | -- | -- |
     | NIC network security group | **None**|
     | | |
 
-5. Switch to the **Monitoring** tab, select the following setting:
+1. Switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
     | | |
 
-6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
-7. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
+1. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
 
-8. Monitor the deployment. It may take a few minutes for the resource group and virtual machine to be created. 
+1. Monitor the deployment. It may take a few minutes for the resource group and virtual machine to be created. 
 
-9. From the deployment blade or from the Notification area, click **Go to resource**. 
+1. From the deployment blade or from the Notification area, click **Go to resource**. 
 
-10. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
+1. On the **SimpleWinVM** virtual machine blade, click **Networking**, review the **Inbound port rules** tab, and note that there is no network security group associated with the network interface of the virtual machine or the subnet to which the network interface is attached.
 
     **Note**: Identify the name of the network interface. You will need it in the next task.
 
-# Task 2: Create a network security group
+### Task 2: Create a network security group
 
 In this task, we will create a network security group and associate it with the network interface.
 
 1. From the **Search resources, services, and docs** blade, search for and select **Network security groups** and then click **+ create**
 
-2. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
+1. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
 
     | Setting | Value |
     | -- | -- |
@@ -83,29 +83,29 @@ In this task, we will create a network security group and associate it with the 
     | Region | **(US) East US**  |
     | | |
 
-3. Click **Review + create** and then after the validation click **Create**.
+1. Click **Review + create** and then after the validation click **Create**.
 
-4. After the NSG is created, click **Go to resource**.
+1. After the NSG is created, click **Go to resource**.
 
-5. Under **Settings** click **Network interfaces** and then **Associate**.
+1. Under **Settings** click **Network interfaces** and then **Associate**.
 
-6. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
+1. Select the **network interface** you identified in the previous task, and then Click **Ok**. 
 
-# Task 3: Configure an inbound security port rule to allow RDP
+### Task 3: Configure an inbound security port rule to allow RDP
 
 In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-2. On the **Overview** pane, click **Connect > RDP > Download the RDP file > Run that file**.
+1. On the **Overview** pane, click **Connect > RDP > Download the RDP file > Run that file**.
 
-3. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
+1. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+1. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
-5. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
+1. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
 
     | Setting | Value |
     | -- | -- |
@@ -119,27 +119,27 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Name | **AllowRDP** |
     | | |
 
-6. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
+1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
-# Task 4: Configure an outbound security port rule to deny Internet access
+### Task 4: Configure an outbound security port rule to deny Internet access
 
 In this task, we will create a NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
 
 1. Continue in your virtual machine RDP session. If pop-up comes then select **yes**.
 
-2. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
+1. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
 
-3. Verify that you can access **https://www.bing.com** , click **OK** if pop-up comes, and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
+1. Verify that you can access **https://www.bing.com** , click **OK** if pop-up comes, and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
-4. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
+1. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
 
-5. Under **Settings**, click **Networking**, and then **Outbound port rules**.
+1. Under **Settings**, click **Networking**, and then **Outbound port rules**.
 
-6. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
+1. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
 
-7. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: simplewinvm<inject key="DeploymentID" enableCopy="false"/>)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
+1. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: simplewinvm<inject key="DeploymentID" enableCopy="false"/>)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
 
     | Setting | Value |
     | -- | -- |
@@ -154,9 +154,9 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Name | **DenyInternet** |
     | | |
 
-8. Return to your RDP session. 
+1. Return to your RDP session. 
 
-9. Browse to **https://www.microsoft.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
+1. Browse to **https://www.microsoft.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
