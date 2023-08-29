@@ -16,7 +16,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab03.PNG) 
 
-## Task 1: Create a container instance
+### Task 1: Create a container instance
 
 In this task, we will create a new container instance for the web application. 
 
@@ -57,7 +57,7 @@ In this task, we will create a new container instance for the web application.
 
 8. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
 
-## Task 2: Verify deployment of the container instance
+### Task 2: Verify deployment of the container instance
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
 
