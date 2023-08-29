@@ -1,8 +1,10 @@
 # Lab 15 - Manage resource locks
 
-In this walkthrough, we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
+## Lab overview
 
-## Objectives
+In this walkthrough,  we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
