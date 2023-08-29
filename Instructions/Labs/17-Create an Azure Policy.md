@@ -100,7 +100,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
-    Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
+    **Note**: Congratulations! You have created an Azure Policy to restrict the deployment of Azure resources to a particular data center.
 
 ### Review
 In this lab, you have completed:
