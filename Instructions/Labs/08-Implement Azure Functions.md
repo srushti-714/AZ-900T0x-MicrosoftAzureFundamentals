@@ -1,8 +1,10 @@
 # Lab 08 - Implement Azure Functions
 
-In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request. 
+## Lab overview
 
-## Objectives
+In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
