@@ -64,7 +64,7 @@ In this lab, you will complete the following tasks:
 
 4. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
-   Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
+   **Note**: Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
 
    **Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 

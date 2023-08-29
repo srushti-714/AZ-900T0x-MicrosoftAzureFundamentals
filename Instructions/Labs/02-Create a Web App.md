@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab02.PNG) 
 
-# Task 1: Create a Web App
+## Task 1: Create a Web App
 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
@@ -54,7 +54,7 @@ In this task, you will create an Azure App Service Web App.
 
 5. Click **Review + create**, and then click **Create**.
 
-# Task 2: Test the Web App
+## Task 2: Test the Web App
 
 In this task, we will test the web app.
 
@@ -68,9 +68,9 @@ In this task, we will test the web app.
 
 4. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
-    ![Screenshot of the Welcome to Azure Container Instance page.](../images/0802.png)
+    ![Screenshot of the Welcome to Azure Container Instance page.](../images/(0802).png)
 
-5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see correspoding telemetry being displayed in the charts. This includes number of requests and average response time.
+5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
