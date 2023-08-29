@@ -1,8 +1,10 @@
 # Lab 02 - Create a Web App
 
+## Lab overview
+
 In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
