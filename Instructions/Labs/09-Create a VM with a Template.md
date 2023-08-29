@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore the gallery and locate a template
 + Task 2: Verify and monitor your virtual machine deployment
 
-## Estimated timing: 30 minutes
+## Estimated timing: 40 minutes
 
 ## Architecture diagram
 
