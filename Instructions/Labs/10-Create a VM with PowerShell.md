@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab10.JPG)
 
-## Task 1: Configure the Cloud Shell
+### Task 1: Configure the Cloud Shell
 
 In this task, we will configure Cloud Shell.
 
