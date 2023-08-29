@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 + Task 1: View and assign roles
 + Task 2: Monitor role assignments and remove a role
 
-## Estimated timing: 20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
