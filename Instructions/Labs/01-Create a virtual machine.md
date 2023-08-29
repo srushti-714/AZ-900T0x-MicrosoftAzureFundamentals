@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab01.PNG) 
 
-## Task 1: Create the virtual machine
+### Task 1: Create the virtual machine
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
@@ -67,7 +67,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
 
-## Task 2: Connect to the virtual machine
+### Task 2: Connect to the virtual machine
 
 In this task, we will connect to our new virtual machine using RDP. 
 
@@ -97,7 +97,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
 
-## Task 3: Host a Basic Website on your New Cloud VM
+### Task 3: Host a Basic Website on your New Cloud VM
 
 In this task, install the Web Server role on the server and host a basic website.
 
