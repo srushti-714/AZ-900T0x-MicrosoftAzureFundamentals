@@ -1,8 +1,10 @@
 # Lab 04 - Create a virtual network
 
+## Lab overview
+
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
