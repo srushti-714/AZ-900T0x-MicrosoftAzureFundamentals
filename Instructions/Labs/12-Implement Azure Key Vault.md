@@ -65,7 +65,7 @@ In this task, we will add a password to the key vault.
 
 6. Click the button **Show Secret Value**, to display the password you specified earlier.
 
-   >**Note**: Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
+   **Note**: Congratulations! You have created an Azure Key Vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
