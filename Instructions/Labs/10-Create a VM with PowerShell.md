@@ -1,8 +1,10 @@
 # Lab 10 - Create a VM with PowerShell
 
-In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
+## Lab overview
 
-## Objectives
+In this walkthrough, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations.
+
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
