@@ -9,7 +9,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a Function app
 + Task 2: Create a HTTP triggered function and test
 
-## Estimated timing: 5 minutes
+## Estimated timing: 20 minutes
 
 ## Architecture diagram
 
