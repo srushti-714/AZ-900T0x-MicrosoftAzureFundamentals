@@ -48,15 +48,15 @@ In this lab, you will complete the following tasks:
 
 1. If any of the services that comprises our application are not available our application will not be available for users to sign in to and use. As such the total uptime for our application consists of the following:
 
-    **App Service % uptime** X **Azure AD B2C % uptime** X  **Azure Application Gateway % uptime** X **Azure SQL Database % uptime** = **Total % Uptime**
+    - **App Service % uptime** X **Azure AD B2C % uptime** X  **Azure Application Gateway % uptime** X **Azure SQL Database % uptime** = **Total % Uptime**
 
-    which in percentage term is as follows:
+    - which in percentage term is as follows:
 
-    **99.95%** X **99.9%** X **99.95%** X **99.99%** = **99.79%**
+    - **99.95%** X **99.9%** X **99.95%** X **99.99%** = **99.79%**
 
-    This is the SLA-based expected availability of our application with the current services and architecture.
+    - This is the SLA-based expected availability of our application with the current services and architecture.
 
-    Congratulations! You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
+    **Note**: Congratulations! You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
 
 ### Review
 In this lab, you have completed:
