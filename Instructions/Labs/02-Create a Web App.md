@@ -23,9 +23,9 @@ In this task, you will create an Azure App Service Web App.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
+1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
 
-3. On the **Basics** tab of the **Create Web App** blade.
+1. On the **Basics** tab of the **Create Web App** blade.
 
     **Note:**  **DeploymentId** can be obtained from the Lab Environment output page.
 
@@ -40,7 +40,7 @@ In this task, you will create an Azure App Service Web App.
     | | |
     
 
-4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
+1. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
 
     **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
@@ -52,7 +52,7 @@ In this task, you will create an Azure App Service Web App.
     | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     | | |
 
-5. Click **Review + create**, and then click **Create**.
+1. Click **Review + create**, and then click **Create**.
 
 ### Task 2: Test the Web App
 
@@ -60,17 +60,17 @@ In this task, we will test the web app.
 
 1. Wait for the Web App to deploy.
 
-2. From **Notifications** click **Go to resource**.
+1. From **Notifications** click **Go to resource**.
 
-3. On the **Overview** blade, locate the **Default Domain** entry.
+1. On the **Overview** blade, locate the **Default Domain** entry.
 
     ![Screenshot of the web app properties blade. The URL is highlighted.](../images/AZ-900-module-02-app-service.png)
 
-4. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
+1. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
     ![Screenshot of the Welcome to Azure Container Instance page.](../images/(0802).png)
 
-5. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
+1. Switch back to the **Overview** blade of your web app and note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
