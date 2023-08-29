@@ -1,10 +1,10 @@
 # Lab 20 - Use the Azure TCO Calculator
 
+### Lab overview
+
 In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator to generate cost comparison report for an on-premises environment.
 
-**Note**: This walkthrough provides example definitions of on-premises infrastructure and workloads for a typical datacenter. To create a TCO Calculator report, use the example definitions or provide details of your *actual* on-premises infrastructure and workloads.
-
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -16,6 +16,8 @@ In this lab, you will complete the following tasks:
 ## Architecture diagram
 
 ![](../images/az900lab20.png)
+
+**Note**: This walkthrough provides example definitions of on-premises infrastructure and workloads for a typical datacenter. To create a TCO Calculator report, use the example definitions or provide details of your *actual* on-premises infrastructure and workloads.
 
 ### Task 1: Configure the TCO calculator
 
