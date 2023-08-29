@@ -1,8 +1,10 @@
 # Lab 18 - Explore Microsoft Compliance Offerings
 
+## Lab overview
+
 In this walkthrough, we will access the Compliance Offerings and Service Trust Portal (STP).
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
