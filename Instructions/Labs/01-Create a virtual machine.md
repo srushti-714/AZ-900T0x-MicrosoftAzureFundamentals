@@ -1,8 +1,8 @@
 # Lab 01 - Create a virtual machine in the portal
 
-In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test. 
+## Lab overview
 
->**Note**: Take time during this walk-through to click and read the Informational icons. 
+In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
 
 ## Objectives
 
@@ -17,6 +17,8 @@ In this lab, you will complete the following tasks:
 ## Architecture diagram
 
 ![](../images/az900lab01.PNG) 
+
+**Note**: Take time during this walk-through to click and read the Informational icons.
 
 ### Task 1: Create the virtual machine
 
