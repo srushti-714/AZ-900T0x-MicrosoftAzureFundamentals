@@ -1,8 +1,10 @@
 # Lab 16 - Implement resource tagging
 
+## Lab overview
+
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
