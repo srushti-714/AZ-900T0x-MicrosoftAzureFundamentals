@@ -22,9 +22,9 @@ In this task, we will create a new container instance for the web application.
 
 1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
-2. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
+1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
 
-3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
+1. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
 	| Setting| Value|
 	|----|----|
@@ -39,7 +39,7 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 
 	
-4. Configure the Networking tab . Leave all other settings at their default values .
+1. Configure the Networking tab . Leave all other settings at their default values .
 
 	| Setting| Value|
 	|--|--|
@@ -49,13 +49,13 @@ In this task, we will create a new container instance for the web application.
 
     ![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900-01.png)
 
-5. Click **Review and Create** to start the automatic validation process.
+1. Click **Review and Create** to start the automatic validation process.
 
-6. Click **Create** to create the container instance. 
+1. Click **Create** to create the container instance. 
 
-7. Monitor the deployment page and the **Notifications** page. 
+1. Monitor the deployment page and the **Notifications** page. 
 
-8. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
+1. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
 
 ### Task 2: Verify deployment of the container instance
 
@@ -63,23 +63,20 @@ In this task, we verify that the container instance is running by ensuring that 
 
 1. After the deployment is complete, click the **Go to resource** link the deployment blade or the link to the resource in the Notification area.
 
-2. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**. 
+1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**. 
 
-3. Locate the Fully Qualified Domain Name (FQDN).
+1. Locate the Fully Qualified Domain Name (FQDN).
 
    ![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/AZ-900-02.png)
 
-2. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
+1. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
    **Note**: It might take 10-15 minutes to load the page.
  
    ![Screenshot of the ACI welcome message shown in a web browser.](../images/AZ-900-0300.png)
 	
-
-   **Note**: You could also use the container IP address in your browser. 
-
-    Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
-
+   **Note**: You could also use the container IP address in your browser.
+   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
     > - Hit the Validate button for the corresponding task.
