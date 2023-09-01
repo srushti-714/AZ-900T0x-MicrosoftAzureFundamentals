@@ -1,29 +1,31 @@
 # Lab 22 - Open a Support Request
 
+## Lab overview
+
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
 + Task 1: View available support plan options and a technical support request
 + Task 2: Create a billing support request
   
-## Estimated timing: 5 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
 ![](../images/az900lab22.png)
 
-# Task 1: View available support plan options and a technical support request
+### Task 1: View available support plan options and a technical support request
 
 1. Sign in to the [**Azure portal**](https://portal.azure.com) with the Username and Password provided in the Lab **Environment Details** Tab.
 
-2. From the **All services** blade, search for and select **Help + support**, then select **Support plans**.
+1. From the **All services** blade, search for and select **Help + support**, then select **Support plans**.
 
-3. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
+1. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
-4. Click **+ Create a support request**. The ticket is created based on the values you specify. 
+1. Click **+ Create a support request**. The ticket is created based on the values you specify. 
 
     | Setting | Value|
     |----|--------|
@@ -37,13 +39,13 @@ In this lab, you will complete the following tasks:
     | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
     | | |
 
-5. Click **Next: Solutions >>** and read through the recommended solutions.
+1. Click **Next: Solutions >>** and read through the recommended solutions.
 
-6. Click **Next: Details >>**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
+1. Click **Next: Details >>**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
 
     **Note:** We will stop at this point. Do you understand how to submit a technical request?
 
-# Task 2: Create a billing support request
+### Task 2: Create a billing support request
 
 1. Return to the **New support request** section and the **Basics** tab. 
 
@@ -56,13 +58,13 @@ In this lab, you will complete the following tasks:
     | Problem subtype | **Help me discover the service prices** |    
     | | |
 
-2. Click **Next: Solutions** and read through the recommended solutions.
+1. Click **Next: Solutions** and read through the recommended solutions.
 
-3. Click **Next: Details**.  When submitting a real support request you would provide as much information as possible to allow for a speedy resolution of the issue. 
+1. Click **Next: Details**.  When submitting a real support request you would provide as much information as possible to allow for a speedy resolution of the issue. 
 
     **Note:** We will STOP at this point. Do you understand how to submit a support request?
 
-4. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
+1. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
    **Note**: Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
 
