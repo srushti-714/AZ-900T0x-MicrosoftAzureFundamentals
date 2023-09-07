@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Create a storage account
 + Task 2: Work with blob storage
-+ Task 2: Monitor the storage account
++ Task 3: Monitor the storage account
 
 ## Estimated timing: 30 minutes
 
