@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a Web App
 + Task 2: Test the Web App
 
-## Estimated timing: 30 minutes
+## Estimated timing: 20 minutes
 
 ## Architecture diagram
 

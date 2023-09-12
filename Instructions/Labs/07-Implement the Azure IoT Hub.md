@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Add an IoT device
 + Task 3: Test the device using the Raspberry Pi Simulator
 
-## Estimated timing: 30 minutes
+## Estimated timing: 20 minutes
 
 ## Architecture diagram
 

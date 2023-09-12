@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: View all resources with a specific tag
 + Task 4: Delete the policy assignment
 
-## Estimated timing: 45 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 

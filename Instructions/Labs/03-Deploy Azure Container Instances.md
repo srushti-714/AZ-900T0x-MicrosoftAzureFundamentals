@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a container instance
 + Task 2: Verify deployment of the container instance
 
-## Estimated timing: 30 minutes
+## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
