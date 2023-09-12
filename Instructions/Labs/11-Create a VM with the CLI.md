@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Execute commmands in the Cloud Shell
 + Task 4: Review Azure Advisor Recommendations
 
-## Estimated timing: 20 minutes
+## Estimated timing: 15 minutes
 
 ## Architecture diagram
 
