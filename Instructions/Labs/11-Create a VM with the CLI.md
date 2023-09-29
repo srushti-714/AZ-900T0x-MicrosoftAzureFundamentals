@@ -23,8 +23,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure Cloud Shell. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
 1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
