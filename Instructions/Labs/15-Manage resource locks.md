@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
+1. On the Azure portal, from the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
 
 ### Task 2:  Add a Lock to the resource group and test deletion
 
