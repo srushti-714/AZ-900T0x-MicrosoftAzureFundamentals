@@ -31,7 +31,7 @@ In this task, we will create a new storage account.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
