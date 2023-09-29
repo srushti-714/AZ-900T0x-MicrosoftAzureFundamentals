@@ -23,8 +23,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
-1. Click on the Azure Portal icon on the VM desktop.
-
 1. From the **Search resources, services, and docs** blade, search for and select **Virtual machines**, and then click **+ Create** then select Azure Virtual machines.
 
 1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
