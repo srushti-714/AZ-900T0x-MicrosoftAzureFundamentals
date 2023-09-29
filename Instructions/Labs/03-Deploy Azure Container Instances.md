@@ -22,8 +22,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new container instance for the web application. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
-
 1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
 
 1. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
