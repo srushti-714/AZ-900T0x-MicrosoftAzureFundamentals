@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Work with blob storage
 + Task 3: Monitor the storage account
 
-## Estimated timing: 30 minutes
+## Estimated timing: 15 minutes
 
 ## Architecture diagram
 

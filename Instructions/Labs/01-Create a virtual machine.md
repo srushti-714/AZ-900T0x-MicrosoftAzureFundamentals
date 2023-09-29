@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Connect to the virtual machine
 + Task 3: Host a Basic Website on your New Cloud VM
 
-## Estimated timing: 45 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 

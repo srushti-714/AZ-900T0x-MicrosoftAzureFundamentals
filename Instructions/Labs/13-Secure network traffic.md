@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Configure an inbound security port rule to allow RDP
 + Task 4: Configure an outbound security port rule to deny Internet access
   
-## Estimated timing: 45 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
