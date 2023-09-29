@@ -28,7 +28,7 @@ In this lab, you will complete the following tasks:
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" />**  |
     | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **East US** |
     | Pricing tier | **Standard** |
