@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Access Microsoft Compliance Offerings
 
-1. In a own browser, access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
+1. In your own local browser, access the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
 
 1. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
