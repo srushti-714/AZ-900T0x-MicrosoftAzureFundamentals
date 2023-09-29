@@ -31,13 +31,11 @@ In this task, we will create an IoT hub.
     | Settings | Value |
     |--|--|
     | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" />**  |
     | Region | **East US** |
     | IoT Hub Name | **my-hub-group<inject key="DeploymentID" enableCopy="false" />** |
     | Tier | **Standard (most popular)”** |
-    | | |
-
-    
+       
 1. Click the **Review + create** button.
 
 1. Click the **Create** button to begin creating your new Azure IoT Hub instance.
