@@ -36,7 +36,7 @@ In this task, we will create a Function app.
     | Runtime stack | **.NET** |
     | Version | **6 (LTS)** |
     | Region | **East US** |
-    | | |
+    
     
     ![Screenshot of the Function App page with the new Function app.](../images/AZ-900-functionapp.png)
     
