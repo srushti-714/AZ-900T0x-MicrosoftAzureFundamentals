@@ -33,7 +33,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
+    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen2**|
@@ -42,7 +42,6 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules  | **Allow select ports**|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
-    | | |
 
    > **Note** : DeploymentID can be obtained from the Lab Environment output page.
 
@@ -51,8 +50,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
-    | | |
-
+   
     **Note** - Verify that both port 80 and 3389 are selected
 
 1. Switch to the **Monitoring** tab, select the following setting:
@@ -60,8 +58,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
-    | | |
-
+  
 1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
