@@ -19,9 +19,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: View available support plan options and a technical support request
 
-1. Sign in to the [**Azure portal**](https://portal.azure.com) with the Username and Password provided in the Lab **Environment Details** Tab.
-
-1. From the **All services** blade, search for and select **Help + support**, then select **Support plans**.
+1. On the Azure portal, from the **All services** blade, search for and select **Help + support**, then select **Support plans**.
 
 1. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
