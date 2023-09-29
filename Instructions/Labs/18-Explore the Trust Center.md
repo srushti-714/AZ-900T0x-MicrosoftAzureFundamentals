@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 2: Access the Service Trust Portal (STP)
 
-1. In a own browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
+1. In your own local browser, access the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
 1. Notice the **Reports, Whitepapers and Artifacts** section. In this section their are independent audit reports for different Microsoft Cloud services.
  
