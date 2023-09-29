@@ -23,7 +23,7 @@ Azure App Service is actually a collection of four services, all of which are bu
 
 In this task, you will create an Azure App Service Web App.
 
-1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
+1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
 
 1. On the **Basics** tab of the **Create Web App** blade.
 
