@@ -23,8 +23,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. Click on the **Azure Portal** icon on the VM desktop and log in with the **Username** and **Password** provided in the Lab Environment Tab.
-
 1. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
 
 ### Task 2:  Add a Lock to the resource group and test deletion
@@ -45,7 +43,6 @@ In this task, we will add a resource lock to the resource group and test deletin
     | --- | --- |
     | Lock name | **RGLock** |
     | Lock Type | **Delete** |
-    | | |
 
 1. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **Delete**. You receive an error message stating the resource group is locked and can't be deleted.
 
