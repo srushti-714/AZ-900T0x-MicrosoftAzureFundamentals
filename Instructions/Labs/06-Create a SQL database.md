@@ -31,11 +31,9 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGDb-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
+    | Resource group | **myRGDb-<inject key="DeploymentID" enableCopy="false"/>** |
     | Database name| **db1** | 
-    | | |
-
-
+    
 1. Next to the **Server** drop down list, click **Create new**. Click **OK** when finished.          
 
     | Setting | Value | 
@@ -45,8 +43,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Authentication method | **Use SQL authentication** | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
-    | | |
-
+   
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
 
 1. Move to the **Networking** tab and configure the following settings (leave others with their defaults) 
@@ -56,7 +53,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Connectivity method | **Public endpoint** |    
     | Allow Azure services and resources to access this server | **Yes** |
     | Add current client IP address | **No** |
-    | | |
+  
     
    ![Screenshot of the Networking tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501b.png)
 
@@ -71,7 +68,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** |
-    | | |
+   
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)
 
