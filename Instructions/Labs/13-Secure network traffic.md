@@ -32,7 +32,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
+    | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name | **SimpleWinVM** |
     | Location | **(US) East US**|
     | Availability option | **No infrastructure redundancy required** |
@@ -41,22 +41,21 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules | **None**|
-    | | |
+   
 
 1. Switch to the **Networking** tab, and configure the following setting:
 
     | Settings | Values |
     | -- | -- |
     | NIC network security group | **None**|
-    | | |
+   
 
 1. Switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
-    | | |
-
+   
 1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
@@ -83,7 +82,7 @@ In this task, we will create a network security group and associate it with the 
     | Resource group | **myRGSecure<inject key="DeploymentID" enableCopy="false"/>** |
     | Name | **myNSGSecure** |
     | Region | **(US) East US**  |
-    | | |
+   
 
 1. Click **Review + create** and then after the validation click **Create**.
 
@@ -119,7 +118,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Action | **Allow** |
     | Priority | **300** |
     | Name | **AllowRDP** |
-    | | |
+  
 
 1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
@@ -154,7 +153,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Action | **Deny** |
     | Priority | **4000** |
     | Name | **DenyInternet** |
-    | | |
+   
 
 1. Return to your RDP session. 
 
