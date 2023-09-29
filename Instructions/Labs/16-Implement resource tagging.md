@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
-1. From the **Search resources, services, and docs** blade, search for and select **Policy**.
+1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
 
 1. In **Authoring** section, click **Assignments**, and then click **Assign Policy** from the top of the page.
 
