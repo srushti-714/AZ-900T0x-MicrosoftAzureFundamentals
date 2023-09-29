@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 
-1. From the **Search resources, services, and docs** blade, search for and select **SQL databases**, and then click **+ Create**. 
+1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **SQL databases**, and then click **+ Create**. 
 
 1. On the **Basics** tab, fill in this information.  
 
