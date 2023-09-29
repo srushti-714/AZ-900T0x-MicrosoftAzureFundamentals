@@ -22,8 +22,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new storage account. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
-
 1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else.
