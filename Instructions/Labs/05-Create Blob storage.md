@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Create a storage account
 + Task 2: Work with blob storage
-+ Task 2: Monitor the storage account
++ Task 3: Monitor the storage account
 
 ## Estimated timing: 15 minutes
 
@@ -22,16 +22,14 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new storage account. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
-
-1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
+1. On the Azure portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |

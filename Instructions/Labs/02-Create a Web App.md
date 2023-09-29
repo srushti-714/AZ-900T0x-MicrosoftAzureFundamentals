@@ -23,9 +23,7 @@ Azure App Service is actually a collection of four services, all of which are bu
 
 In this task, you will create an Azure App Service Web App.
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
-
-1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
+1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
 
 1. On the **Basics** tab of the **Create Web App** blade.
 
@@ -34,14 +32,12 @@ In this task, you will create an Azure App Service Web App.
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGWebApp1-<inject key="DeploymentID" enableCopy="false"/>** (use existing) |
+    | Resource Group | **myRGWebApp1-<inject key="DeploymentID" enableCopy="false"/>**  |
     | Name | **myDockerWebApp<inject key="DeploymentID" enableCopy="false"/>** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
     | Region | **East US** (ignore any service plan availability warnings) |
-    | | |
-    
-
+        
 1. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
 
     **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
@@ -52,8 +48,7 @@ In this task, you will create an Azure App Service Web App.
     | Image Source | **Docker Hub** |
     | Access Type | **Public** |
     | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
-    | | |
-
+    
 1. Click **Review + create**, and then click **Create**.
 
 ### Task 2: Test the Web App

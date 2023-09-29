@@ -21,9 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. Click on the Azure Portal icon on the VM desktop.
-
-1. From the **Search resources, services, and docs** blade, search for and select **Resource groups**
+1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**
 
 1. Then view the existing resource group. 
 

@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Determine the SLA uptime percentage values for our application
 
-1. In a browser, go to the [SLA summary for Azure services](https://azure.microsoft.com/en-us/support/legal/sla/summary/) page.
+1. In your own local browser, go to the [SLA summary for Azure services](https://azure.microsoft.com/en-us/support/legal/sla/summary/) page.
 
 1. Don't make any changes, leave the settings as default, then select the latest version of the SLA.
 

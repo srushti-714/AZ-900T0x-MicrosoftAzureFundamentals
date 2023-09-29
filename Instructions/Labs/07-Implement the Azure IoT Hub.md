@@ -22,22 +22,18 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create an IoT hub. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
-
-1. From the **All services** blade, search for and select **IoT Hub** and then click **+ Create**.
+1. On the Azure portal, from the **All services** blade, search for and select **IoT Hub** and then click **+ Create**.
 
 1. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details:
 
     | Settings | Value |
     |--|--|
     | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" />** (use existing) |
+    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" />**  |
     | Region | **East US** |
     | IoT Hub Name | **my-hub-group<inject key="DeploymentID" enableCopy="false" />** |
     | Tier | **Standard (most popular)”** |
-    | | |
-
-    
+       
 1. Click the **Review + create** button.
 
 1. Click the **Create** button to begin creating your new Azure IoT Hub instance.

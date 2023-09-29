@@ -23,8 +23,6 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure Cloud Shell. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
 1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
@@ -93,11 +91,16 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
     az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
     ```
 
+    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+
+
 1. Stop the virtual machine. Notice the message that billing continues until the virtual machine is deallocated. 
 
     ```cli
     az vm stop --resource-group myRGCLI-[deployId] --name myVMCLI
     ```
+
+   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
 
 1. Verify your virtual machine status. The PowerState should now be **stopped**.
 
