@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Function app.
 
-1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Create**.
+1. On the Azure portal, in the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Create**.
 
 1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
 
