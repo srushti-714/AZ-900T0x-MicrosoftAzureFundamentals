@@ -31,7 +31,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|----|----|
 	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** (Use Existing) |
+	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Other registry**|
