@@ -27,7 +27,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?
 
-1. Search and Select the **Deploy a simple Windows VM**.
+1. Search and Select the **Deploy a simple Windows VM with tags**.
 
     **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
@@ -35,9 +35,9 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and locate the parameter for the virtual machine name. Go to line no 109 and Change the name to **myVMTemplate**, and **Save** your changes. 
+1. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and locate the parameter for the virtual machine name. Go to line no 110 and Change the name to **myVMTemplate**, and **Save** your changes. 
 
-    ![](../images/90(1).png)
+    ![](../images/imageVM.png)
 
 1. Now configure the parameters required by the template. Leave the defaults for everything else. 
 
