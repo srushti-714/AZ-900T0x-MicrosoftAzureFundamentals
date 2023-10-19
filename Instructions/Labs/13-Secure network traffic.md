@@ -96,7 +96,11 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-1. On the **Overview** pane, click **Connect > RDP > Download the RDP file > Run that file**.
+1. On the **Overview** pane, click **Connect
+
+1. On **SimpleWinVM** | Connect page, under Native RDP click on Select and on Native RDP window select and Download RDP file.
+
+    ![](../images/image001.png)
 
 1. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
