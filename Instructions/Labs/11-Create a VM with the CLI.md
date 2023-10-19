@@ -39,7 +39,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
-    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/Az-900-1102.png)
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/image-002.png)
 
 1. In the Bash session, within the Cloud Shell pane, get existing resource group. 
 
@@ -114,7 +114,9 @@ In this task, we will review Azure Advisor recommendations.
 
    **Note:** If you have completed the previous lab (Create a VM with PowerShell), then you have already performed this task. 
 
-1. From the **All services** blade, search for and select **Advisor**. 
+1. From the **All services** blade, search for and select **Advisor**.
+
+   ![](../images/image-003.png)
 
 1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost. 
 
