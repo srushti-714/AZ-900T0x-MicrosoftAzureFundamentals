@@ -55,6 +55,10 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. Create a new virtual machine. Make sure that each line except for the last one is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
+    **Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
+    
+    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+
     ```cli
     az vm create \
     --name myVMCLI \
@@ -64,11 +68,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
     ```
-
-    **Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
-    
-    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
-    
+     
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 1. When the command finishes running, in the browser window, close the Cloud Shell pane.
@@ -87,28 +87,26 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
 
 1. Retrieve information about the virtual machine you provisioned, including name, resource group, location, and status. Notice the PowerState is **running**.
 
+   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
+
     ```cli
     az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
     ```
-
-    **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
-
-
-1. Stop the virtual machine. Notice the message that billing continues until the virtual machine is deallocated. 
+1. Stop the virtual machine. Notice the message that billing continues until the virtual machine is deallocated.
+   
+   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
 
     ```cli
     az vm stop --resource-group myRGCLI-[deployId] --name myVMCLI
     ```
 
-   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
-
 1. Verify your virtual machine status. The PowerState should now be **stopped**.
+
+   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
 
     ```cli
     az vm show --resource-group myRGCLI-[deployId] --name myVMCLI --show-details --output table 
     ```
-
-   **Note**: Replace myRGCLI-[deployId] with  **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**
 
 ### Task 4: Review Azure Advisor Recommendations
 
