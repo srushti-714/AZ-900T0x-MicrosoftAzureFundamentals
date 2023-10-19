@@ -102,6 +102,8 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
     ![](../images/image-001.png)
 
+1. Open the downloaded rdp file.
+   
 1. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
