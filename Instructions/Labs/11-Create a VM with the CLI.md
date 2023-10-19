@@ -114,10 +114,12 @@ In this task, we will review Azure Advisor recommendations.
 
    **Note:** If you have completed the previous lab (Create a VM with PowerShell), then you have already performed this task. 
 
-1. From the **All services** blade, search for and select **Advisor**.
+1. On the Azure portal home page, from top left corner of page click **Show portal** menu and select **All services**.
 
-   ![](../images/image-003.png)
+   ![](../images/image-(003).png)
 
+1. Fom the **All servicess** page in search bar, search  and select **Advisor**.
+   
 1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost. 
 
     ![Screenshot of the Advisor Overview page. ](../images/Az-900-11-04.png)
