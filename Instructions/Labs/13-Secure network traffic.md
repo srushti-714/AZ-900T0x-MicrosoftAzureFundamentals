@@ -100,7 +100,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. On **SimpleWinVM** | Connect page, under Native RDP click on Select and on Native RDP window select and Download RDP file.
 
-    ![](../images/image001.png)
+    ![](../images/image-001.png)
 
 1. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
