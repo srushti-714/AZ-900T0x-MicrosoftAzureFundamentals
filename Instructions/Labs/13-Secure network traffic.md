@@ -36,11 +36,11 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Availability option | **No infrastructure redundancy required** |
     | Image | **Windows Server 2019 Datacenter Gen 2**|
     | Size | **Standard D2s v3**|
-    | Administrator account username | **azureuser** |
-    | Administrator account password | **Pa$$w0rd1234**|
+    | Username | **azureuser** |
+    | Password | **Pa$$w0rd1234**|
+    | Confirm Password | **Pa$$w0rd1234**|
     | Inbound port rules | **None**|
    
-
 1. Switch to the **Networking** tab, and configure the following setting:
 
     | Settings | Values |
