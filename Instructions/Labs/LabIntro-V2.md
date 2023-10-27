@@ -12,6 +12,8 @@
 
     ![](../images/splitw.png)
 
+1. To hide the lab guide, click on **>** symbol and to expose the lab guide, click on **<** symbol.   
+
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
     ![](../images/res.png)
