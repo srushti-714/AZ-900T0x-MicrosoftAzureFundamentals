@@ -50,6 +50,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate-<inject key="DeploymentID" enableCopy="false"/>** |
     | Windows OS version | **2019-datacenter-gensecond** |
+    | VM Size | **Standard_D2s_v5** |
     
 1. Click **Review + Create**.
  
