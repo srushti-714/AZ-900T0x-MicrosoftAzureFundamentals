@@ -100,10 +100,10 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 1. Stop the virtual machine. When prompted confirm (Yes) to the action.
 
+   **Note**: Replace myRGPS-[deployId] with **myRGPS-<inject key="DeploymentID" enableCopy="false" />**
     ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
-    **Note**: Replace myRGPS-[deployId] with **myRGPS-<inject key="DeploymentID" enableCopy="false" />**
 
 1. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
