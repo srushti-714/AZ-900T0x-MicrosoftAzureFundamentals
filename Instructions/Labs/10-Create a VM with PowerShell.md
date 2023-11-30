@@ -50,20 +50,27 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```
     Get-AzResourceGroup | Format-Table
     ```
+1. Run the following command to registe the EncryptionAtHost feature using the command.
 
-1. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line). Replace myRGPS-[DeploymentId] in the below command with the Resource Group Name from the output of the previous command
+    ```
+    Register-AzProviderFeature -FeatureName "EncryptionAtHost" -ProviderNamespace "Microsoft.Compute"
+    ```
+1. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
+
+   **Note**: Replace myRGPS-<inject key="DeploymentID" enableCopy="false"/> in the below command with the Resource Group Name from the output 
+   of the previous command
 
     ```
     New-AzVm `
     -ResourceGroupName "myRGPS-[DeploymentId]" `
     -Name "myVMPS" `
     -Location "East US" `
+    -Size "Standard_DS1_v2" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-
     **Note**: Wait for VM to deploy before closing PowerShell
 
 1. Close the PowerShell session Cloud Shell pane.
