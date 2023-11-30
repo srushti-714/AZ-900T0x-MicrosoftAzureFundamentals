@@ -50,8 +50,7 @@ In this task, we will create a virtual network.
     | Subnet Name |**default**|
     | Subnet Address range | **10.1.0.0/24**|
   
-    
- 
+
 
     ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
@@ -126,7 +125,9 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     **Repeat step 1 to 6 for vm2.**
 
-1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and disable both the public and private firewall by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall.
+1. In **both** newly created virtual machines(vm1,vm2), connect via RDP and **disable both the public and private firewall** by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall.
+
+   ![image](../images/vnet01.png)
 
 1. Open up a PowerShell command prompt on the virtual machine(vm1), by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
