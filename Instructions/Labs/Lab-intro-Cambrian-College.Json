@@ -1,8 +1,9 @@
 {
   "Name": "AZ-900: MICROSOFT AZURE FUNDAMENTALS - STUDENT TEST",
   "Language": "English",
-  "Files": [
+  "Files": 
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/Labs/Lab-intro-Cambrian-College.md",
       "Order": 1
-    },
+    }
+  }
