@@ -41,6 +41,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Authentication method | **Use SQL authentication** | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
+    | Confirm Password | **Pa$$w0rd1234** |
    
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
 
