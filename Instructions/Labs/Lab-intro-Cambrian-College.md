@@ -44,7 +44,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```
     New-AzVm `
     -ResourceGroupName 'StudentTestRG-[DeploymentId]' `
-    -Name 'myVMPS' 
+    -Name 'myVM' 
     -Location 'Canada Central'`
     -Image 'Win2019Datacenter' `
     -VirtualNetworkName 'myVnet'`
@@ -57,9 +57,9 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Close the PowerShell session Cloud Shell pane.
 
-1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
+1. In the Azure portal, search for **Virtual machines** and verify the **myVM** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/AZ-900-10-02.png)
+    ![Screenshot of the virtual machines page with myVM in a running state.](../images/psvm.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
@@ -107,7 +107,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. In the Azure portal, search for **Virtual machines** and verify that **myVMCLI** is running.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/Az-900-11-03.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/clivm.png)
 
 ## 3.	Create a SQL database:
 
@@ -500,3 +500,5 @@ In this task, we will test the Allowed location policy.
 1. Click on **Review** and once validation gets success, click on **Create**.
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
+
+## You have successfully completed Test.
