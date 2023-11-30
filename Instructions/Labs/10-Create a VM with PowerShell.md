@@ -31,7 +31,7 @@ In this task, we will configure Cloud Shell.
 
 1. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
-1. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
+1. When prompted, select **Show advanced settings** and then select **Use existing** and choose resource group myRGPS-<inject key="DeploymentID" enableCopy="false"/>. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
 
 ### Task 2: Create a virtual machine
 
@@ -84,6 +84,8 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    **Note**: You can try validating the task after 5-10 minutes, if validations are failing.
+
 ### Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell.
@@ -123,11 +125,11 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
     ![Screenshot of the Advisor Overview page. ](../images/AZ-900-10-03.png)
 
-    **Note:** Depending on your resources, your recommendations will be different and we might get the notification "You are following all of our performance recommendations".
+    **Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
 1. Select **All recommendations** and take time to view each recommendation and suggested actions.
 
-    **Note:** Depending on your resources, your recommendations will be different and we might get the notification "You are following all of our performance recommendations".
+    **Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
     ![Screenshot of the Advisor All recommendations page. ](../images/AZ-900-10-04.png)
 
