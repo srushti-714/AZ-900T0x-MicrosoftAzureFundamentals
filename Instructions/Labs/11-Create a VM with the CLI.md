@@ -62,7 +62,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     ```cli
     az vm create \
     --name myVMCLI \
-    --resource-group myRGCLI-1162289 \
+    --resource-group myRGCLI-[deployId] \
     --image Win2019Datacenter \
     --location EastUS \
     --size Standard_DS1_v2 \
