@@ -68,8 +68,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     --size Standard_DS1_v2 \
     --admin-username azureuser \
     --admin-password Pa$$w0rd1234
-    ```
-     
+    ```    
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 1. When the command finishes running, in the browser window, close the Cloud Shell pane.
