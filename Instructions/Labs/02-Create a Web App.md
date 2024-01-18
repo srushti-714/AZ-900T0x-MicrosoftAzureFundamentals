@@ -23,7 +23,7 @@ Azure App Service is actually a collection of four services, all of which are bu
 
 In this task, you will create an Azure App Service Web App.
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create**
+1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**, and click **+ Create** then from dropdown select **+ Web App**.
 
 1. On the **Basics** tab of the **Create Web App** blade.
 
@@ -38,7 +38,7 @@ In this task, you will create an Azure App Service Web App.
     | Operating System | **Linux** |
     | Region | **East US** (ignore any service plan availability warnings) |
         
-1. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise.
+1. Click **Next > Docker** tab and configure the container information. The startup command is optional and not needed in this exercise.
 
     **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message.
 
