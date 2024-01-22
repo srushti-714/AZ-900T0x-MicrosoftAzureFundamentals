@@ -111,7 +111,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
-1. On the **Overview** blade, click the **Connect** button and select **Connect** from the deop-dowm list.
+1. On the **Overview** blade, click the **Connect** button and select **Connect** from the drop-down list.
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. 
 
