@@ -83,7 +83,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
 
-1. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)**.
+1. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)** from the left navigation pane.
 
 1. Login as **sqluser** with the password **Pa$$w0rd1234**.
 
