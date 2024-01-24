@@ -56,7 +56,7 @@ In this task, we will add an IoT device to the IoT hub.
 
 1. If you do not see your new device, **Refresh** the IoT Devices page. 
 
-1. Select **myRaspberryPi** and copy the **Primary Connection String** value. You will use this key in the next task to authenticate a connection to the Raspberry Pi simulator.
+1. Select **<inject key="DeploymentID" enableCopy="false" />** and copy the **Primary Connection String** value. You will use this key in the next task to authenticate a connection to the Raspberry Pi simulator.
 
 	![Screenshot of the Primary Connection String page with the copy icon highlighted.](../images/AZ-9000702.png)
 
