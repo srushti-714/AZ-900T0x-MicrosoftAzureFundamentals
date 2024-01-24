@@ -80,7 +80,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 1. Return to the Azure portal and your IoT Hub.
 
-1. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information.
+1. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information notice the chart and you can select **change show data for last** to see the data based on days.
 
    ![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/AZ-9000703.png)
 
