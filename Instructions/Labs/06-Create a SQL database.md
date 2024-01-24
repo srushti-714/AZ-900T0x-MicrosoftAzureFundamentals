@@ -103,7 +103,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/az-900mod-6img-2.png)
 
-1. Return to your SQL database and the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
+1. Return to your SQL database and the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. Click on **OK**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
 1. Once you log in successfully the query pane appears, enter the following query into the editor pane.
 
