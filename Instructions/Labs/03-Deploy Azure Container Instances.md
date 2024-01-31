@@ -22,9 +22,13 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new container instance for the web application. 
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances** and then click **+ Create**. 
+1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances**.
 
-1. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
+    ![](../images/lab3-image1.png)
+   
+1. On **Container instances** blade, click **+ Create**. 
+
+1. On the **basics** tab. Provide the following Basic details for the new container instance then click **Next: Networking >**.
 
 	| Setting| Value|
 	|----|----|
@@ -39,17 +43,16 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 
 	
-1. Configure the Networking tab . Leave all other settings at their default values .
+1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create**.
 
-	| Setting| Value|
-	|--|--|
-	| DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" />** |
+    | Setting| Value|
+    |--|--|
+    | DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" />** |
+    |||
 
+    ![](../images/lab3-image2.png)
+   
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment.
-
-    ![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/AZ900-01.png)
-
-1. Click **Review and Create** to start the automatic validation process.
 
 1. Click **Create** to create the container instance. 
 
@@ -63,17 +66,21 @@ In this task, we verify that the container instance is running by ensuring that 
 
 1. After the deployment is complete, click the **Go to resource** link the deployment blade or the link to the resource in the Notification area.
 
-1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**. 
+   ![](../images/lab3-image3.png)
 
-1. Locate the Fully Qualified Domain Name (FQDN).
+1. On the **Overview** blade of **mycontainer**, ensure your container **Status** is **Running**.
 
-   ![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/AZ-900-02.png)
+    ![](../images/lab3-image6.png)
 
-1. Copy the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
+1. Locate and copy the Fully Qualified Domain Name (FQDN).
+
+    ![](../images/lab3-image4.png)
+
+1. Paste the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
    **Note**: It might take 10-15 minutes to load the page.
  
-   ![Screenshot of the ACI welcome message shown in a web browser.](../images/AZ-900-0300.png)
+   ![](../images/lab3-image5.png)
 	
    **Note**: You could also use the container IP address in your browser.
    
