@@ -22,45 +22,38 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a virtual network. 
 
-**Note:** Before beginning the lab, disable both the public and private firewall in your virtual machine by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
-
 1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Virtual networks**, and then click **+ Create**. 
 
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
+      | Setting | Value | 
+      | ---     | ---   |
+      | Name    | **vnet1** |
+      | Subscription | **Choose your subscription**  |
+      | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
+      | Location | **(US) East US** |
 
-   | Setting | Value | 
-   | ---     | ---   |
-   | Name    | **vnet1** |
-   | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet-<inject key="DeploymentID" enableCopy="false"/>** |
-   | Location | **(US) East US** |
- 
+      ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
 
-1. On the **Create virtual network** blade, go to the IP Addresses tab and delete precreated IP address and create the new address space.
+1. On the **Create virtual network** blade,click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
     | Setting | Value | 
     | --- | --- |
     | Address space |**10.1.0.0/16**|
-    
- 1. Click on **+ Add Subnet** and enter the following (Delete if any subnet exists already with the name default) then click on **Add**:
+ 
+ 1. Click on **+ Add Subnet** and ensure if the following address is reflecting (Delete if any subnet exists already with the name default) if you have made any changed then click on **Add**.
   
     | Setting | Value | 
     | --- | --- |
     | Subnet Name |**default**|
     | Subnet Address range | **10.1.0.0/24**|
   
-
-
-    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
-    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
+    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
 
 1. Click the **Review + create** button. Ensure the validation passes.
 
 1. Click the **Create** button to deploy the virtual network. 
-
-    **Note**: In your organization, how will you know which virtual networks and IP addressing you will need?
-
+    
 ### Task 2: Create two virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
@@ -82,7 +75,12 @@ In this task, we will create two virtual machines in the virtual network.
    | Selected inbound ports| **RDP (3389)** |
    |||
 
-1. Select the **Networking** tab. Make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
+1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
+
+
+1. In **Networking** tab, make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
 
    | Setting | Value | 
    | --- | --- |
@@ -93,7 +91,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. Monitor your deployment, but continue on to the next step. 
 
-1. Create a second virtual machine by repeating steps **2 to 4** above. Make sure you use a different virtual machine name, that the virtual machine is within the same virtual network, and is using a new public IP address:
+1. Create a second virtual machine by repeating steps **2 to 5** above. Make sure you use a different virtual machine name, that the virtual machine is within the same virtual network, and is using a new public IP address:
 
     | Setting | Value |
     | --- | --- |
@@ -111,11 +109,17 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
-1. On the **Overview** blade, click the **Connect** button and select **Connect** from the drop-down list.
+1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-    **Note**: The following directions tell you how to connect to your VM from a Windows computer. 
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
-1. On the **Connect to virtual machine** blade, keep the default options to connect by IP address over port 3389 and click **Download RDP File**.
+    >**Note:**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+
+1. Within the **Connect** page, click on **Download RDP File**.
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
+
+1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
 
 1. Open the downloaded RDP file and click **Connect** when prompted. 
 
@@ -139,11 +143,11 @@ In this task, we will try to test whether the virtual machines can communicate (
     
      ![Screenshot of the pinged VM2 from VM.](../images/AZ900Lab4.png)
    
-     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-     > - Hit the Validate button for the corresponding task.
-     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you have completed:

@@ -30,55 +30,65 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Virtual machine name | **myVm** |
-    | Location | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter - Gen2**|
-    | Size | **Standard_D2s_v3**|
-    | Administrator account username | **azureuser** |
-    | Administrator account password | **Pa$$w0rd1234**|
-    | Inbound port rules  | **Allow select ports**|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
+    | Subscription | **Choose your subscription** (1)|
+    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
+    | Virtual machine name | **myVm** (3)|
+    | Location | **(US) East US** (4)|
+    | Image | **Windows Server 2019 Datacenter - Gen2** (5)|
+    | Size | **Standard_D2s_v3** (6)|
+    | Administrator account username | **azureuser** (7)|
+    | Administrator account password | **Pa$$w0rd1234** (8)|
+    | Inbound port rules  | **Allow select ports** (9)|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
 
-   > **Note** : DeploymentID can be obtained from the Lab Environment output page.
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/VM1.png)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/VM2.png)
 
-1. Switch to the Networking tab, and look for the **Select inbound ports**:
+1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
+
+1. Within the Networking tab, look for the **Select inbound ports**:
 
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
    
-    **Note** - Verify that both port 80 and 3389 are selected
+    >**Note:** - Verify that both port 80 and 3389 are selected
 
-1. Switch to the **Monitoring** tab, select the following setting:
+1. Click **Next** to switch to the **Management** tab and leave everything as default.
+
+1. Click **Next** to switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
   
-1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
-
 ### Task 2: Connect to the virtual machine
 
 In this task, we will connect to our new virtual machine using RDP. 
 
-1. Search for **myVm** and select your new virtual machine.
+1. Once the deployment is complete, click on **Go to resource** you will be directed to the page of the newly created Virtual Machine.
 
-    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/goto.png)
+   
+1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **RDP** tab.
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/01-01.png)
+    >**Note:**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
-    **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+1. Within the **Connect** page, click on **Download RDP File**.
 
-1. Within the **Connect with RDP** section of the RDP tab, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**.
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
+
+1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
 
 1. **Open** the downloaded RDP file and click **Connect** when prompted. 
 
@@ -100,6 +110,10 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![server manager](../images/az900-t3_s1.png)
 
+    >**Note:** If you get a pop-up related to **Networking** click **No**
+    
+    ![server manager](../images/network.png)
+
 1. Within the **Add Roles and Features Wizard** dialog box, click on **Next**.
 
 1. Ensure **Role-based or feature-based installation** is selected. Click Next.
@@ -114,9 +128,9 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![Restart the destination check box](../images/az900-t3_s7.png)
 
-    **Note**: If a pop-up appears warning about the automatic server restart, select **Yes**.
+    >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-1. When the installation completes, back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+1. When the installation completes, click on**Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
 
     ![](../images/az900-t3_s9.png)
 
@@ -124,11 +138,13 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path**. This is where you'll put your website html file.
+1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put your website html file.
 
     ![](../images/az900-t3_s12.png)
 
-1. Create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
+   >**Note:** Keep a note of the path as it will be required in the preceding steps.
+
+1. Open a notepad file to create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
 
     ```
     <html>
@@ -138,6 +154,7 @@ In this task, install the Web Server role on the server and host a basic website
     </body>
     </html>
     ```
+    ![](../images/root.png)
 
 1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
@@ -147,13 +164,14 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_last.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
+
 In this lab, you have completed:
 - Create the virtual machine
 - Connect to the virtual machine

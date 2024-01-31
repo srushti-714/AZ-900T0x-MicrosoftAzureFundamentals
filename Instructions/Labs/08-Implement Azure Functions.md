@@ -27,16 +27,15 @@ In this task, we will create a Function app.
 
     | Settings | Value |
     | -- | --|
-    | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>**  |
-    | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Publish | **Code** |
-    | Runtime stack | **.NET** |
-    | Version | **6 (LTS)** |
-    | Region | **East US** |
+    | Subscription | the name of your Azure subscription (1) |
+    | Resource group | the name of **existing** resource group **myRGFunction-<inject key="DeploymentID" enableCopy="false"/>**  (2)|
+    | Function App name | **function-<inject key="DeploymentID" enableCopy="false"/>** (3)|
+    | Publish | **Code** (4)|
+    | Runtime stack | **.NET** (5)|
+    | Version | **6 (LTS)** (6)|
+    | Region | ****<inject key="Region" enableCopy="false"/>**** (7)|
     
-    
-    ![Screenshot of the Function App page with the new Function app.](../images/AZ-900-functionapp.png)
+    ![Screenshot of the Function App page with the new Function app.](../images/funcl8.1.png)
     
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
@@ -50,15 +49,15 @@ In this task, we will create a Function app.
 
 In this task, we will use the Webhook + API function to display a message when there is an HTTP request. 
 
-1. On the overview blade, in the **Functions (1)** section, click **Create in Azure portal (2)**.
+1. On the overview blade, in the **Functions (1)** section, click **Create function (2)**.
 
-    ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/function01.png)
+    ![](../images/creatfunc.png)
 
 1. On the **Templates** tab of the **Create Function** blade, click **HTTP trigger (1)**. Click **Create (2)**  
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/function02.png)
 
-1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
+1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test** from the left navigation pane. 
 
 1. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
 
@@ -84,10 +83,10 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) -->
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
