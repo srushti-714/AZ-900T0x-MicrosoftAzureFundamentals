@@ -27,7 +27,7 @@ In this task, you will create an Azure App Service Web App.
 
    ![](../images/lab2-image1.png) 
 
-1. Click **+ Create** then from dropdown select **+ Web App**.
+1. On **App Services** blade, click **+ Create** then from dropdown select **+ Web App**.
 
    ![](../images/lab2-image2.png) 
 
