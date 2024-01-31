@@ -53,15 +53,14 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
-   **Note**: Replace myRGPS-<inject key="DeploymentID" enableCopy="false"/> in the below command with the Resource Group Name from the output 
-   of the previous command
+   **Note**: In the below code,replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```
      New-AzVm `
     -ResourceGroupName "myRGPS-[DeploymentId]" `
     -Name "myVMPS" `
     -Location "eastus" `
-    -Size "Standard_DS1_v2" `
+    -Size "Standard_B2s" `
     -Image "MicrosoftWindowsServer:WindowsServer:2022-datacenter-azure-edition:latest" `
     -VirtualNetworkName "myVnetPS" `
     -SubnetName "mySubnetPS" `
@@ -74,17 +73,17 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/AZ-900-10-02.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/l10.4.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    **Note**: You can try validating the task after 3-5 minutes, if validations are failing.
+    >**Note**: You can try validating the task after 3-5 minutes, if validations are failing.
 
 ### Task 3: Execute commands in the Cloud Shell
 
@@ -106,6 +105,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     ```
     Stop-AzVM -ResourceGroupName myRGPS-[deployId] -Name myVMPS
     ```
+1. For **This cmdlet will stop the specified virtual machine. Do you want to continue?** enter **Y**.
 
 1. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal.
 
@@ -119,25 +119,25 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 In this task, we will review Azure Advisor recommendations for our virtual machine.
 
-1. From the **All services** blade, search for and select **Advisor**.
+1. From the **Search resources,services and Docs** blade, search for and select **Advisor**.
 
 1. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost.
 
-    ![Screenshot of the Advisor Overview page. ](../images/AZ-900-10-03.png)
+    ![Screenshot of the Advisor Overview page. ](../images/l10.2.png)
+
+    >**Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
+
+1. Select **All recommendations** from the left navigation pane and take time to view each recommendation and suggested actions.
 
     **Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
 
-1. Select **All recommendations** and take time to view each recommendation and suggested actions.
+    ![Screenshot of the Advisor All recommendations page. ](../images/l10.3.png)
 
-    **Note:** Depending on your resources, your recommendations will be different and you might get the notification "You are following all of our performance recommendations".
+1. Notice that from the **Security** option in the left navigation pane,you can download the recommendations as a CSV or PDF file.
 
-    ![Screenshot of the Advisor All recommendations page. ](../images/AZ-900-10-04.png)
+    ![Screenshot of the Advisor All recommendations page. ](../images/l10.1.png)
 
-1. Notice that you can download the recommendations as a CSV or PDF file.
-
-1. Notice that you can create alerts.
-
-1. If you have time, continue to experiment with Azure PowerShell.
+1. Notice that from the **Alerts**in the left navigation pane, you can create alerts.
 
 ### Review
 In this lab, you have completed:
