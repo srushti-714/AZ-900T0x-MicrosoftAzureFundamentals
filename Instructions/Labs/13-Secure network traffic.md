@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Virtual machines**, and then click **+ Create** then select Azure Virtual machines.
+1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Virtual machines**, and then click **+ Create** then select **Azure Virtual machine**.
 
 1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -34,12 +34,13 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Virtual machine name | **SimpleWinVM** |
     | Location | **(US) East US**|
     | Availability option | **No infrastructure redundancy required** |
-    | Image | **Windows Server 2019 Datacenter Gen 2**|
+    | Security type | **Standard** |
+    | Image | **Windows Server 2019 Datacenter -x64 Gen 2**|
     | Size | **Standard D2s v3**|
     | Username | **azureuser** |
     | Password | **Pa$$w0rd1234**|
     | Confirm Password | **Pa$$w0rd1234**|
-    | Inbound port rules | **None**|
+    | Public Inbound ports | **None**|
    
 1. Switch to the **Networking** tab, and configure the following setting:
 
@@ -70,14 +71,14 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 In this task, we will create a network security group and associate it with the network interface.
 
-1. From the **Search resources, services, and docs** blade, search for and select **Network security groups** and then click **+ create**
+1. From the **Search resources, services, and docs** blade, search for and select **Network security groups** and then click **+ Create**
 
 1. On the **Basics** tab of the **Create network security group** blade, replace DeploymentId which is in environment details, specify the following settings.
 
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGSecure<inject key="DeploymentID" enableCopy="false"/>** |
+    | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Name | **myNSGSecure** |
     | Region | **(US) East US**  |
    
@@ -96,9 +97,9 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
-1. On the **Overview** pane, click **Connect
+1. On the **Overview** pane, click **Connect** and then select **Connect**
 
-1. On **SimpleWinVM** | Connect page, under Native RDP click on Select and on Native RDP window select and Download RDP file.
+1. On **SimpleWinVM** | Connect page, under **Native RDP** click on **Select** and on Native RDP window select **Download RDP file**. and click on **Keep** for the warning message pop-up.
 
     ![](../images/image-001.png)
 
@@ -110,7 +111,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 1. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvm<inject key="Deployment-id" enableCopy="false"/>)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
-1. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
+1. On the **Inbound port rules** tab, click **Add inbound port rule** and provide the below values to the respective settings and  Click **Add**. 
 
     | Setting | Value |
     | -- | -- |
@@ -124,7 +125,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Name | **AllowRDP** |
   
 
-1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
+1. Wait for the rule to be provisioned and then try again to RDP into the virtual machine using downloaded rdp file. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
 ### Task 4: Configure an outbound security port rule to deny Internet access
 
@@ -134,17 +135,19 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 1. After the machine starts, open an **Internet Explorer** browser, then click on **Ok**. 
 
-1. Verify that you can access **https://www.bing.com** , click **OK** if pop-up comes, and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
+1. Open a New tab in the browser and browse to **https://www.bing.com** , and then close Internet Explorer Pop-ups. You will need to work through the IE enhanced security pop-ups. The page is displayed.
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
-1. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
+1. Minimize the RDP session to navigate back to **Azure Portal**.
+
+1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
 1. Under **Settings**, click **Networking**, and then **Outbound port rules**.
 
-1. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
+1. Notice there is a rule, **AllowInternetOutbound**. This is a default rule and cannot be removed. 
 
-1. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: simplewinvm<inject key="DeploymentID" enableCopy="false"/>)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
+1. Click **Add outbound port rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** after configuring the below settings. 
 
     | Setting | Value |
     | -- | -- |
