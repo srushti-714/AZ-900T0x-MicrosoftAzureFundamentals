@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**
+1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**.
 
    ![image](../images/lab14-image1.png)
 
@@ -77,7 +77,7 @@ In this task, we will view the activity log to verify the role assignment, and t
 
     ![image](../images/lab14-image11.png)
 
-    ![image](../images/lab14-image12.png)
+    ![image](../images/lab14-image(12).png)
 
 1. Verify the Activity log shows your role assignment. (With your User Id). 
 
