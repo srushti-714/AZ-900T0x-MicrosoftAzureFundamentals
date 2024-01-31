@@ -40,7 +40,7 @@ In this lab, you will complete the following tasks:
    
 1. Click **Create**. 
 
-1. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it.
+1. Once the new key vault is provisioned, click **Go to resource**.
 
    ![](../images/lab12-image3.png)
 
