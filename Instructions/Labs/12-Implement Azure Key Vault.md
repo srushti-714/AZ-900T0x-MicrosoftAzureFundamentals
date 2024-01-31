@@ -19,7 +19,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create an Azure Key Vault
 
-1. On the Azure Portal, from the **All services** blade, search for and select **Key vaults**, then select **+ Create**.
+1. On the Azure Portal, from the **All services** blade, search for and select **Key vaults**.
+  
+1. On **Key vaults** blade, select **+ Create**.
 
 1. Configure the key vault. Leave the defaults for everything else.
 
@@ -28,7 +30,7 @@ In this lab, you will complete the following tasks:
     | Subscription | **Use your subscription** |
     | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" />**  |
     | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" />** |
-    | Location | **East US** |
+    | Location | **<inject key="Region" enableCopy="false"/>** |
     | Pricing tier | **Standard** |
     | | |
 
@@ -38,10 +40,10 @@ In this lab, you will complete the following tasks:
 
 1. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST API will need this URI.
 
-1. Take a moment to browse through some of the other key vault options. Under **Settings** review **Keys**, **Secrets**, **Certificates**, **Access Policies**, **Firewalls and virtual networks**.
+1. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**.
 
-   **Note**: Your Azure account is the only one authorized to perform operations on this new vault. You can modify this if you wish in the **Settings** and then the **Access policies** section.
-
+   **Note**: Your Azure account is the only one authorized to perform operations on this new vault.
+   
 ### Task 2: Add a secret to the Key Vault
         
 In this task, we will add a password to the key vault. 
