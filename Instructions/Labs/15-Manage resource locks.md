@@ -44,12 +44,12 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     ![](../images/lab15-image2.png)
 
-1. Configure the new lock. When you are done click **OK**. 
+1. Configure the new lock. When you are done click **OK (3)**. 
 
     | Setting | Value | 
     | --- | --- |
-    | Lock name | **RGLock** |
-    | Lock Type | **Delete** |
+    | Lock name | **RGLock (1)** |
+    | Lock Type | **Delete (2)** |
     |||
 
     ![](../images/lab15-image3.png)
@@ -70,23 +70,23 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. From the **All services** blade, search for and select **Storage accounts**.
 
-    ![](../images/lab15-image8.png)
+    ![](../images/lab15-image6.png)
   
 1. On the **Storage accounts** blade, click **+ Create**. 
 
-1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the defaults for everything else and click on **Review**.
+1. On the **Basics** tab of the **Create storage account** blade, fill in the following information. Leave the defaults for everything else and click on **Review (7)**.
 
     | Setting | Value |
     | --- | --- |
-    | Subscription | **Select your subscription** |
-    | Resource group | **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
-    | Location | **(US) East US**  |
-    | Performance | **Standard** |
-    | Replication | **Locally redundant storage (LRS)** |
+    | Subscription | **accept the default (1)** |
+    | Resource group | **myRGLocks-<inject key="DeploymentID" enableCopy="false" /> (2)** |
+    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Location | **<inject key="Region" enableCopy="false"/> (4)**   |
+    | Performance | **Standard (5)** |
+    | Replication | **Locally redundant storage (LRS) (6)** |
     |||
 
-     ![](../images/lab15-image7.png)
+     ![](../images/lab15-image(7).png)
 
 1. Once validated, click **Create**. Wait for the notification that the account was successfully created. 
 
@@ -104,19 +104,19 @@ In this task, we will test if the resource lock protects a storage account in th
 
 In this task, we will remove the resource lock and test. 
 
-1. Return to the **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** resource group blade and, in the **Settings** section, click **Locks**. Click the **Delete** link to the right of the **RGLock** entry.
+1. Return to the **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** resource group blade and, in the **Settings** section, click **Locks (1)**. Click the **Delete (2)** link to the right of the **RGLock** entry.
 
     ![](../images/lab15-image10.png)
 
 1. From the **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** | locks blade, from the left navigation pane left **Overview** and select **storageaccount<inject key="DeploymentID" enableCopy="false" />** storage account.
   
-1. On the Storage accounts blade, select **Delect** copy the stoarge account name and paste in **Enter storage account name to confirm deletion** field, then click **Delete** and select **Delete** on **Delete Confirmation** windown.
+1. On the Storage accounts blade, select **Delect (1)** copy the stoarge account **(2)** name and paste in **Enter storage account name to confirm deletion (3)** field, then click **Delete (4)** and select **Delete** on **Delete Confirmation** windown.
 
-    ![](../images/lab15-image12.png)
+    ![](../images/lab15-image11.png)
   
 1. Monitor the notification and confirm you can now delete the resource.
 
-     ![](../images/lab15-image11.png)
+     ![](../images/lab15-image12.png)
 
    Congratulations! You created a resource group, added a lock to the resource group and tested deletion, tested deleting a resource in the resource group and removed the resource lock. 
 
