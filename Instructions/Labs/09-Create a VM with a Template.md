@@ -33,25 +33,27 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
+    ![](../images/l9.5.png)
+
 1. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and locate the parameter for the virtual machine name. Go to line no 110 and Change the name to **myVMTemplate**, and **Save** your changes. 
-
-    ![](../images/imageVM1.png)
-
+1. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and review it and click on **Save**
+  
 1. Now configure the parameters required by the template. Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>**  |
-    | Region | **Keep default** |
-    | Admin username | **azureuser** |
-    | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplate-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Windows OS version | **2019-datacenter-gensecond** |
-    | VM Size | **Standard_D2s_v5** |
-    
+    | Subscription | **Choose your subscription** (1)|
+    | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>** (2) |
+    | Region | **Keep default** (3) |
+    | Admin username | **azureuser** (4) |
+    | Admin password | **Pa$$w0rd1234** (5) |
+    | DNS label prefix | **myvm-<inject key="DeploymentID" enableCopy="false"/>** (6) |
+    | Windows OS version | **2019-datacenter-gensecond** (7)|
+    | VM Size | **Standard_D2s_v5** (8)|
+
+    ![](../images/l9.1.png)
+
 1. Click **Review + Create**.
  
 1. Click the **Create**.
@@ -66,11 +68,13 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Ensure your new virtual machine was created. 
 
-    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/0902.png)
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/l9.2.png)
 
 1. Select your virtual machine and on the **Overview** pane scroll down to view monitoring data.
 
-    **Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
+    ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/l9.3.png)
+
+    >**Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
 
 1. Review different charts that are provided including **CPU (average)**, **Network (total)**, and **Disk bytes (total)**. 
 
@@ -84,13 +88,13 @@ In this task, we will verify the virtual machine is deployed correctly.
 
 1. Click **Add filter**, and experiment with searching for different event types and operations. 
 
-   ![Screenshot of the Add filters page with Event type selected.](../images/0904.png)
+   ![Screenshot of the Add filters page with Event type selected.](../images/l9.4.png)
 
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
 In this lab, you have completed:
