@@ -28,7 +28,7 @@ In this task, we will create a new container instance for the web application.
    
 1. On **Container instances** blade, click **+ Create**. 
 
-1. On the **basics** tab. Provide the following basic details for creating a new container instance then click **Next: Networking >**.
+1. On the **basics** tab. Provide the following basic details for creating a new container instance then click **Next : Networking >**.
 
 	| Setting| Value|
 	|----|----|
@@ -78,7 +78,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 1. Paste the container's FQDN into the new browser tab and press **Enter**. The Welcome page should display.
 
-   **Note**: It might take 10-15 minutes to load the page.
+   **Note**: It might take 3 - 5 minutes to load the page.
  
    ![](../images/lab3-image5.png)
 	
