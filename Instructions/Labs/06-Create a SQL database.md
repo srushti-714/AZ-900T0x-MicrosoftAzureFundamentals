@@ -69,11 +69,11 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Use existing data | **Sample** |
    
 
-    ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)
+    ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/lab6nj.png)
 
-1. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
+1. Click **Review + create**, review the configurations, and then click **Create** to deploy and provision the resource group, server, and database. Deployment may take approximately 2 to 5 minutes.
 
-1. Go to the resource tab to locate the SQL database you created. You may need to refresh.
+1. Wait for the deployment to get succeeded.
 
 ### Task 2: Test the database
 
