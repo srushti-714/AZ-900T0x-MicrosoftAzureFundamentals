@@ -20,10 +20,12 @@ In this lab, you will complete the following tasks:
 ### Task 1: Create an Azure Key Vault
 
 1. On the Azure Portal, from the **All services** blade, search for and select **Key vaults**.
+
+   ![](../images/lab12-image1.png)
   
 1. On **Key vaults** blade, select **+ Create**.
 
-1. Configure the key vault. Leave the defaults for everything else.
+1. On the **Basics tab** specify the following to configure the key vault and click on **Review + create**.
 
     | Setting | Value | 
     | --- | --- |
@@ -34,14 +36,20 @@ In this lab, you will complete the following tasks:
     | Pricing tier | **Standard** |
     | | |
 
-1. Click **Review + create**, and then click **Create**. 
+    ![](../images/lab12-image2.png)
+   
+1. Click **Create**. 
 
-1. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
+1. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it.
+
+   ![](../images/lab12-image3.png)
 
 1. Click on the key vault **Overview** tab and take note of the **Vault URI**. Applications that use your vault through the REST API will need this URI.
 
 1. Take a moment to browse through some of the other key vault options. Under **Objects** review **Keys**, **Secrets**, **Certificates**.
 
+    ![](../images/lab12-image4.png)
+   
    **Note**: Your Azure account is the only one authorized to perform operations on this new vault.
    
 ### Task 2: Add a secret to the Key Vault
@@ -50,7 +58,9 @@ In this task, we will add a password to the key vault.
 
 1. Under **Objects** click **Secrets**, then click **+ Generate/Import**.
 
-1. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret.
+   ![](../images/lab12-image5.png)
+   
+1. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret and click **Create**.
 
     | Setting | Value | 
     | --- | --- |
@@ -59,13 +69,25 @@ In this task, we will add a password to the key vault.
     | Value | **hVFkk96** |
     | | |
 
-1. Click **Create**.
+    ![](../images/lab12-image6.png)
+   
+1. Wait until you see the secret has been successfully created, refresh the page once if your not able to see the secret.
 
-1. Once the secret has been successfully created, click on the **ExamplePassword**, and note it has a status of **Enabled**
+1. Once **ExamplePassword** secret is listed notice it has a status of **Enabled**.
 
-1. Click the current version, and note the **Secret Identifier**. This is the URL value that you can now use with applications. It provides a centrally managed and securely stored password.
+    ![](../images/lab12-image7.png)
 
-1. Click the button **Show Secret Value**, to display the password you specified earlier.
+1. Select the **ExamplePassword** secret and click the current version.
+
+   ![](../images/lab12-image9.png)
+
+1. Under **properties**, note the **Secret Identifier**. This is the URL value that you can now use with applications. It provides a centrally managed and securely stored password. 
+
+   ![](../images/lab12-image10.png)
+   
+1. Click the button **Show Secret Value**, under **Settings** to display the password you specified earlier.
+
+   ![](../images/lab12-image11.png)
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
