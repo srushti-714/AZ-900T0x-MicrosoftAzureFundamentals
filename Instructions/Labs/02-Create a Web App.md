@@ -25,11 +25,11 @@ In this task, you will create an Azure App Service Web App.
 
 1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **App Services**.
 
-   ![](../images/lab2-image1.PNG) 
+   ![](../images/lab2-image1.png) 
 
 1. Click **+ Create** then from dropdown select **+ Web App**.
 
-   ![](../images/lab2-image2.PNG) 
+   ![](../images/lab2-image2.png) 
 
 1. On the **Basics** tab of the **Create Web App** blade.
 
@@ -45,7 +45,7 @@ In this task, you will create an Azure App Service Web App.
     | Region | **East US** (ignore any service plan availability warnings) |
     |||
 
-    ![](../images/lab2-image3.PNG)
+    ![](../images/lab2-image3.png)
 
    
 1. Click **Next > Database** tab, accept default settings and click on Click **Next > Docker** tab. 
@@ -61,7 +61,7 @@ In this task, you will create an Azure App Service Web App.
     | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     |||
 
-   ![](../images/lab2-image4.PNG)
+   ![](../images/lab2-image4.png)
    
 1. Click **Review + create**, and then click **Create**.
 
@@ -71,19 +71,19 @@ In this task, we will test the web app.
 
 1. Wait for the Web App to deploy. Once deployemnt got success click **Go to resource**.
 
-   ![](../images/lab2-image5.PNG)
+   ![](../images/lab2-image5.png)
 
 1. On the **Overview** blade, locate the **Default Domain** entry.
 
-     ![](../images/lab2-image6.PNG)
+     ![](../images/lab2-image6.png)
 
 1. Click on the **URL** to open the new browser tab and display the Welcome to Azure Container Instances page.
 
-    ![](../images/lab2-image7.PNG)
+    ![](../images/lab2-image7.png)
 
 1. Switch back to the **Overview** blade of your web app and select Monitoring tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
-      ![](../images/lab2-image8.PNG)
+      ![](../images/lab2-image8.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
