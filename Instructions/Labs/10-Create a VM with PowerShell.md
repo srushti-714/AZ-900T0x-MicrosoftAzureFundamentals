@@ -27,11 +27,16 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1001.png)
 
-1. If you have previously used the Cloud Shell, proceed to the next task.
+1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Powershell**.
+   
+1. If you are prompted to create storage for your Cloud Shell, ensure your subscription is selected and click on **Show advanced settings**.
 
-1. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
+1. Please make sure you have selected your resource group **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**.
 
-1. When prompted, select **Show advanced settings** and then select **Use existing** and choose resource group myRGPS-<inject key="DeploymentID" enableCopy="false"/>. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize.
+1. Enter **blob<inject key="DeploymentID" enableCopy="false"/>** for the **Storage account**.
+
+1. Enter **blobfileshare<inject key="DeploymentID" enableCopy="false"/>** for the  **File share** , then click on **Create Storage**.
+
 
 ### Task 2: Create a virtual machine
 
@@ -53,7 +58,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
-   **Note**: In the below code,replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
+   **Note**: In the below code, replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
 
     ```
      New-AzVm `
