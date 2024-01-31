@@ -83,7 +83,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
-    **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+    >**Note:**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
 
