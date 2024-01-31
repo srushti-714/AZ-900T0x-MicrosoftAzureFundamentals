@@ -30,28 +30,35 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** |
-    | Virtual machine name | **myVm** |
-    | Location | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter - Gen2**|
-    | Size | **Standard_D2s_v3**|
-    | Administrator account username | **azureuser** |
-    | Administrator account password | **Pa$$w0rd1234**|
-    | Inbound port rules  | **Allow select ports**|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)**|
+    | Subscription | **Choose your subscription** (1)|
+    | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
+    | Virtual machine name | **myVm** (3)|
+    | Location | **(US) East US** (4)|
+    | Image | **Windows Server 2019 Datacenter - Gen2** (5)|
+    | Size | **Standard_D2s_v3** (6)|
+    | Administrator account username | **azureuser** (7)|
+    | Administrator account password | **Pa$$w0rd1234** (8)|
+    | Inbound port rules  | **Allow select ports** (9)|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
 
-   > **Note** : DeploymentID can be obtained from the Lab Environment output page.
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
 
-1. Switch to the Networking tab, and look for the **Select inbound ports**:
+1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
+
+1. Within the Networking tab, look for the **Select inbound ports**:
 
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
    
-    **Note** - Verify that both port 80 and 3389 are selected
+    >**Note:** - Verify that both port 80 and 3389 are selected
 
-1. Switch to the **Monitoring** tab, select the following setting:
+1. Click **Next** to switch to the **Management** tab and leave everything as default.
+
+1. Click **Next** to switch to the **Monitoring** tab, select the following setting:
 
     | Settings | Values |
     | -- | -- |
@@ -68,17 +75,21 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
 In this task, we will connect to our new virtual machine using RDP. 
 
-1. Search for **myVm** and select your new virtual machine.
+1. Once the deployment is complete, click on **Go to resource** you will be directed to the page of the newly created Virtual Machine.
 
-    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/goto.png)
+   
+1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **Connect** from the dropdown.
 
-1. On the virtual machine **Overview** blade, click the **Connect** button and choose the **RDP** tab.
-
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/01-01.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
-1. Within the **Connect with RDP** section of the RDP tab, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**.
+1. Within the **Connect** page, click on **Download RDP File**.
+
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/downrdp.png)
+
+1. Once the file is downloaded,you will be directed with a warning, click on **Keep**.
 
 1. **Open** the downloaded RDP file and click **Connect** when prompted. 
 
