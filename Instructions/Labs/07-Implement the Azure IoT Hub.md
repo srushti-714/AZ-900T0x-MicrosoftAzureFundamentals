@@ -22,7 +22,9 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create an IoT hub. 
 
-1. On the Azure portal, from the **All services** blade, search for and select **IoT Hub** and then click **+ Create**.
+1. On the Azure portal, from the **All services** blade, search for and select **IoT Hub**.
+  
+1. On the **Iot Hub** blade, click **+ Create**.
 
 1. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details:
 
