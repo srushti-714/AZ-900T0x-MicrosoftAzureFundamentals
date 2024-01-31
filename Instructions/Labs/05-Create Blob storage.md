@@ -22,24 +22,24 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new storage account. 
 
-1. On the Azure portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
+1. On the Azure portal, from the **Azure services** blade, search for and select **Storage accounts**, and then click **+ Create**. 
 
 1. On the **Basics** tab of the **Create storage account** blade, fill in the following information.Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Choose your subscription** |
+    | Subscription | **Choose the default subscription** |
     | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
 
-1. On the **Advanced** tab of the **Create storage account** add  Access tier (default) **Hot**.
+1. On the **Advanced** tab of the **Create storage account**, choose **Hot** for **Access tier** setting under **Blob storage**.
 
-1. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
+1. Click **Review** to review your storage account settings and allow Azure to validate the configuration. 
 
-1. Once validated, click **Create**. Wait for the notification that the account was successfully created. 
+1. Once validated, click **Create**. Wait for the **Deployment Succeeded** notification. 
 
 1. From the Home page, search for and select **Storage accounts** and ensure your new storage account is listed.
 
