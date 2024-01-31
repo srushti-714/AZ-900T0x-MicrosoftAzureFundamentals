@@ -41,12 +41,12 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Inbound port rules  | **Allow select ports** (9)|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/VM1.png)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/VM2.png)
 
 1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/hdd.png)
 
 1. Within the Networking tab, look for the **Select inbound ports**:
 
@@ -64,7 +64,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | -- | -- |
     | Boot diagnostics | **Disable**|
   
-1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+1. Leave the remaining defaults and then click the **Review + Create** button at the bottom of the page.
 
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
