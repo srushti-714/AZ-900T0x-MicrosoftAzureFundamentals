@@ -45,14 +45,14 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | **Choose your subscription** (1)|
     | Resource group | **myRGTemplate-<inject key="DeploymentID" enableCopy="false"/>** (2) |
-    | Region | **Keep default** (3) |
+    | Region | ****<inject key="Region" enableCopy="false"/>**** (3) |
     | Admin username | **azureuser** (4) |
     | Admin password | **Pa$$w0rd1234** (5) |
     | DNS label prefix | **myvm-<inject key="DeploymentID" enableCopy="false"/>** (6) |
     | Windows OS version | **2019-datacenter-gensecond** (7)|
-    | VM Size | **Standard_D2s_v5** (8)|
+    | VM Size | **Standard_B2s** (8)|
 
-    ![](../images/l9.1.png)
+    ![](../images/l9.1.1.png)
 
 1. Click **Review + Create**.
  
