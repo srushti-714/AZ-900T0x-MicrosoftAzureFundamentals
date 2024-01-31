@@ -70,7 +70,6 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
-
 ### Task 2: Connect to the virtual machine
 
 In this task, we will connect to our new virtual machine using RDP. 
@@ -111,6 +110,10 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![server manager](../images/az900-t3_s1.png)
 
+    >**Note:** If you get a pop-up related to **Networking** click **No**
+    
+    ![server manager](../images/network.png)
+
 1. Within the **Add Roles and Features Wizard** dialog box, click on **Next**.
 
 1. Ensure **Role-based or feature-based installation** is selected. Click Next.
@@ -125,9 +128,9 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![Restart the destination check box](../images/az900-t3_s7.png)
 
-    **Note**: If a pop-up appears warning about the automatic server restart, select **Yes**.
+    >**Note:** If a pop-up appears warning about the automatic server restart, select **Yes**.
 
-1. When the installation completes, back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
+1. When the installation completes, click on**Close** and back on the server manager portal, go to **Tools** > **Internet Information Services (IIS) Manager**.
 
     ![](../images/az900-t3_s9.png)
 
@@ -135,11 +138,13 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_s10.png)
 
-1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path**. This is where you'll put your website html file.
+1. Now, click on **Basic Settings** in the **Actions** menu. In the new pop-up dialog box, locate the **Physical Path** and click **Ok**. This is where you'll put your website html file.
 
     ![](../images/az900-t3_s12.png)
 
-1. Create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
+   >**Note:** Keep a note of the path as it will be required in the preceding steps.
+
+1. Open a notepad file to create a very basic html file. Save it as **Default.htm** and place it in the Physical Path location specified in the Basic Settings. For example:
 
     ```
     <html>
@@ -149,6 +154,7 @@ In this task, install the Web Server role on the server and host a basic website
     </body>
     </html>
     ```
+    ![](../images/root.png)
 
 1. Now back in the Azure portal, navigate back to the Overview blade of myVM and use the Copy to clipboard button to copy the public IP address of myVm.
 
@@ -158,13 +164,14 @@ In this task, install the Web Server role on the server and host a basic website
 
     ![](../images/az900-t3_last.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Review
+
 In this lab, you have completed:
 - Create the virtual machine
 - Connect to the virtual machine
