@@ -27,11 +27,15 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/AZ-900-1101.png)
 
-1. If you have previously used the Cloud Shell, proceed to the next task. 
+1. The first time you open the Cloud Shell, you may be prompted to choose the type of shell you want to use (*Bash* or *PowerShell*). If so, select **Bash**.
+   
+1. If you are prompted to create storage for your Cloud Shell, ensure your subscription is selected and click on **Show advanced settings**.
 
-1. When prompted to select either **Bash** or **PowerShell**, select **Bash**. 
+1. Please make sure you have selected your resource group **myRGCLI-<inject key="DeploymentID" enableCopy="false" />**.
 
-1. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize. 
+1. Enter **blob<inject key="DeploymentID" enableCopy="false"/>** for the **Storage account**.
+
+1. Enter **blobfileshare<inject key="DeploymentID" enableCopy="false"/>** for the  **File share** , then click on **Create Storage**.
 
 ### Task 2: Use CLI to create a virtual machine
 
