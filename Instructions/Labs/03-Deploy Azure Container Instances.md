@@ -28,7 +28,7 @@ In this task, we will create a new container instance for the web application.
    
 1. On **Container instances** blade, click **+ Create**. 
 
-1. On the **basics** tab. Provide the following Basic details for the new container instance then click **Next: Networking >**.
+1. On the **basics** tab. Provide the following basic details for creating a new container instance then click **Next: Networking >**.
 
 	| Setting| Value|
 	|----|----|
