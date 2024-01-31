@@ -73,7 +73,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
-    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/l10.4.png)
+    ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/l10.4.1.png)
 
 1. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed.
 
@@ -137,7 +137,7 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
     ![Screenshot of the Advisor All recommendations page. ](../images/l10.1.png)
 
-1. Notice that from the **Alerts**in the left navigation pane, you can create alerts.
+1. Notice that from the **Alerts** in the left navigation pane, you can create alerts.
 
 ### Review
 In this lab, you have completed:
