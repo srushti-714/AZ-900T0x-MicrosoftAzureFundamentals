@@ -68,7 +68,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
 
     ![](../images/lab15-image6.png)
   
