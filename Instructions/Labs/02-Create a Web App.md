@@ -40,7 +40,7 @@ In this task, you will create an Azure App Service Web App.
     | Name | **myDockerWebApp<inject key="DeploymentID" enableCopy="false"/> (3)** |
     | Publish | **Docker Container (4)** |
     | Operating System | **Linux (5)** |
-    | Region | **<inject key="Region" enableCopy="false"/>** (6)** (ignore any service plan availability warnings) |
+    | Region | **<inject key="Region" enableCopy="false"/>** **(6)** (ignore any service plan availability warnings) |
     |||
 
     ![](../images/lab2-image3.png)
