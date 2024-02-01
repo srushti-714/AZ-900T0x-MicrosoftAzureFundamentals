@@ -118,7 +118,7 @@ In this task, we will review the results of the Azure Pricing Calculator.
 
 1. Change the currency to Euro, then select **Export** to download a copy of the estimate for offline viewing in Microsoft Excel (`.xlsx`) format.
 
-    ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/l19ex.png)
+    ![Screenshot of an example Azure pricing calculator estimate in Microsoft excel.](../images/l19ex1.png)
    
 1. Open the downloaded Cost Estimation Sheet.
 
