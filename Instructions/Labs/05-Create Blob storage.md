@@ -31,7 +31,7 @@ In this task, we will create a new storage account.
     | Subscription | **Choose the default subscription** |
     | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
-    | Location | **<inject key="Region" enableCopy="false"/>**  |
+    | Region | **<inject key="Region" enableCopy="false"/>**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
 
