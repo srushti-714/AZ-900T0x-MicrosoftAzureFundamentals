@@ -23,7 +23,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will verify the existing resource group for this exercise. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
    ![image](../images/lab14-image1.png)
 
@@ -40,7 +40,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 1. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
-1. In the **Settings** section, click **Locks**, and then click **+ Add**. 
+1. In the **Settings** section, click **Locks (1)**, and then click **+ Add (2)**. 
 
     ![](../images/lab15-image2.png)
 
@@ -68,7 +68,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. From the **All services** blade, search for and select **Storage accounts**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
     ![](../images/lab15-image6.png)
   
@@ -81,7 +81,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Subscription | **accept the default (1)** |
     | Resource group | **myRGLocks-<inject key="DeploymentID" enableCopy="false" /> (2)** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" /> (3)** |
-    | Location | **<inject key="Region" enableCopy="false"/> (4)**   |
+    | Region | **<inject key="Region" enableCopy="false"/> (4)**   |
     | Performance | **Standard (5)** |
     | Replication | **Locally redundant storage (LRS) (6)** |
     |||
@@ -94,7 +94,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
      ![](../images/lab15-image8.png)
 
-1. From the **Overview** pane of newly created storage account, click **Delete (1)** and notice error message stating the resource or its parent has a delete lock. 
+1. From the **Overview** pane of newly created storage account, click **Delete (1)** and notice **error message** **(2)** stating the resource or its parent has a delete lock. 
 
     ![](../images/lab15-image9.png)
 
