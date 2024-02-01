@@ -41,6 +41,8 @@ In this task, we will add infrastructure information to the calculator.
     | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
+    ![](../images/lab20-image1.png)
+   
 1. Select **+ Add server workload** to make a row for a new server workloads definition. 
 
     | Settings | Value |
@@ -54,9 +56,10 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
+    ![](../images/lab20-image2.png)
+   
 1. In the **Storage** pane, click **Add storage**.
 
     | Settings | Value |
@@ -69,21 +72,26 @@ In this task, we will add infrastructure information to the calculator.
     | Archive | **0 TB** |
     | | |
 
-1. In the **Networking** pane, add bandwidth. 
+     ![](../images/lab20-image3.png)
+
+
+1. In the **Networking** pane, add bandwidth and click **Next**.
 
     | Settings | Value |
     | -- | -- |
     | Outbound bandwidth | 15 TB|
     | | |
 
-1. Click **Next**.
+    ![](../images/lab20-image4.png)
 
 1. Explore the options and make any adjustments that you require. 
 
     | Settings | Value |
     | -- | -- |
-    | Currency | **Euro** |
+    | Currency | **Euro zone** |
     | | |
+    
+    ![](../images/lab20-image5.png)
 
 1. Click **Next**.
 
@@ -99,12 +107,14 @@ In this task, we will review cost saving recommendations and download a report.
     | Region | **North Europe** |
     | | |
 
+    ![](../images/lab20-image6.png)
 
-1. To modify the information you provided, go to the bottom of the page, and click **Back**. 
 
 1. To save or print a PDF copy of the report, click **Download**.
 
-    ![Screenshot of the report pane of the tco calculator in Azure. The highlighted and completed input fields indicates how set the tco calculator timeframe to three years and the region to north europe. A graph shows the cost of on-premises infrastructure and workloads off-set against the reduced cost of using Azure.](../images/AZ-900-20-1.png)
+   ![](../images/lab20-image7.png)
+
+1. To modify the information you provided, go to the bottom of the page, and click **Back**. 
 
     >**Congratulations!** You have used the TCO Calculator to generate a cost comparison report for an on-premises environment.
 
