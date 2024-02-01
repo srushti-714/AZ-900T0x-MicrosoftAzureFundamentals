@@ -76,7 +76,7 @@ In this task, we will test the Allowed location policy.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
+    | Subscription | **Accept default subscription** |
     | Resource group | **myRGPolicy**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
@@ -125,10 +125,9 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. Try to create another storage account to ensure the policy is no longer in effect.
 
-
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
+    | Subscription | **Accept default subscription** |
     | Resource group | **myRGPolicy**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
@@ -138,7 +137,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. Click on **Review** and  **Create**.
 
-   >**Note**: You may need to wait for some time until policy gets delete completely mean while sign out and sign in perform the last step.
+   >**Note**: Please be aware that it may take some time for the policy to be fully deleted. During this period, sign out and sign back in and proceeding with the final step..
     
     >**Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
