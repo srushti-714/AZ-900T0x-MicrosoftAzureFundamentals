@@ -34,15 +34,14 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image3.png)
 
-1. Return to the **Policy** page, under the **Authoring** section click **Assignments**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope. 
+1. On the **Policy** page, under the **Authoring** section click **Assignments** > **Assign Policy**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope.
 
-1. Click **Assign Policy** at the top of the **Policy - Assignments** page.
+    ![](../images/lab17-image4.png)
 
-1. On the **Assign Policy** page, select the Scope selector by clicking the ellipsis.
 
-    ![Screenshot of the scope selector ellipses.](../images/scope.png)
+1. On the **Assign Policy** page, select the Scope selector by clicking the ellipsis. Ensure your subscription is selected. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
 
-1. Ensure your subscription is selected. Your subscription name might be different. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
+    ![](../images/lab17-image5.png)
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
@@ -50,16 +49,26 @@ In this task, we will configure the allowed location policy and assign it to our
 
 1. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Add**.
 
+    ![](../images/lab17-image6.png)
+  
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
    ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/location.png)
 
-1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
+1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**.
 
+      ![](../images/lab17-image12.png)
     ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/allowedloc.png)
+
+1.  Click on  **Create**.
 
 1. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
+   ![](../images/lab17-image6.png)
+
+   >**Note**: You need to refresh the age to see the policy.
+
+   
 ### Task 2: Test Allowed location policy
 
 In this task, we will test the Allowed location policy. 
@@ -76,7 +85,9 @@ In this task, we will test the Allowed location policy.
     | Location | **(US) East US** |
     | | |
 
-1. Click on **Review** and once validation gets success, click on **Create**.
+1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy
+
+   ![](../images/lab17-image8.png)
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
       
@@ -92,19 +103,27 @@ In this task, we will remove the Allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy** and then click your **Allowed locations** policy.
+1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**.  then click your **Allowed locations** policy.
 
-    **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
+    ![](../images/lab17-image1.png)
+
+1.  Select **Allowed locations** policy.
+
+     ![](../images/lab17-image9.png)
+    
+   **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
     **Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
 
+1. On the Allowed location page, select **View assignment** button.
+
+    [](../images/lab17-image10.png)
+    
 1. Click **Delete Assignment** in the top menu.
 
-   ![Screenshot of the Delete Assignment menu item.](../images/delete.png)
-
-1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
-
-1. Try to create another storage account to ensure the policy is no longer in effect.
+    ![](../images/lab17-image11.png)
+   
+1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
     **Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
