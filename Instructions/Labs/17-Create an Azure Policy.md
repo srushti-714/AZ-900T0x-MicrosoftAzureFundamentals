@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will configure the allowed location policy and assign it to our subscription. 
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
    ![](../images/lab17-image1.png)
   
@@ -68,7 +68,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. In the Azure Portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Storage accounts**, and then click **+ Create**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
 
 1. Configure the storage account. Leave the defaults for everything else. 
 
@@ -98,7 +98,7 @@ In this task, we will remove the Allowed location policy assignment and test.
 
 We will delete the policy assignment to ensure we are not blocked on any future work we wish to do.
 
-1. From the **Search resources, Services, and docs(G+/)** blade, search for and select **Policy**.  then click your **Allowed locations** policy.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Policy (1)**, and then select **Policy(2)** under services.
 
     ![](../images/lab17-image1.png)
 
@@ -117,13 +117,8 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 1. Click **Delete Assignment** in the top menu.
 
     ![](../images/lab17-image11.png)
-
-1. Try to create storage account and notice this time you don't face any policy error and you will be able create storage account.
-
-   ![](../images/lab17-image12.png)
-
-   >**Note**: Policy takes some time to get disable. 
-   
+  
+ 
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
 1. Try to create another storage account to ensure the policy is no longer in effect.
