@@ -30,7 +30,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image2.png)
 
-1.  For example, in the **Category (1)** drop-down select only **Compute (2)** then click **Apply (3)**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
+1.  For example, in the **Category (1)** drop-down, uncheck **All** checkbox and select only **Compute (2)** then click **Apply (3)**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
     ![](../images/lab17-image3.png)
 
