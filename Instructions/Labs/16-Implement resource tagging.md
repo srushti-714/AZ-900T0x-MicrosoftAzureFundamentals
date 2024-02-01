@@ -35,9 +35,9 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
-    ![Add tags.](../images/AZ-900lab16.1a.png)
+    ![Add tags.](../images/lab16.png)
 
-    **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
+    >**Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
  
 
 1. The **Require a tag and its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
@@ -103,7 +103,7 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the elipsis button and selet**Delete Assignment**.
 
-   ![Screenshot of the All Resources filter with Company selected.](../images/l16.2b.png)
+   ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
 
 1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
