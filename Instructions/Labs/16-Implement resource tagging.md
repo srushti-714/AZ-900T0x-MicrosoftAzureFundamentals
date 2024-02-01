@@ -29,13 +29,13 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 1. Notice the **Scope** for our policy will be subscription wide. 
 
-1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available defination**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
+1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
 
    ![Add tags.](../images/AZ-900-availabledefination.png)
 
-1. On the **Assign policy** blade, Switch to **Parameters** tab, type in **Company** for the Tag name and **Contoso** for the Tag Value. Click **Review + create**, and then **Create**.
+1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
-    ![Add tags.](../images/AZ-900lab16.1.png)
+    ![Add tags.](../images/AZ-900lab16.1a.png)
 
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
  
@@ -55,7 +55,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Subscription | **Use your subscription** |
     | Resource group | **myRGTags**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **(US) East US** |
+    | Location | **<inject key="Region" enableCopy="false"/>** |
     | | |
 
 
@@ -101,13 +101,11 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
 
-1. Click the **Require a tag and its value on resources** policy entry.
+1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the elipsis button and selet**Delete Assignment**.
 
-1. Click **Delete Assignment** in the top menu.
+   ![Screenshot of the All Resources filter with Company selected.](../images/l16.2b.png)
 
 1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
-
-1. If you have time, create another resource without a tag to ensure the policy is no longer in effect.
 
    In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
 
