@@ -22,21 +22,21 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create an IoT hub. 
 
-1. On the Azure portal, from the **All services** blade, search for and select **IoT Hub**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **IoT Hub (1)**, and then select **IoT Hub (2)** under services.
 
    ![](../images/lab7-image1.png)
   
 1. On the **Iot Hub** blade, click **+ Create**.
 
-1. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details and click **Review + create**.
+1. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details and click **Review + create (6)**.
 
     | Settings | Value |
     |--|--|
-    | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" />**  |
-    | Region | **East US** |
-    | IoT Hub Name | **my-hub-group<inject key="DeploymentID" enableCopy="false" />** |
-    | Tier | **Standard (most popular)”** |
+    | Subscription | **Accept default subscription (1)** |
+    | Resource Group | **myRGIoT-<inject key="DeploymentID" enableCopy="false" /> (2)**  |
+    | IoT Hub Name | **my-hub-group<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Region | **<inject key="Region" enableCopy="false"/> (4)** |
+    | Tier | **Standard (most popular) (5)** |
     |||
 
     ![](../images/lab7-image2.png)
@@ -53,11 +53,11 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![](../images/lab7-image3.png)
 
-1. To add a new IoT device, scroll down to the **Device management** section and click **Devices**. Then, click **+ Add Device**.
+1. To add a new IoT device, scroll down to the **Device management** section and click **Devices (1)**. Then, click **+ Add Device (2)**.
 
 	![](../images/lab7-image4.png)
 
-1. Provide a **Device ID** for your new IoT device, **<inject key="DeploymentID" enableCopy="false" />**, and click the **Save** button. This will create a new IoT device identity in your Azure IoT Hub.
+1. Provide a **Device ID** for your new IoT device, **<inject key="DeploymentID" enableCopy="false" />** **(1)**, and click the **Save (2)** button. This will create a new IoT device identity in your Azure IoT Hub.
 
    ![](../images/lab7-image5.png)
   
