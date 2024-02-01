@@ -19,21 +19,21 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Create an Azure Key Vault
 
-1. On the Azure Portal, from the **All services** blade, search for and select **Key vaults**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Key vaults (1)**, and then select **Key vaults (2)** under services.
 
    ![](../images/lab12-image1.png)
   
 1. On **Key vaults** blade, select **+ Create**.
 
-1. On the **Basics tab** specify the following to configure the key vault and click on **Review + create**.
+1. On the **Basics tab** specify the following to configure the key vault and click on **Review + create (6)**.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
-    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" />**  |
-    | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" />** |
-    | Location | **<inject key="Region" enableCopy="false"/>** |
-    | Pricing tier | **Standard** |
+    | Subscription | **Accept default subscription (1)** |
+    | Resource group | **myRGKV-<inject key="DeploymentID" enableCopy="false" /> (2)**  |
+    | Key vault name | **keyvaulttest<inject key="DeploymentID" enableCopy="false" /> (3)** |
+    | Location | **<inject key="Region" enableCopy="false"/> (4)** |
+    | Pricing tier | **Standard (5)** |
     | | |
 
     ![](../images/lab12-image2.png)
@@ -56,17 +56,17 @@ In this lab, you will complete the following tasks:
         
 In this task, we will add a password to the key vault. 
 
-1. Under **Objects** click **Secrets**, then click **+ Generate/Import**.
+1. Under **Objects** click **Secrets (1)**, then click **+ Generate/Import (2)**.
 
    ![](../images/lab12-image5.png)
    
-1. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret and click **Create**.
+1. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret and click **Create (4)**.
 
     | Setting | Value | 
     | --- | --- |
-    | Upload options | **Manual** |
-    | Name | **ExamplePassword** |
-    | Value | **hVFkk96** |
+    | Upload options | **Manual (1)** |
+    | Name | **ExamplePassword (2)** |
+    | Value | **hVFkk96 (3)** |
     | | |
 
     ![](../images/lab12-image6.png)
