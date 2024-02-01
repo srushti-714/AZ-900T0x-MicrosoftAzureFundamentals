@@ -42,6 +42,7 @@ In this task, we will add infrastructure information to the calculator.
     | | |
 
     ![](../images/lab20-image1.png)
+    ![](../images/lab20-image2.png)
    
 1. Select **+ Add server workload** to make a row for a new server workloads definition. 
 
@@ -58,7 +59,7 @@ In this task, we will add infrastructure information to the calculator.
     | Optimize by | **CPU** |
     | | |
 
-    ![](../images/lab20-image2.png)
+    ![](../images/lab20-image3.png)
    
 1. In the **Storage** pane, click **Add storage**.
 
@@ -72,8 +73,8 @@ In this task, we will add infrastructure information to the calculator.
     | Archive | **0 TB** |
     | | |
 
-     ![](../images/lab20-image3.png)
-
+     ![](../images/lab20-image4.png)
+      ![](../images/lab20-image5.png)
 
 1. In the **Networking** pane, add bandwidth and click **Next**.
 
@@ -82,7 +83,7 @@ In this task, we will add infrastructure information to the calculator.
     | Outbound bandwidth | 15 TB|
     | | |
 
-    ![](../images/lab20-image4.png)
+    ![](../images/lab20-image6.png)
 
 1. Explore the options and make any adjustments that you require. 
 
@@ -91,7 +92,7 @@ In this task, we will add infrastructure information to the calculator.
     | Currency | **Euro zone** |
     | | |
     
-    ![](../images/lab20-image5.png)
+    ![](../images/lab20-image7.png)
 
 1. Click **Next**.
 
@@ -107,12 +108,12 @@ In this task, we will review cost saving recommendations and download a report.
     | Region | **North Europe** |
     | | |
 
-    ![](../images/lab20-image6.png)
+    ![](../images/lab20-image8.png)
 
 
 1. To save or print a PDF copy of the report, click **Download**.
 
-   ![](../images/lab20-image7.png)
+   ![](../images/lab20-image9.png)
 
 1. To modify the information you provided, go to the bottom of the page, and click **Back**. 
 
