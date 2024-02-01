@@ -32,7 +32,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Subscription | **Accept default subscription**|
     | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name | **SimpleWinVM** |
-    | Location | **<inject key="Region" enableCopy="false"/>**|
+    | Region | **<inject key="Region" enableCopy="false"/>**|
     | Availability option | **No infrastructure redundancy required** |
     | Security type | **Standard** |
     | Image | **Windows Server 2019 Datacenter -x64 Gen 2**|
