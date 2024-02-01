@@ -31,7 +31,7 @@ In this task, we will create a new storage account.
     | Subscription | **Choose the default subscription** |
     | Resource group | **myRGStorage-<inject key="DeploymentID" enableCopy="false" />** |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false" />** |
-    | Location | **(US) East US**  |
+    | Location | **<inject key="Region" enableCopy="false"/>**  |
     | Performance | **Standard** |
     | Redundancy | **Locally redundant storage (LRS)** |
 
@@ -49,7 +49,7 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click the name of the new storage account, scroll to the **Data storage** section, and then click **Containers**.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** new storage account, scroll to the **Data storage** section, and then click **Containers**.
 
 1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
