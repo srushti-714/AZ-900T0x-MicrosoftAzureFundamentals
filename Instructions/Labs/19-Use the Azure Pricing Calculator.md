@@ -27,9 +27,11 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 1. To add details of your VM configuration, click **Virtual Machines** on the **Products** tab. Scroll down to view the virtual machine details. 
 
+   ![.](../images/l19a.png)
+
 1. Replace **Your Estimate** and **Virtual Machines** text with more descriptive names for your Azure Pricing Calculator estimate and your VM configuration. This walkthrough example uses **My Pricing Calculator Estimate** for the estimate.
 
-   ![Screenshot of the vm configuration area within the Azure pricing calculator estimate webpage. The highlighted estimate name and vm configuration name indicate how to add an estimate name and a vm configuration name to an Azure pricing calculator estimate.](../images/AZ-900-vm.png)
+   ![.](../images/AZ-900-vm.png)
 
 1. Modify the default VM configuration.
 
