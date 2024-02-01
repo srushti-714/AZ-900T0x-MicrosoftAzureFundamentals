@@ -137,7 +137,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. Click on **Review** and  **Create**.
 
-   >**Note**: Please be aware that it may take some time for the policy to be fully deleted. During this period, sign out and sign back in and proceeding with the final step..
+   >**Note**: Please be aware that it may take some time for the policy to be fully deleted. During this period, sign out and sign back in.
     
     >**Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
