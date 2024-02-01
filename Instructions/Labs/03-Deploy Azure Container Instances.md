@@ -22,9 +22,9 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a new container instance for the web application. 
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Container instances**.
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Container instances (1)**, and then select **Container instances (2)** under services.
 
-    ![](../images/lab3-image1.png)
+   ![](../images/lab3-image1.png)
    
 1. On **Container instances** blade, click **+ Create**. 
 
@@ -43,11 +43,11 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 
 	
-1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create**.
+1. On **Networking** tab . Specify the following and leave all other settings at their default values and click **Review + create (2)**.
 
     | Setting| Value|
     |--|--|
-    | DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" />** |
+    | DNS name label| **mycontainerdns<inject key="DeploymentID" enableCopy="false" /> (1)** |
     |||
 
     ![](../images/lab3-image2.png)
@@ -64,7 +64,7 @@ In this task, we will create a new container instance for the web application.
 
 In this task, we verify that the container instance is running by ensuring that the welcome page displays.
 
-1. After the deployment is complete, click the **Go to resource** link the deployment blade or the link to the resource in the Notification area.
+1. After the deployment is complete, click the **Go to resource** button.
 
    ![](../images/lab3-image3.png)
 
@@ -72,7 +72,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
     ![](../images/lab3-image6.png)
 
-1. Locate and copy the Fully Qualified Domain Name (FQDN).
+1. Locate and copy the **Fully Qualified Domain Name (FQDN)**.
 
     ![](../images/lab3-image4.png)
 
