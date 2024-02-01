@@ -30,7 +30,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription** (1)|
+    | Subscription | **Accept default subscription** (1)|
     | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
     | Location | **(US) East US** (4)|
