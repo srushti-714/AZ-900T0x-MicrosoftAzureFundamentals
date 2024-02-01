@@ -131,6 +131,8 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     | Resource group | **myRGPolicy**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **(US) East US** |
+    | Performance |	**Standard** |
+    | Replication	| **Locally redundant storage (LRS)** |
     | | |
 
     ![](../images/lab17-image13.png)
