@@ -123,21 +123,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
  
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
-1. Try to create another storage account to ensure the policy is no longer in effect.
-
-    | Setting | Value | 
-    | --- | --- |
-    | Subscription | **Accept default subscription** |
-    | Resource group | **myRGPolicy**  |
-    | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **(US) East US** |
-    | Performance |	**Standard** |
-    | Replication	| **Locally redundant storage (LRS)** |
-    | | |
-
-    ![](../images/lab17-image13.png)
-
-1. Click on **Review** and  **Create**.
+1. Now try to create a storage account and the policy will not block the creation.
 
    >**Note**: Please be aware that it may take some time for the policy to be fully deleted. During this period, sign out and sign back in.
     
