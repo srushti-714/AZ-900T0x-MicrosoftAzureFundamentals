@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
    ![image](../images/lab14-image1.png)
 
@@ -43,7 +43,8 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![image](../images/lab14-image5.png)
    
-1. On **Members** tab ensure **Assign access to**: **the user, group, or service principal (1)** is selected. Then click **+ Select members (2)** popup window will open in search bar enter your azure account name (Username: **<inject key="AzureAdUserEmail"></inject>) (3)** click **select (4)**. 
+
+1. On the **Members** tab, make sure to select **Assign access to: the user, group, or service principal (1)**. Next, click **+ Select members (2)** to open a popup window. In the search bar within the popup, enter your Azure account name (Username: **<inject key="AzureAdUserEmail"></inject>) (3)**, and then click **select (4)**.
 
     ![image](../images/lab14-image6.png)
 
@@ -57,7 +58,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     ![image](../images/lab14-image8.png)
 
-1. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor.
+1. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor (you need to scroll down).
 
      ![image](../images/lab14-image9.png)
 
@@ -73,7 +74,7 @@ In this task, we will view the activity log to verify the role assignment, and t
 
     ![image](../images/lab14-image10.png)
 
-5. From the **Resource (1)** drop-down, select **Operation (2)**, and then from **Selected (3)** drop-down search for **Create role assignment (4)** and select **Create role assignment (microsoft.Authorization/roleAssignments/write) (5)**
+5. From the **Resource (1)** drop-down, select **Operation (2)**. Then in the **Selected (3)** drop-down, search for **Create role assignment (4)** and choose **Create role assignment (microsoft.Authorization/roleAssignments/write) (5)**
 
     ![image](../images/lab14-image11.png)
 
