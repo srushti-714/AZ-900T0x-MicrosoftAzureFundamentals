@@ -125,7 +125,7 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
 1. Now try to create a storage account and the policy will not block the creation.
 
-   >**Note**: Please be aware that it may take some time for the policy to be fully deleted. During this period, sign out and sign back in.
+   >**Note**: Please be aware that it may take some time for the deleted policy to start working.
     
     >**Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
