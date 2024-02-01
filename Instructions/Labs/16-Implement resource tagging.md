@@ -107,7 +107,11 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
-   In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
+1. Now try to create a storage account and the policy will not block the creation.
+
+   >**Note:** It could take a little while for the deleted policy to start working.
+
+In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
 
 ### Review
 In this lab, you have completed:
