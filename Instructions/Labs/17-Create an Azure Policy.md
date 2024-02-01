@@ -70,6 +70,8 @@ In this task, we will test the Allowed location policy.
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Storage accounts (1)**, and then select **Storage accounts (2)** under services.
 
+   ![](../images/lab15-image6.png)
+   
 1. Configure the storage account. Leave the defaults for everything else. 
 
     | Setting | Value | 
