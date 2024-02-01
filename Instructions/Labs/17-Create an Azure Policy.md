@@ -126,7 +126,13 @@ We will delete the policy assignment to ensure we are not blocked on any future 
    
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
-    **Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
+1. Try to create another storage account to ensure the policy is no longer in effect.
+
+    ![](../images/lab17-image13.png)
+
+    >**Note**: You may need to wait for some time until policy gets delete completely mean while sign out and sign in perform the last step.
+    
+    >**Note**: Common scenarios where the **Allowed locations** policy can be useful include: 
     - *Cost Tracking*: You could have different subscriptions for different regional locations. The policy will ensure that all resources are deployed in the intended region to help with cost tracking. 
     - *Data Residency and Security compliance*: You could also have data residency requirements, create subscriptions per customer or specific workloads, and define that all resources must be deployed in a particular data center to ensure data and security compliance requirements.
 
