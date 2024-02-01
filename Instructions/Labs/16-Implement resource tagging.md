@@ -31,7 +31,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
 
-   ![Add tags.](../images/AZ-900-availabledefination.png)
+   ![Add tags.](../images/l16.3c.png)
 
 1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
