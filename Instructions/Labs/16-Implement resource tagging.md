@@ -31,7 +31,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
 
-   ![Add tags.](../images/l16.3c.png)
+   ![Add tags.](../images/lba16.3c.png)
 
 1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
@@ -83,11 +83,11 @@ In this task, we will create storage accounts to test the required tagging.
 
 1. Note all tags and their values. Click the **Company : Contoso** key/value pair. This will display a blade showing the newly created storage account, as long as you included the tag during its deployment. 
 
-   ![Screenshot of the Tags with company and contoso selected.](../images/1705.png)
+   ![Screenshot of the Tags with company and contoso selected.](../images/l16.4d.png)
 
 1. Click **Add filter** and add the **Company** tag key as the filter category. With the filter applied, only your storage account will be listed.
 
-    ![Screenshot of the All Resources filter with Company selected.](../images/AZ-900-module-16-tags.png)
+    ![Screenshot of the All Resources filter with Company selected.](../images/l16.5e.png)
        
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
