@@ -63,7 +63,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
       ![Enter Your Password](../images/sc900-image-2.png)
  
-4. If you get a pop-up stating **Action Required** click on **Ask Later**
+4. If you get a pop-up stating **Action Required** click on **Ask Later**.
 
 5. If prompted to stay signed in, you can click "No."
  
