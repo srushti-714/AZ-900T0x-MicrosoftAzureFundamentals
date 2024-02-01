@@ -56,7 +56,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 1. On **myRGLocks-<inject key="DeploymentID" enableCopy="false" /> | Locks** blade, from the left navigation select **Overview**.
 
-1. On **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** blade, click **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and  Type the name of the resource group **(3)** and click **Delete** **(4)** then select **Delete** on **Delete Confirmtion** window.
+1. On **myRGLocks-<inject key="DeploymentID" enableCopy="false" />** blade, click on **Delete resource group (1)**. Copy the **Resource Group** name **(2)** and paste it into the **Enter resource group name to confirm deletion (3)** and click **Delete** **(4)** then confirm the deletion by selecting **Delete** on **Delete Confirmtion** window.
 
    ![](../images/lab15-image4.png)
 
