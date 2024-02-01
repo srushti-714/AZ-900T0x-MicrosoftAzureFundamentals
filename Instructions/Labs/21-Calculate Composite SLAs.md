@@ -36,15 +36,17 @@ In this lab, you will complete the following tasks:
 
    ![screenshot of the downloading the word file.](../images/AZ-900-download.png)
 
-1. Type/Search for **App Service** SLA uptime value, **99.95%**. Click **View full details**, and then expand **SLA details**. Notice the **Monthly uptime percentages** and **Service Credits**.
+1. Type/Search for **App Service**, and click on App Service search result. Notice the **Monthly uptime percentages** and **Service Credits**.
 
-1. Then again Type/Search for **Azure Active Directory B2C** service and determine the SLA uptime value, **99.9%**. 
+   ![screenshot of the downloading the word file.](../images/l21a.png) 
 
-1. Type/Search for **Application Gateway** SLA uptime value, **99.95%**. 
+1. Then again Type/Search for **Azure Active Directory B2C** service  and click on the Application Gateway search result now notice the **Monthly uptime percentages** and **Service Credits**.
 
-1. The Azure SQL database uses Premium tiers but is not configured for Zone Redundant Deployments. Locate the **Azure SQL Database** SLA uptime value, **99.99%**. 
+1. Type/Search for **Application Gateway** SLA uptime value, and click on the Application Gateway search result now notice the **Monthly uptime percentages** and **Service Credits**.
 
-    **Note**: There are different uptime values for different configurations and deployments of Azure SQL Database. It is important you are clear on your required uptime values, when planning and costing your deployment and configuration. Small changes in uptime can have impact on service costs as well as potentially increase complexity in configuration. Some other services that may be of interest on the Azure SLA summary web page would include **Virtual Machines**, **Storage Accounts** and **Cosmos DB**.
+1. The Azure SQL database uses Premium tiers but is not configured for Zone Redundant Deployments. Locate the **Azure SQL Database** and notice the **Monthly uptime percentages** and **Service Credits**.
+
+    >**Note**: There are different uptime values for different configurations and deployments of Azure SQL Database. It is important you are clear on your required uptime values, when planning and costing your deployment and configuration. Small changes in uptime can have impact on service costs as well as potentially increase complexity in configuration. Some other services that may be of interest on the Azure SLA summary web page would include **Virtual Machines**, **Storage Accounts** and **Cosmos DB**.
 
 ### Task 2: Calculate the Application Composite SLA percentage uptime
 
@@ -52,13 +54,8 @@ In this lab, you will complete the following tasks:
 
     - **App Service % uptime** X **Azure AD B2C % uptime** X  **Azure Application Gateway % uptime** X **Azure SQL Database % uptime** = **Total % Uptime**
 
-    - which in percentage term is as follows:
-
-    - **99.95%** X **99.9%** X **99.95%** X **99.99%** = **99.79%**
-
     - This is the SLA-based expected availability of our application with the current services and architecture.
 
-    > **Congratulations!** You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
 
 ### Review
 In this lab, you have completed:

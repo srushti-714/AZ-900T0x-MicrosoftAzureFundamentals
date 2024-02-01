@@ -29,15 +29,15 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 1. Notice the **Scope** for our policy will be subscription wide. 
 
-1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available defination**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
+1. Select the **Policy definition** ellipsis button (end of the textbox on the right). In **Available definition**, Search/Select **Require a tag and its value on resources** definition, then click **Add**.
 
-   ![Add tags.](../images/AZ-900-availabledefination.png)
+   ![Add tags.](../images/lba16.3c.png)
 
-1. On the **Assign policy** blade, Switch to **Parameters** tab, type in **Company** for the Tag name and **Contoso** for the Tag Value. Click **Review + create**, and then **Create**.
+1. On the **Assign policy** blade, click **Next** twice to switch to **Parameters** tab, type in **Company** (1) for the Tag name and **Contoso** (2) for the Tag Value. Click **Review + create** (3), and then subsequently click on **Create**.
 
-    ![Add tags.](../images/AZ-900lab16.1.png)
+    ![Add tags.](../images/lab16.png)
 
-    **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
+    >**Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
  
 
 1. The **Require a tag and its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
@@ -55,7 +55,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Subscription | **Use your subscription** |
     | Resource group | **myRGTags**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
-    | Location | **(US) East US** |
+    | Location | **<inject key="Region" enableCopy="false"/>** |
     | | |
 
 
@@ -83,17 +83,17 @@ In this task, we will create storage accounts to test the required tagging.
 
 1. Note all tags and their values. Click the **Company : Contoso** key/value pair. This will display a blade showing the newly created storage account, as long as you included the tag during its deployment. 
 
-   ![Screenshot of the Tags with company and contoso selected.](../images/1705.png)
+   ![Screenshot of the Tags with company and contoso selected.](../images/l16.4d.png)
 
 1. Click **Add filter** and add the **Company** tag key as the filter category. With the filter applied, only your storage account will be listed.
 
-    ![Screenshot of the All Resources filter with Company selected.](../images/AZ-900-module-16-tags.png)
+    ![Screenshot of the All Resources filter with Company selected.](../images/l16.5e.png)
        
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-   > - Hit the Validate button for the corresponding task.
-   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    >**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 4: Delete the policy assignment
 
@@ -101,15 +101,17 @@ In this task, we will remove the **Require a tag and its value on resources** po
 
 1. In the portal, from the **Search resources, services, and docs** blade, search for and select **Policy**.
 
-1. Click the **Require a tag and its value on resources** policy entry.
+1. In the **Require a tag and its value on resources** policy entry scroll o the right and click on the elipsis button and selet**Delete Assignment**.
 
-1. Click **Delete Assignment** in the top menu.
+   ![Screenshot of the All Resources filter with Company selected.](../images/lb16.2b.png)
 
 1. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
-1. If you have time, create another resource without a tag to ensure the policy is no longer in effect.
+1. Now try to create a storage account and the policy will not block the creation.
 
-   In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
+   >**Note:** It could take a little while for the deleted policy to start working.
+
+In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
 
 ### Review
 In this lab, you have completed:

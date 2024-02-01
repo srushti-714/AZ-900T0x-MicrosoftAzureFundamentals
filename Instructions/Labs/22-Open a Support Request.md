@@ -19,11 +19,11 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: View available support plan options and a technical support request
 
-1. On the Azure portal, from the **All services** blade, search for and select **Help + support**, then select **Support plans**.
+1. On the Azure portal, in the  **Search resources,services and docs** blade, search for and select **Help + support**, then select **Support plans** from the left navigation pane.
 
 1. Take a few minutes to review the different support plans. Notice what is included in the **Basic** plan. (Need to refresh the page.)
 
-1. Click **+ Create a support request**. The ticket is created based on the values you specify. 
+1. Go to the **Overview** option from the left navigation pane and click **+ Create a support request**. The ticket is created based on the values you specify. 
 
     | Setting | Value|
     |----|--------|
@@ -37,11 +37,11 @@ In this lab, you will complete the following tasks:
     | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
     | | |
 
-1. Click **Next: Solutions >>** and read through the recommended solutions.
+1. Click **Next** and in the recommended solution tab, read through the recommended solutions and click on **Return to support request**
 
-1. Click **Next: Details >>**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
+1. Click **Next**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
 
-    **Note:** We will stop at this point. Do you understand how to submit a technical request?
+    >**Note:** We will stop at this point. Do you understand how to submit a technical request?
 
 ### Task 2: Create a billing support request
 
@@ -56,17 +56,17 @@ In this lab, you will complete the following tasks:
     | Problem subtype | **Help me discover the service prices** |    
     | | |
 
-1. Click **Next: Solutions** and read through the recommended solutions.
+1. Click **Next** and read through the recommended solutions and click on **Return to support request**.
 
 1. Click **Next: Details**.  When submitting a real support request you would provide as much information as possible to allow for a speedy resolution of the issue. 
 
-    **Note:** We will STOP at this point. Do you understand how to submit a support request?
+    >**Note:** We will STOP at this point. Do you understand how to submit a support request?
 
-1. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
+1. Now back in the **Help + Support** page, click **All support requests** from the left navigation pane. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
-   **Note**: Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
+   >**Note**: Congratulations! You have viewed the available support plan options and practiced creating and monitoring a new support request.
 
-   **Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
+   >**Note**: Click for more information about [**creating an Azure support ticket**](https://azure.microsoft.com/en-us/support/create-ticket).
 
 ### Review
 In this lab, you have completed:
