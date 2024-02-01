@@ -49,7 +49,7 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** new storage account, scroll to the **Data storage** section, and then click **Containers**.
+1. Click on the **storageaccount<inject key="DeploymentID" enableCopy="false" />** new storage account, from the left navigation pane under **Data storage** section, and then click **Containers**.
 
 1. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
