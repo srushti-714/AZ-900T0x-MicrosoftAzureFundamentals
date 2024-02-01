@@ -117,6 +117,12 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 1. Click **Delete Assignment** in the top menu.
 
     ![](../images/lab17-image11.png)
+
+1. Try to create storage account and notice this time you don't face any policy error and you will be able create storage account.
+
+   ![](../images/lab17-image12.png)
+
+   >**Note**: Policy takes some time to get disable. 
    
 1. If Prompted confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
