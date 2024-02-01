@@ -22,7 +22,9 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a virtual network. 
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Virtual networks**, and then click **+ Create**. 
+1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual networks**, and then select **Virtual networks** under services.
+
+1. On **Create virtual network** blade, click **+ Create**. 
 
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
