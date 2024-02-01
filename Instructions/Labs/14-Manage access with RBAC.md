@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**.
+1. 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
    ![image](../images/lab14-image1.png)
 
@@ -31,19 +31,19 @@ In this task, we will assign the Virtual machine contributor role.
      
 1. You will be directed to the overview page of the resource group
 
-1. Click on the **Access control (IAM)** blade, and then switch to the **Roles** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
+1. Click on the **Access control (IAM) (1)** blade, and then switch to the **Roles (2)** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
 
    ![image](../images/lab14-image3.png)
 
-1. On the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade select **+ Add** then from drop-down select **Add Role assignments**. 
+1. On the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade select **+ Add (1)** then from drop-down select **Add Role assignments (2)**. 
 
    ![image](../images/lab14-image4.png)
    
-1. In  **Add Role assignments** blade on the **Role** tab, Search for the **Virtual Machine Contributor** role and select **Virtual Machine Contributor** then click on **Next**
+1. In  **Add Role assignments** blade on the **Role** tab, Search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**
 
     ![image](../images/lab14-image5.png)
    
-1. On **Members** tab ensure **Assign access to**: **the user, group, or service principal** is selected. Then click **+ Select members** popup window will open in search bar enter your azure account name (Username: <inject key="AzureAdUserEmail"></inject>) click **select**. 
+1. On **Members** tab ensure **Assign access to**: **the user, group, or service principal (1)** is selected. Then click **+ Select members (2)** popup window will open in search bar enter your azure account name (Username: **<inject key="AzureAdUserEmail"></inject>) (3)** click **select (4)**. 
 
     ![image](../images/lab14-image6.png)
 
