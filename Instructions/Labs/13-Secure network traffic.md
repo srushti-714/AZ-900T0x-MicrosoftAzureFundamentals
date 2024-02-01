@@ -29,10 +29,10 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription**|
+    | Subscription | **Accept default subscription**|
     | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Virtual machine name | **SimpleWinVM** |
-    | Location | **(US) East US**|
+    | Location | **<inject key="Region" enableCopy="false"/>**|
     | Availability option | **No infrastructure redundancy required** |
     | Security type | **Standard** |
     | Image | **Windows Server 2019 Datacenter -x64 Gen 2**|
@@ -80,7 +80,7 @@ In this task, we will create a network security group and associate it with the 
     | Subscription | **Choose your subscription** |
     | Resource group | **myRGSecure-<inject key="DeploymentID" enableCopy="false"/>** |
     | Name | **myNSGSecure** |
-    | Region | **(US) East US**  |
+    | Region | **<inject key="Region" enableCopy="false"/>**  |
    
 
 1. Click **Review + create** and then after the validation click **Create**.
