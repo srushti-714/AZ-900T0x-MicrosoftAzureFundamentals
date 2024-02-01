@@ -30,44 +30,39 @@ In this task, we will configure the allowed location policy and assign it to our
 
     ![](../images/lab17-image2.png)
 
-1.  For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
+1.  For example, in the **Category (1)** drop-down select only **Compute (2)** then click **Apply (3)**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
     ![](../images/lab17-image3.png)
 
-1. On the **Policy** page, under the **Authoring** section click **Assignments** > **Assign Policy**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope.
+1. On the **Policy** page, under the **Authoring** section click **Assignments (1)** > **Assign Policy (2)**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope.
 
     ![](../images/lab17-image4.png)
 
 
-1. On the **Assign Policy** page, select the Scope selector by clicking the ellipsis. Ensure your subscription is selected. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
+1. On the **Assign Policy** page, select the **Scope** by clicking the **ellipsis (1)**. Ensure your **subscription (2)** is selected. Notice you can **optionally choose the resource group (3)**. Leave the defaults and click **Select (4)**. 
 
     ![](../images/lab17-image5.png)
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however, we chose to assign the policy at the subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
 
-    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/scope2.png)
+1. Select the **Policy definition** ellipsis **(1)** button. In the **Search** box type **Allowed locations (2)** and click on the **Allowed locations (3)** definition, then click **Add**.
 
-1. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Add**.
-
-    ![](../images/lab17-image6.png)
+    ![](../images/lab17-image(6).png)
   
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
-   ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/location.png)
 
-1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**.
+1.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box, and from the subsequent list choose **Japan West (1)**. Leave all other values as they are and click **Review + create (2)**.
 
       ![](../images/lab17-image12.png)
-    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/allowedloc.png)
-
+    
 1.  Click on  **Create**.
 
 1. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
-   ![](../images/lab17-image6.png)
+   ![](../images/lab17-image9.png)
 
    >**Note**: You need to refresh the age to see the policy.
-
    
 ### Task 2: Test Allowed location policy
 
@@ -87,7 +82,7 @@ In this task, we will test the Allowed location policy.
 
 1. Notice the error which is disallowing to create stoarge account in east us region which block by the policy
 
-   ![](../images/lab17-image8.png)
+     ![](../images/lab17-image8.png)
     
    **Note**: You will receive the error message under the Region setting stating that Policy enforcement and Value does not meet requirements on resource, including the **Allowed locations** policy name.
       
@@ -111,13 +106,13 @@ We will delete the policy assignment to ensure we are not blocked on any future 
 
      ![](../images/lab17-image9.png)
     
-   **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
+     >**Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
-    **Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
+     >**Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created before the policy assignment.
 
 1. On the Allowed location page, select **View assignment** button.
 
-    [](../images/lab17-image10.png)
+     ![](../images/lab17-image10.png)
     
 1. Click **Delete Assignment** in the top menu.
 
