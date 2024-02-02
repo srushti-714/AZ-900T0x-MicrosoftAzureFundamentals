@@ -104,7 +104,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 ### Task 3: Test the connection 
 
-In this task, we will try to test whether the virtual machines can communicate (ping) each other. If not we will install a rule to allow an ICMP connection. Usually ICMP connections are automatically blocked.
+In this task, we will try to test whether the virtual machines can communicate (ping) each other. 
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
@@ -112,7 +112,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/conrdp.png)
 
-    >**Note:**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
+    >**Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on a Linux computer you can use an open source RDP client.
 
 1. Within the **Connect** page, click on **Download RDP File**.
 
