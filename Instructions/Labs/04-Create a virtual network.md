@@ -75,7 +75,6 @@ In this task, we will create two virtual machines in the virtual network.
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
    | Selected inbound ports| **RDP (3389)** |
-   |||
 
 1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
 
@@ -87,7 +86,6 @@ In this task, we will create two virtual machines in the virtual network.
    | Setting | Value | 
    | --- | --- |
    | Virtual network | **vnet1** |
-   |||
 
 1. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
@@ -101,7 +99,6 @@ In this task, we will create two virtual machines in the virtual network.
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
-    |||
 
 1. Wait for both virtual machines to deploy. 
 
