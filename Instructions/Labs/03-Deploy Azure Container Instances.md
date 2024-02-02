@@ -97,9 +97,10 @@ In this lab, you have completed:
 - Verify deployment of the container instance
 
 ## Reference link
-https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview
 
-https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal
+- https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview
+
+- https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal
   
 ## You have successfully completed this lab.
 
