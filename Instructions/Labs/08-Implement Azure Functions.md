@@ -40,7 +40,6 @@ In this task, we will create a Function app.
     | Runtime stack | **.NET** (5)|
     | Version | **6 (LTS)** (6)|
     | Region | **<inject key="Region" enableCopy="false"/>** (7)|
-    |||
     
     ![](../images/funcl8.1.png)
     
