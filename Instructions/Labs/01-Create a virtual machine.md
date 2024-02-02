@@ -49,7 +49,9 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Inbound port rules  | **Allow select ports** (9)|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
     |||
+   
     ![](../images/l1vm.png)
+   
     ![](../images/VM2.png)
 
 1. Click **Next** to switch to the **Disks** tab and in the **OS Disk type** select **Standard HDD** from the dropdown and leave everything else as default and click **Next**. 
