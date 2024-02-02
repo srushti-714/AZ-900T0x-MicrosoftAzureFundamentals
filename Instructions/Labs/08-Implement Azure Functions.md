@@ -95,5 +95,9 @@ In this task, we will use the Webhook + API function to display a message when t
 In this lab, you have completed:
 - Create a Function app
 - Create a HTTP triggered function and test
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp
   
 ## You have successfully completed this lab.
