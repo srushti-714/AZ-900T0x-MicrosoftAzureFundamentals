@@ -138,5 +138,9 @@ In this lab, you have completed:
 - Create a Policy assignment
 - Test Allowed location policy
 - Delete the policy assignment
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/governance/policy/overview
   
 ## You have successfully completed this lab.
