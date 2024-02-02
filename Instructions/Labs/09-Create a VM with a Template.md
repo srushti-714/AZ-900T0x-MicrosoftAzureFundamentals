@@ -25,7 +25,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
 
-1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?
+1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?.
 
 1. Search and Select the **Deploy a simple Windows VM with tags**.
 
@@ -37,7 +37,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to **2019-datacenter-gensecond**
+1. Click **Edit template**. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to **2019-datacenter-gensecond**.
 
    ![](../images/l9os.png)
    
@@ -45,7 +45,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
    ![](../images/l9vm.png)
 
-3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**
+3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**.
   
 1. Now configure the parameters required by the template. Leave the defaults for everything else. 
 
