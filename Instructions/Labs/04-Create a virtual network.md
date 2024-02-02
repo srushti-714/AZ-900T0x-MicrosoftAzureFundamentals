@@ -26,6 +26,8 @@ In this task, we will create a virtual network.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual networks**, and then select **Virtual networks** under services.
 
+   ![](../images/lab4-image1.png)
+   
 1. On **Create virtual network** blade, click **+ Create**. 
 
 1. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
