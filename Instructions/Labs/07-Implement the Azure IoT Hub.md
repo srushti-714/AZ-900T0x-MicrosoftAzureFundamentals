@@ -124,7 +124,7 @@ In this lab, you have completed:
 - Add an IoT device
 - Test the device using the Raspberry Pi Simulator
 
-## Reference link
+## Reference links
 
 - https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub
   
