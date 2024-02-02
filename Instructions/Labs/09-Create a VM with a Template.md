@@ -29,7 +29,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Search and Select the **Deploy a simple Windows VM with tags**.
 
-    **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
+    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
 1. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
@@ -37,7 +37,15 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
 
-1. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then Open **Parameter** file and review it and click on **Save**
+1. Click **Edit template**. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to **2019-datacenter-gensecond**
+
+   ![](../images/l9os.png)
+   
+1. Next, go to line number **110** change the VM name to **myVMTemplate**, and save the changes made to the template file by clicking on **Save**.
+
+   ![](../images/l9vm.png)
+
+3. To review the parameters and variables click on **Edit parameters file**, review the contents and  click on **Save**
   
 1. Now configure the parameters required by the template. Leave the defaults for everything else. 
 
@@ -52,7 +60,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-datacenter-gensecond** (7)|
     | VM Size | **Standard_D2s_v5** (8)|
 
-    ![](../images/l9.1.1.png)
+    ![](../images/lastl91.png)
 
 1. Click **Review + Create**.
  
