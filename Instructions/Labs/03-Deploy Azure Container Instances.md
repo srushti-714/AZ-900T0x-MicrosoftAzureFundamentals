@@ -35,7 +35,7 @@ In this task, we will create a new container instance for the web application.
 	| Subscription | **Choose your subscription** |
 	| Resource group | **myRGContainer-<inject key="DeploymentID" enableCopy="false" />** |
 	| Container name| **mycontainer**|
-	| Region | **(US) East US** |
+	| Region | **<inject key="Region" enableCopy="false"/>** |
 	| Image source| **Other registry**|
 	| Image type| **Public**|
 	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
