@@ -75,5 +75,11 @@ In this lab, you will complete the following tasks:
 In this lab, you have completed:
 - View available support plan options and a technical support request
 - Create a billing support request
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request
+  
+- https://learn.microsoft.com/en-us/services-hub/unified/support/open-support-requests
   
 ## You have successfully completed this lab.
