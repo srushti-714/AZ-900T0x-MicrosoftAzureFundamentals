@@ -102,7 +102,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
 
-### Task 3: Host a Basic Website on your New Cloud VM
+### Task 3: Host a Basic Website on your New Azure Cloud VM
 
 In this task, install the Web Server role on the server and host a basic website.
 
