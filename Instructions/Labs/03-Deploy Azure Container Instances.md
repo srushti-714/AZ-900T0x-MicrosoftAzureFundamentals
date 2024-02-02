@@ -96,7 +96,7 @@ In this lab, you have completed:
 - Create a container instance
 - Verify deployment of the container instance
 
-## Reference link
+## Reference links
 
 - https://learn.microsoft.com/en-us/azure/container-instances/container-instances-overview
 
