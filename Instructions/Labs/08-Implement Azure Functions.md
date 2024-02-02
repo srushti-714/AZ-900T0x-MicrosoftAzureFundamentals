@@ -42,7 +42,7 @@ In this task, we will create a Function app.
     | Region | **<inject key="Region" enableCopy="false"/>** (7)|
     |||
     
-     ![](../images/funcl8.1.png)
+    ![](../images/funcl8.1.png)
     
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
