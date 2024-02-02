@@ -91,7 +91,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 1. Monitor your deployment, but continue on to the next step. 
 
-1. Create a second virtual machine by repeating steps **2 to 5** above. Make sure you use a different virtual machine name, that the virtual machine is within the same virtual network, and is using a new public IP address:
+1. Create a second virtual machine by repeating steps **1 to 5** above from the task 2. Make sure you use a different virtual machine name as given below, and also the virtual machine is within the same virtual network, and is using a new public IP address: 
 
     | Setting | Value |
     | --- | --- |
