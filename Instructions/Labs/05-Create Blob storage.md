@@ -18,6 +18,12 @@ In this lab, you will complete the following tasks:
 
 ![](../images/az900lab05.PNG) 
 
+### Prerequisites
+
+1. Open **Notepad** by searching for it in the Start menu, and then add some text into notepad.
+
+1. In the menu bar at the top, click on **File > Save as**, and navigate to **Desktop** path and enter **Test** **File name** to save the file to the desktop.
+
 ### Task 1: Create a storage account
 
 In this task, we will create a new storage account. 
@@ -62,10 +68,8 @@ In this task, we will create a Blob container and upload a blob file.
 
 1. Click the **container1** container, and then click **Upload**.
 
-1. Browse to a file on your local computer. 
-
-    **Note**: You can create an empty `.txt` file or use any existing file. Consider choosing a file of a small size to minimize the upload time.
-
+1. Browse to a file **Test.txt** that you created in a previous task, located on the desktop.
+  
 1. Click the **Advanced** arrow, leave the default values but review the available options, and then click **Upload**.
 
     **Note**: You can upload as many blobs as you like in this way. New blobs will be listed within the container.
