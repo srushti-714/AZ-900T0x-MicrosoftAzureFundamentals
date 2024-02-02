@@ -37,7 +37,6 @@ In this task, we will configure Cloud Shell.
 
 1. Enter **blobfileshare<inject key="DeploymentID" enableCopy="false"/>** for the  **File share** , then click on **Create Storage**.
 
-
 ### Task 2: Create a virtual machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.
@@ -56,7 +55,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     Get-AzResourceGroup | Format-Table
     ```
 
-1. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
+1. Create a virtual machine. When prompted provide the username as **azureuser** and the password: **Pa$$w0rd1234**. <br>This will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
 
    **Note**: In the below code, replace the Resource group name as **myRGPS-<inject key="DeploymentID" enableCopy="false"/>**
 
@@ -120,7 +119,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
 
 ### Task 4: Review Azure Advisor Recommendations
 
-**Note:** This same task is in the Create a VM with Azure CLI lab.
+**Note:** This same task is also performed in hands-on-lab for **Create a VM with Azure CLI lab**.
 
 In this task, we will review Azure Advisor recommendations for our virtual machine.
 
