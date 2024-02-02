@@ -30,17 +30,20 @@ In this lab, you will complete the following tasks:
 
     | Setting | Value|
     |----|--------|
-    | Issue Type| **Technical** |
-    | Subscription | **Choose your subscription** |
-    | Service | **All services** |
-    | Service type | **Virtual Machine running Linux** |
-    | Resource | **General Question** |
-    | Summary | **Disk access is very slow for large files** |
-    | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
-    | | |
+    | Issue Type| **Technical** (1) |
+    | Subscription | **Choose your subscription** (2) |
+    | Service | **All services** (3) |
+    | Service type | **Virtual Machine running Linux** (4) |
+    | Resource | **General Question** (5)|
+    | Summary | **Disk access is very slow for large files** (6) |
+    | Problem type | **VM performance** (7) |
+    | Problem subtype | **Disk throughput or IOPS are lower than expected** (8) |    
+
+    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.1.png)
 
 1. Click **Next** and in the recommended solution tab, read through the recommended solutions and click on **Return to support request**
+
+   ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.3.png)
 
 1. Click **Next**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
 
@@ -52,12 +55,13 @@ In this lab, you will complete the following tasks:
 
     | Setting | Value|
     |----|--------|
-    | Issue Type| **Billing** |
-    | Subscription | **Choose your subscription** |
-    | Summary | **Monthly charge is not correct** |
-    | Problem type | **Pricing** |
-    | Problem subtype | **Help me discover the service prices** |    
-    | | |
+    | Issue Type| **Billing** (1)|
+    | Subscription | **Choose your subscription** (2) |
+    | Summary | **Monthly charge is not correct** (3)|
+    | Problem type | **Pricing** (4)|
+    | Problem subtype | **Help me discover the service prices** (5) |    
+
+    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.2.png)
 
 1. Click **Next** and read through the recommended solutions and click on **Return to support request**.
 
@@ -73,6 +77,7 @@ In this lab, you will complete the following tasks:
 
 ### Review
 In this lab, you have completed:
+
 - View available support plan options and a technical support request
 - Create a billing support request
 
