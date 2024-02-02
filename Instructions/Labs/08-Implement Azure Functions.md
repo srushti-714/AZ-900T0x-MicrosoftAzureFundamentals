@@ -25,8 +25,8 @@ In this task, we will create a Function app.
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Function App (1)**, and then select **Function App (2)** under services.
 
-    ![](../images/lab8-image1.png) 
-   
+    ![](../images/lab8-image1.png)
+      
 1. On the **Function App** blade, click **+ Create**.
 
 1. On the **Basic** tab of the **Function App** blade, specify the following settings and leave all others with their default values: 
@@ -42,7 +42,7 @@ In this task, we will create a Function app.
     | Region | **<inject key="Region" enableCopy="false"/>** (7)|
     |||
     
-     ![Screenshot of the Function App page with the new Function app.](../images/funcl8.1.png)
+     ![](../images/funcl8.1.png)
     
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
