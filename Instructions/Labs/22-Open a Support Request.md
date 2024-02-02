@@ -2,6 +2,9 @@
 
 ## Lab overview
 
+
+Opening a support request in Azure allows users to seek assistance from Microsoft Azure support professionals for troubleshooting issues, seeking guidance, or resolving technical problems related to Azure services and resources.
+
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
 ## Lab objectives
