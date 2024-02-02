@@ -81,7 +81,7 @@ In this lab, you have completed:
 - View available support plan options and a technical support request
 - Create a billing support request
 
-## Reference link
+## Reference links
 
 - https://learn.microsoft.com/en-us/azure/azure-portal/supportability/how-to-create-azure-support-request
   
