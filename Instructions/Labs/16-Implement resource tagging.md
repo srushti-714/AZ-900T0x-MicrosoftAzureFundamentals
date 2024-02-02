@@ -123,5 +123,6 @@ In this lab, you have completed:
 ## Reference link
 
 - https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources
+- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources-portal
   
 ## You have successfully completed this lab.
