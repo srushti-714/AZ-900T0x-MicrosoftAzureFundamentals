@@ -22,9 +22,9 @@ In this lab, you will complete the following tasks:
 
 ### Prerequisites
 
-1. Open **Notepad** by searching for it in the Start menu, and then add some text into notepad.
+1. Launch Notepad by searching for it in the Start menu, then input a random text within the Notepad application.
 
-1. In the menu bar at the top, click on **File > Save as**, and navigate to **Desktop** path and enter **Test** **File name** to save the file to the desktop.
+1. Next, access the menu bar at the top and select File > Save as. Navigate to the Desktop directory, name the file as **Test**, and save the file to the desktop.
 
 ### Task 1: Create a storage account
 
