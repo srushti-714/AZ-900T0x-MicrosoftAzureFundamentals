@@ -24,13 +24,13 @@ In this lab, you will complete the following tasks:
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
 
-1. On the Azure portal, from the **Search resources, Services, and docs(G+/)** blade, search for and select **Virtual machines**.
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
    ![](../images/lab1-image1.png) 
 
-3. On the **Virtual machines** blade, click **+ Create** and choose **Azure virtual machine**.
+3. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
 
-  ![](../images/lab1-image1.png) 
+    ![](../images/lab1-image2.png) 
 
 1. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
