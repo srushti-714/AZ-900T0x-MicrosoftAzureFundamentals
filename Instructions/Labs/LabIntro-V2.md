@@ -2,6 +2,14 @@
  
 Welcome to your AZ-900: Microsoft Azure Fundamentals workshop! We've prepared a seamless environment for you to explore and learn about foundational knowledge of cloud concepts in general and Microsoft Azure in particular. Let's begin by making the most of this experience:
  
+## Lab Prerequisite
+
+In this lab, we have the following preconfigured:
+
+- A Virtual Machine has been provisioned with all the necessary resources to support the tasks in this lab. 
+- You'll be provided with access to a pre-configured Microsoft user account, which comes with an active Azure subscription. 
+- The lab environment includes pre-established Resource Groups, simplifying the organization and management of related Azure resources.
+
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
@@ -72,5 +80,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 7. Click **Next** from the bottom right corner to embark on your Lab journey!
  
     ![Start Your Azure Journey](../images/sc900-image(3).png)
+
+ 8. Please review the **Note** sections in the lab guide for enhanced comprehension and improved lab performance.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
