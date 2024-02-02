@@ -81,9 +81,7 @@ In this task, we will test the web app.
 
     ![](../images/lab2-image7.png)
 
-1. Switch back to the **Overview** blade of your web app and select Monitoring tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
-
-      ![](../images/lab2-image8.png)
+1. Switch back to the **Overview** blade of your web app and select **Monitoring** tab note that it includes several charts. If you repeat step 4 a few times, you should be able to see corresponding telemetry being displayed in the charts. This includes number of requests and average response time.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -96,7 +94,7 @@ In this lab, you have completed:
 - Create a Web App
 - Test the Web App
 
-## Reference link
+## Reference links
 
 - https://azure.microsoft.com/en-us/products/app-service/?ref=jimmybogard.com
 
