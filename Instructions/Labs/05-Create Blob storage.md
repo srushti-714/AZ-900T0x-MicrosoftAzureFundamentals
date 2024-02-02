@@ -74,9 +74,11 @@ In this task, we will create a Blob container and upload a blob file.
   
 1. Click the **Advanced** arrow, leave the default values but review the available options, and then click **Upload**.
 
-    **Note**: You can upload as many blobs as you like in this way. New blobs will be listed within the container.
+    >**Note:** You can upload as many blobs as you like in this way. New blobs will be listed within the container.
 
 1. Once the file is uploaded, right-click on the file and notice the options including View/edit, Download, Properties, and Delete. 
+
+   >**Note:** In the event that the access level for the storage account is configured as public, accessing the contents of the storage account can be done through a URL. To gain a deeper understanding of Storage Account access levels, please go through the following link:[Access Levels](https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
 
 1. As you have time, from the storage account blade, review the options for Files, Tables, and Queues.
 
