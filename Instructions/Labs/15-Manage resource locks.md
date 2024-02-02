@@ -136,5 +136,9 @@ In this lab, you have completed:
 - Add a Lock to the resource group and test deletion
 - Test deleting a member of the resource group
 - Remove the resource lock
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/storage/common/lock-account-resource?tabs=portal
   
 ## You have successfully completed this lab.
