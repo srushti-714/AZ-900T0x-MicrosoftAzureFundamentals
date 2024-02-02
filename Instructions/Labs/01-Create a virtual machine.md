@@ -48,7 +48,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Administrator account password | **Pa$$w0rd1234** (8)|
     | Inbound port rules  | **Allow select ports** (9)|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
-
+    |||
+   
     ![](../images/l1vm.png)
    
     ![](../images/VM2.png)
