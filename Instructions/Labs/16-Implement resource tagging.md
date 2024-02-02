@@ -119,5 +119,9 @@ In this lab, you have completed:
 - Create a storage account to test the required tagging
 - View all resources with a specific tag
 - Delete the policy assignment
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources
   
 ## You have successfully completed this lab.
