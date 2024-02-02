@@ -160,7 +160,7 @@ In this lab, you have completed:
 - Create two virtual machines
 - Test the connection
 
-### Reference Link
+### Reference Links
 
 - https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
 - https://learn.microsoft.com/en-us/azure/virtual-network/
