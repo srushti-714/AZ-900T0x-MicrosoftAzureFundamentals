@@ -25,7 +25,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 **Note**: To create an Azure Pricing Calculator estimate, this walkthrough provides example configurations for the VM and related resources. Use this example configurations or provide the Azure Pricing Calculator with details of your *actual* resource requirements instead.
 
-1. In your own local browser, navigate to the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) webpage.
+1. In your edge browser, navigate to the [Azure Pricing Calculator](https://azure.microsoft.com/en-us/pricing/calculator/) webpage.
 
 1. To add details of your VM configuration, click **Virtual Machines** on the **Products** tab and subsequently click on **View** in the pop-up that appears. Scroll down to view the virtual machine details. 
 
