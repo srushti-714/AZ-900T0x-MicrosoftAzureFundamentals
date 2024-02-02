@@ -133,7 +133,7 @@ In this lab, you have completed:
 - Configure the pricing calculator
 - Review the pricing estimate
 
-## Reference link
+## Reference links
 
 - https://azure.microsoft.com/en-gb/pricing/#product-pricing
 
