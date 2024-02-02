@@ -52,7 +52,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-datacenter-gensecond** (7)|
     | VM Size | **Standard_B2s** (8)|
 
-    ![](../images/l9.1.1.png)
+    ![](../images/lastl9.png)
 
 1. Click **Review + Create**.
  
