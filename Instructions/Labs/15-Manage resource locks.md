@@ -4,9 +4,9 @@
 
 To protect your Azure resources from accidental deletions or modifications, you can use management locks. These locks allow you to enforce restrictions at different levels: subscription, resource group, or individual resource.
 
-Read Only – resource can’t be modified or deleted but can still be read.
+Read-Only Locks: A read-only lock allows read access but prevents any modification to a resource and deletion. Although still allowing authorized users to examine the resource, this kind of lock is important for preventing unintentional modifications to crucial resources.
 
-Can Not Delete – resource can be modified and read but not deleted, by anyone.
+Delete Locks: Can’t delete the resource but the authorized user can read and modify the resource. This kind of lock is helpful for preventing unintentional or unauthorized deletion of crucial resources.
 
 In this walkthrough,  we will verify the existing resource group, add a lock to the resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock.
 
