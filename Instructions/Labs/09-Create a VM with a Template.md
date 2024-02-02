@@ -29,7 +29,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 1. Search and Select the **Deploy a simple Windows VM with tags**.
 
-    **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
+    >**Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for a small set of configuration parameters. 
 
 1. Click the **Deploy to Azure** button. Your browser session will be automatically redirected to the [Azure portal](http://portal.azure.com/).
 
