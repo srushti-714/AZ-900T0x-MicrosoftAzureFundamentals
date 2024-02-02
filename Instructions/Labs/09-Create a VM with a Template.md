@@ -33,7 +33,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     ![](../images/l9.5.png)
 
-1. If prompted, sign in to the Azure with the **Username** <inject key="AzureAdUserEmail"></inject> and **Password** <inject key="AzureAdUserPassword"></inject>.
+1. If prompted, sign in to the Azure with the **Username:** <inject key="AzureAdUserEmail"></inject> and **Password:** <inject key="AzureAdUserPassword"></inject>.
 
 1. Click **Edit template**. The Resource Manager template format uses the JSON format. In the template go to line number **35** and change the default value of the OS version to **2019-datacenter-gensecond**
 
@@ -65,7 +65,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
  
 1. Click the **Create**.
 
-1. Monitor your deployment. 
+1. Monitor your deployment, wait until your deployment is completed.
 
 ### Task 2: Verify and monitor your virtual machine deployment
 
