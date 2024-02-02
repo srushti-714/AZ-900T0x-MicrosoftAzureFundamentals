@@ -118,6 +118,8 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the Query editor with the query pane and the commands executing successfully.](../images/0507.png)
 
+    **Note**: This SQL query selects the top 20 records from the SalesLT.ProductCategory table and SalesLT.Product table, displaying the CategoryName from the ProductCategory table as "CategoryName" and the ProductName from the Product table as "ProductName." The query performs an inner join between the two tables based on the productcategoryid column
+
 1. Click **Run**, and then review the query results in the **Results** pane. The query should run successfully.
 
     ![Screenshot of the database Query Editor pane with the SQL code having been run successfully and the output visible in the results pane.](../images/0508.png)
