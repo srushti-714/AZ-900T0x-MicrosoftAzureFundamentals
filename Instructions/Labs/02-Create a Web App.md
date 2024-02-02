@@ -98,8 +98,8 @@ In this lab, you have completed:
 
 ## Reference link
 
-https://azure.microsoft.com/en-us/products/app-service/?ref=jimmybogard.com
+- https://azure.microsoft.com/en-us/products/app-service/?ref=jimmybogard.com
 
-https://learn.microsoft.com/en-us/training/modules/host-a-web-app-with-azure-app-service/
+- https://learn.microsoft.com/en-us/training/modules/host-a-web-app-with-azure-app-service/
 
 ## You have successfully completed this lab.
