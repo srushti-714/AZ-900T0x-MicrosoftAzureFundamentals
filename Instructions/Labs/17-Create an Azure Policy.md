@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Azure Policy is a service in Microsoft Azure that allows you to create, assign, and manage policies to enforce compliance with your organization's standards and governance requirements across Azure resources. It helps you ensure that your Azure environment stays compliant with regulations, follows internal policies, and meets security and operational standards.
+
 In this walkthrough, we will create an Azure Policy to restrict the deployment of Azure resources to a specific location.
 
 ## Lab objectives
