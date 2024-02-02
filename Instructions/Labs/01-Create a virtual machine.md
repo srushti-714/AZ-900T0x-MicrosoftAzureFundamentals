@@ -50,6 +50,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/l1vm.png)
+   
 
    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/VM2.png)
 
