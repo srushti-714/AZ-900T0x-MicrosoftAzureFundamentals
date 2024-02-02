@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Storage account is a resource that acts as a container that groups all the data services from Azure storage (Azure blobs, Azure files, Azure Queues, and Azure Tables). This helps us manage all of them as a group.
+
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
 ## Lab objectives
