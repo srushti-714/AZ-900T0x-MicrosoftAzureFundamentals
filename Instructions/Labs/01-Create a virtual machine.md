@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+An Azure Virtual Machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
+
 In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
 
 ## Lab objectives
@@ -75,6 +77,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 1. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 1. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
+
+   >**Note**: Here is the reference link for virtual machine https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
 
 ### Task 2: Connect to the virtual machine
 
