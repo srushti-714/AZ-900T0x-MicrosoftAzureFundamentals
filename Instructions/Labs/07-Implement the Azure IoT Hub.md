@@ -123,5 +123,12 @@ In this lab, you have completed:
 - Create an IoT hub
 - Add an IoT device
 - Test the device using the Raspberry Pi Simulator
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub
+  
+- https://learn.microsoft.com/en-us/azure/iot-edge/about-iot-edge?view=iotedge-1.4
+
   
 ## You have successfully completed this lab.
