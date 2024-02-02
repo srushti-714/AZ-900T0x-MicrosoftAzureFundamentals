@@ -2,6 +2,18 @@
 
 ## Lab overview
 
+The Internet of Things (IoT) is a network of physical devices that connect to and exchange data with other devices and services over the Internet or other network. Azure IoT Hub is a managed service hosted in the cloud that acts as a central message hub for communication between an IoT application and its attached devices.
+
+Azure IoT Edge is a device-focused runtime that enables you to deploy, run, and monitor containerized Linux workloads.
+
+Azure IoT Edge is made up of three components:
+
+ - IoT Edge modules are containers that run Azure services, third-party services, or your own code. Modules are deployed to IoT Edge devices and execute locally on those devices.
+ 
+ - The IoT Edge runtime runs on each IoT Edge device and manages the modules deployed to each device.
+
+ - A cloud-based interface enables you to remotely monitor and manage IoT Edge devices.
+
 In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi simulator to your Azure IoT Hub, and you view metrics for the messaging activity in Azure Portal.
 
 ## Lab objectives
