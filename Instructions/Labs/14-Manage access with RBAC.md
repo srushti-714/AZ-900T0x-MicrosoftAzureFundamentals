@@ -98,5 +98,9 @@ In this task, we will view the activity log to verify the role assignment, and t
 In this lab, you have completed:
 - View and assign roles
 - Monitor role assignments and remove a role
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/role-based-access-control/overview
   
 ## You have successfully completed this lab.
