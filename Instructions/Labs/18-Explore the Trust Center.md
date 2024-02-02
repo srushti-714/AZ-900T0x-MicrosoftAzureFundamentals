@@ -98,4 +98,8 @@ In this lab, you have completed:
 - Access Microsoft Compliance Offerings
 - Access the Service Trust Portal (STP)
 
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/compliance/offerings/
+  
 ## You have successfully completed this lab.
