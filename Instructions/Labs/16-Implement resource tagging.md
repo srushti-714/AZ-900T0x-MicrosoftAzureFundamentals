@@ -56,9 +56,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Resource group | **myRGTags**  |
     | Storage account name | **storageaccount<inject key="DeploymentID" enableCopy="false"/>** |
     | Location | **<inject key="Region" enableCopy="false"/>** |
-    | | |
-
-
+    
 1. Click **Review**. 
 
     **Note:** We are testing to see what happens when the tag is not supplied. 
