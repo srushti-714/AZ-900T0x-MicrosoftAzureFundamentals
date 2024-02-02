@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Calculating Composite Service Level Agreements (SLAs) involves determining the overall availability or uptime of a system or service composed of multiple components, each with its own SLA. The composite SLA represents the combined reliability of all the individual components within the system.
+
 In this walkthrough, we will determine availability SLA of Azure services and then calculate application composite SLA-based expected availability.
 
 Our example application consists of these Azure services. We will not go in to deep architectural configuration and considerations, the intention here is to give an high level example.
