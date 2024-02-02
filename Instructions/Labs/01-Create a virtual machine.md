@@ -30,7 +30,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
    ![](../images/lab1-image1.png) 
 
-3. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
+1. On the **Virtual machines** blade, click **+ Create (1)** and choose **Azure virtual machine (2)**.
 
     ![](../images/lab1-image2.png) 
 
