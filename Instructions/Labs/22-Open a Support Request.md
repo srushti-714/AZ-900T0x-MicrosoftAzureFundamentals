@@ -39,11 +39,11 @@ In this lab, you will complete the following tasks:
     | Problem type | **VM performance** (7) |
     | Problem subtype | **Disk throughput or IOPS are lower than expected** (8) |    
 
-    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.1.png)
+    ![](../images/lab22-image3.png)
 
 1. Click **Next** and in the recommended solution tab, read through the recommended solutions and click on **Return to support request**
 
-   ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.3.png)
+   ![](../images/lab22-image2.png)
 
 1. Click **Next**. When submitting an actual support request, you would provide as much information as possible to allow for a speedy resolution of the issue. Your contact choices on this page depend on your support plan. 
 
@@ -61,7 +61,7 @@ In this lab, you will complete the following tasks:
     | Problem type | **Pricing** (4)|
     | Problem subtype | **Help me discover the service prices** (5) |    
 
-    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/lab22.2.png)
+    ![](../images/lab22-image1.png)
 
 1. Click **Next** and read through the recommended solutions and click on **Return to support request**.
 
