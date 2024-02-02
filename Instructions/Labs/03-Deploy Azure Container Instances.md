@@ -1,4 +1,3 @@
-
 # Lab 03 - Deploy Azure Container Instances
 
 ## Lab overview
