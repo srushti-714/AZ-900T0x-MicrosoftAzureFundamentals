@@ -1,4 +1,4 @@
-# Lab 10 - Create a VM with PowerShell
+# Lab 10 - Create a VM with PowerShell using Cloudshell
 
 ## Lab overview
 
