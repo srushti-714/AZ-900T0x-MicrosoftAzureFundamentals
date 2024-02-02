@@ -151,5 +151,9 @@ In this lab, you have completed:
 - Use CLI to create a virtual machine
 - Execute commands in the Cloud Shell
 - Review Azure Advisor Recommendations
-  
+
+ ## Reference link
+
+- https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
+   
 ## You have successfully completed this lab.
