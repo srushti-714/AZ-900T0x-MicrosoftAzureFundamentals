@@ -102,4 +102,8 @@ In this lab, you have completed:
 - Work with blob storage
 - Monitor the storage account
 
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/storage/blobs/quickstart-storage-explorer
+
 ## You have successfully completed this lab.
