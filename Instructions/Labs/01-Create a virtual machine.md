@@ -189,7 +189,8 @@ In this lab, you have completed:
 
 ## Reference link
 
-https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
+- https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
 
-https://learn.microsoft.com/en-us/partner-center/marketplace/azure-vm-use-approved-base
+- https://learn.microsoft.com/en-us/partner-center/marketplace/azure-vm-use-approved-base
+
 ## You have successfully completed this lab.
