@@ -187,7 +187,7 @@ In this lab, you have completed:
 - Connect to the virtual machine
 - Host a Basic Website on your New Cloud VM
 
-## Reference link
+## Reference links
 
 - https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-a-virtual-machine/
 
