@@ -101,5 +101,9 @@ In this task, we will add a password to the key vault.
 In this lab, you have completed:
 - Create an Azure Key Vault
 - Add a secret to the Key Vault
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/key-vault/general/basic-concepts
   
 ## You have successfully completed this lab.
