@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Microsoft offers a comprehensive set of compliance offerings to help organizations meet regulatory standards. These offerings span across Microsoft 365, Azure, and other Microsoft services.
+
 In this walkthrough, we will access the Compliance Offerings and Service Trust Portal (STP).
 
 ## Lab objectives
