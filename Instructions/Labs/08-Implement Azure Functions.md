@@ -40,7 +40,8 @@ In this task, we will create a Function app.
     | Runtime stack | **.NET** (5)|
     | Version | **6 (LTS)** (6)|
     | Region | ****<inject key="Region" enableCopy="false"/>**** (7)|
-    
+    |||
+   
     ![Screenshot of the Function App page with the new Function app.](../images/funcl8.1.png)
     
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
