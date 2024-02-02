@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Azure Functions is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs. Instead of worrying about deploying and maintaining servers, the cloud infrastructure provides all the up-to-date resources needed to keep your applications running.
+
 In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request.
 
 ## Lab objectives
