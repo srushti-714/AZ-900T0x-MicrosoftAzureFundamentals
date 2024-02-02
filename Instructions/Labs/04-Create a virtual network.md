@@ -2,6 +2,8 @@
 
 ## Lab overview
 
+Azure Virtual Network (VNet) is a service offered by Microsoft Azure that allows you to create private, isolated networks in the Azure cloud. It enables you to securely connect Azure resources, such as virtual machines (VMs), to each other, to on-premises networks, and to the internet.
+
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
 
 ## Lab objectives
@@ -37,7 +39,7 @@ In this task, we will create a virtual network.
 
       ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
 
-1. On the **Create virtual network** blade,click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
+1. On the **Create virtual network** blade, click **Next** twice to go to the IP Addresses tab and delete precreated IP address and click on **Add IPV4 address** to create a new address space.
 
     | Setting | Value | 
     | --- | --- |
@@ -51,6 +53,8 @@ In this task, we will create a virtual network.
     | Subnet Address range | **10.1.0.0/24**|
   
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/vnetnow.png)
+
+    >**Note:** If you want to learn more about IPV4 address go through the following link:[IPV4](https://www.internold.com/lesson/fundamentals-of-ipv4-addressing-and-routing-detailed/)
 
 1. Click the **Review + create** button. Ensure the validation passes.
 
@@ -153,5 +157,11 @@ In this lab, you have completed:
 - Create a virtual network
 - Create two virtual machines
 - Test the connection
+
+### Reference Link
+
+- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+- https://learn.microsoft.com/en-us/azure/virtual-network/
+- https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
  
 ## You have successfully completed this lab.
