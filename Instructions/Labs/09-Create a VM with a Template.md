@@ -21,9 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine.
 
-1. Double click on the **Microsoft Edge** icon on the VM desktop to open the browser
-
-1. In a new tab, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
+1. In a new tab of the **Microsoft Edge**, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery, you will find many popular and recently updated templates. These templates automate the deployment of Azure resources, including the installation of popular software packages.
 
 1. Browse through the many different types of templates that are available. Are there any templates that are of interest to you?.
 
