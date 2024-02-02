@@ -120,7 +120,7 @@ In this lab, you have completed:
 - View all resources with a specific tag
 - Delete the policy assignment
 
-## Reference link
+## Reference links
 
 - https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources
 - https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources-portal
