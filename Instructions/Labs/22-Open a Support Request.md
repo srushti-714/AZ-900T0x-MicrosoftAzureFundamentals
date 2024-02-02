@@ -30,15 +30,16 @@ In this lab, you will complete the following tasks:
 
     | Setting | Value|
     |----|--------|
-    | Issue Type| **Technical** |
-    | Subscription | **Choose your subscription** |
-    | Service | **All services** |
-    | Service type | **Virtual Machine running Linux** |
-    | Resource | **General Question** |
-    | Summary | **Disk access is very slow for large files** |
-    | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
-    | | |
+    | Issue Type| **Technical** (1) |
+    | Subscription | **Choose your subscription** (2) |
+    | Service | **All services** (3) |
+    | Service type | **Virtual Machine running Linux** (4) |
+    | Resource | **General Question** (5)|
+    | Summary | **Disk access is very slow for large files** (6) |
+    | Problem type | **VM performance** (7) |
+    | Problem subtype | **Disk throughput or IOPS are lower than expected** (8) |    
+
+
 
 1. Click **Next** and in the recommended solution tab, read through the recommended solutions and click on **Return to support request**
 
