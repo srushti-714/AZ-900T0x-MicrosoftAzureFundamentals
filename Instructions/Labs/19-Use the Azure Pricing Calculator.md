@@ -132,5 +132,11 @@ In this task, we will review the results of the Azure Pricing Calculator.
 In this lab, you have completed:
 - Configure the pricing calculator
 - Review the pricing estimate
+
+## Reference link
+
+- https://azure.microsoft.com/en-gb/pricing/#product-pricing
+
+- https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator
   
 ## You have successfully completed this lab.
