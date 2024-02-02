@@ -21,31 +21,46 @@ In this lab, you will complete the following tasks:
 
 In this task, we will assign the Virtual machine contributor role. 
 
-1. On the Azure portal, from the **Search resources, services, and docs** blade, search for and select **Resource groups**
+1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Resource groups (1)**, and then select **Resource groups (2)** under services.
 
-1. Then view the existing resource group. 
+   ![image](../images/lab14-image1.png)
 
-    | Setting | Value |
-    | -- | -- |
-    | Resource group | **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/>** |
+1. Then view and select the existing resource group **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/>**.
 
+   ![image](../images/lab14-image2.png)
      
-1. Click on the existing resource group
-
 1. You will be directed to the overview page of the resource group
 
-1. Click on the **Access control (IAM)** blade, and then switch to the **Roles** tab. Scroll through the large number of roles definitions that are available. Use the Informational icons to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
+1. Click on the **Access control (IAM) (1)** blade, and then switch to the **Roles (2)** tab. Scroll down and notice roles definitions that are available. Use the View link under details to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
 
-   ![image](../images/AZ-900-access.png)
+   ![image](../images/lab14-image3.png)
 
-1. Switch to the **Role assignments** tab of the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. In  Assignment type keep things as default, then switch to Roles tab, Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: the user, group, or service principal. Then click + Select members and type your azure account name (Username: <inject key="AzureAdUserEmail"></inject>) to the popup search function and hit 'select.' Then hit 'Review + Assign'.
+1. On the **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade select **+ Add (1)** then from drop-down select **Add Role assignments (2)**. 
 
-    ![image](../images/AZ-900-module-14-addrole.png)
+   ![image](../images/lab14-image4.png)
+   
+1. In  **Add Role assignments** blade on the **Role** tab, Search for the **Virtual Machine Contributor (1)** role and select **Virtual Machine Contributor (2)** then click on **Next (3)**
 
+    ![image](../images/lab14-image5.png)
+   
+
+1. On the **Members** tab, make sure to select **Assign access to: the user, group, or service principal (1)**. Next, click **+ Select members (2)** to open a popup window. In the search bar within the popup, enter your Azure account name (Username: **<inject key="AzureAdUserEmail"></inject>) (3)**, and then click **select (4)**.
+
+    ![image](../images/lab14-image6.png)
+
+1. Click **Review + Assign**.
+
+   ![image](../images/lab14-image7.png)
+   
      **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
 
+1. Back on **myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Access control (IAM)** blade, select **Role assignments** tab.
 
-1. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor. 
+    ![image](../images/lab14-image8.png)
+
+1. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor (you need to scroll down).
+
+     ![image](../images/lab14-image9.png)
 
     **Note**: This assignment does not grant you any additional privileges, since your account has already the Owner role, which includes all privileges associated with the Contributor role.
 
@@ -55,12 +70,20 @@ In this task, we will view the activity log to verify the role assignment, and t
 
 1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> resource group blade, click **Activity log**.
 
-1. Click **Add filter**, select **Operation**, and then **Create role assignment**.
+1. On the myRGRBAC-<inject key="DeploymentID" enableCopy="false"/> | Activity log blade, click **Add filter**.
 
-    ![Screenshot of the Activity log page with configured filter.](../images/1503.png)
+    ![image](../images/lab14-image10.png)
+
+5. From the **Resource (1)** drop-down, select **Operation (2)**. Then in the **Selected (3)** drop-down, search for **Create role assignment (4)** and choose **Create role assignment (microsoft.Authorization/roleAssignments/write) (5)**
+
+    ![image](../images/lab14-image11.png)
+
+    ![image](../images/lab14-image(12).png)
 
 1. Verify the Activity log shows your role assignment. (With your User Id). 
 
+     ![image](../images/lab14-image13.png)
+   
     **Note**: Can you figure out how to remove your role assignment?
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
