@@ -97,8 +97,6 @@ In this task, we will configure the SQL server and run a SQL query.
 
 1. From the **db1** blade, click **Overview**. 
 
-    ![Screenshot of the SQL server page.](../images/0504.png)
-
 1. From the SQL server **Overview** blade, click **Set server firewall**.
 
 1. Scroll down to the Firewall rules section and click on **+ Add your client IPv4 address**. Be sure to **Save** your changes. 
