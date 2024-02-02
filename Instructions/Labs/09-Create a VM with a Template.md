@@ -107,5 +107,9 @@ In this task, we will verify the virtual machine is deployed correctly.
 In this lab, you have completed:
 - Explore the gallery and locate a template
 - Verify and monitor your virtual machine deployment
-  
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/virtual-machines/windows/ps-template  
+
 ## You have successfully completed this lab.
