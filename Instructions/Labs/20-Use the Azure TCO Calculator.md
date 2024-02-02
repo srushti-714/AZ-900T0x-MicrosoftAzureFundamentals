@@ -126,4 +126,8 @@ In this lab, you have completed:
 - Configure the TCO calculator
 - Review the results and save a copy
 
+## Reference link
+
+- https://bluexp.netapp.com/blog/azure-cvo-blg-how-to-reduce-your-cloud-bill-with-the-azure-tco-calculator
+
 ## You have successfully completed this lab.
