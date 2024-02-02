@@ -63,5 +63,9 @@ In this lab, you will complete the following tasks:
 In this lab, you have completed:
 - Determine the SLA uptime percentage values for our application
 - Calculate the Application Composite SLA percentage uptime
-  
+
+## Reference link
+
+- https://learn.microsoft.com/en-us/azure/well-architected/reliability/metrics
+
 ## You have successfully completed this lab.
