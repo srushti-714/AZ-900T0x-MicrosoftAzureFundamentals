@@ -2,6 +2,9 @@
 
 ## Lab overview
 
+Azure App Service is a fully managed web application hosting platform. This platform as a service (PaaS) offered by Azure. 
+Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
+
 In this walkthrough, we will create a new web app that runs a Docker container. 
 
 ## Lab objectives
@@ -18,9 +21,6 @@ In this lab, you will complete the following tasks:
 ![](../images/az900lab02.PNG) 
 
 ### Task 1: Create a Web App
-
-Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
-
 In this task, you will create an Azure App Service Web App.
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **App Service (1)**, and then select **App Services (2)** under services.
