@@ -95,5 +95,11 @@ In this task, we will test the web app.
 In this lab, you have completed:
 - Create a Web App
 - Test the Web App
-  
+
+## Reference link
+
+https://azure.microsoft.com/en-us/products/app-service/?ref=jimmybogard.com
+
+https://learn.microsoft.com/en-us/training/modules/host-a-web-app-with-azure-app-service/
+
 ## You have successfully completed this lab.
