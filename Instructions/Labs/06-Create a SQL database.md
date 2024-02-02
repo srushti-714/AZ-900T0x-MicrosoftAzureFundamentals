@@ -3,6 +3,8 @@
 
 ## Lab overview
 
+A SQL database is a collection of tables that stores a specific set of structured data using a relational model. It is designed to efficiently organize and retrieve data using a language called Structured Query Language (SQL).
+
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
 ## Lab objectives
