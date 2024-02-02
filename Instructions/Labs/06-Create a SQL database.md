@@ -133,4 +133,8 @@ In this lab, you have completed:
 - Create the database
 - Test the database
 
+## Reference link
+
+- https://learn.microsoft.com/en-us/sql/relational-databases/databases/create-a-database?view=sql-server-ver16
+  
 ## You have successfully completed this lab.
