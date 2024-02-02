@@ -2,7 +2,7 @@
 
 ## Lab overview
 
-In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message.
+In this walkthrough, we will create a new web app that runs a Docker container. 
 
 ## Lab objectives
 
