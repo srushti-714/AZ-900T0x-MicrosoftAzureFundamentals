@@ -68,7 +68,7 @@ In this task, we will add an IoT device to the IoT hub.
 1. To add a new IoT device, scroll down to the **Device management** section and click **Devices (1)**. Then, click **+ Add Device (2)**.
 
 	![](../images/lab7-image4.png)
-**Note:** If you are not able to see the left navigation pane please try out zoom out/in in the browser settings inside the lab vm.
+**Note:** If you are not able to see the left navigation pane, please try out zoom out/in in the browser settings inside the lab vm.
 
 1. Provide a **Device ID** for your new IoT device, **<inject key="DeploymentID" enableCopy="false" />** **(1)**, and click the **Save (2)** button. This will create a new IoT device identity in your Azure IoT Hub.
 
