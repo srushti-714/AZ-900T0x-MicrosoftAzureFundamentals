@@ -91,6 +91,8 @@ In this task, we will add infrastructure information to the calculator.
     
     ![](../images/lab20-image7.png)
 
+   >**Note**: You have the freedom to choose the **Currency** option that best suits your needs and proceed with the lab.
+
 1. Click **Next**.
 
 ### Task 2: Review the results and save a copy
