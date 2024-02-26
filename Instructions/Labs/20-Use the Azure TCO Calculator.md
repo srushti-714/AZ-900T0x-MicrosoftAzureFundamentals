@@ -41,7 +41,6 @@ In this task, we will add infrastructure information to the calculator.
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
     | Windows Server 2008/2008 R2 | **Off** |
-    | | |
 
     ![](../images/lab20-image1.png)
     ![](../images/lab20-image2.png)
@@ -59,7 +58,6 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | | |
 
     ![](../images/lab20-image3.png)
    
@@ -73,7 +71,6 @@ In this task, we will add infrastructure information to the calculator.
     | Capacity | **60 TB** |  
     | Backup | **120 TB** |
     | Archive | **0 TB** |
-    | | |
 
      ![](../images/lab20-image4.png)
       ![](../images/lab20-image5.png)
@@ -83,7 +80,6 @@ In this task, we will add infrastructure information to the calculator.
     | Settings | Value |
     | -- | -- |
     | Outbound bandwidth | 15 TB|
-    | | |
 
     ![](../images/lab20-image6.png)
 
@@ -92,7 +88,6 @@ In this task, we will add infrastructure information to the calculator.
     | Settings | Value |
     | -- | -- |
     | Currency | **Euro zone** |
-    | | |
     
     ![](../images/lab20-image7.png)
 
@@ -108,7 +103,6 @@ In this task, we will review cost saving recommendations and download a report.
     | -- | -- |
     | Timeframe| **3 years** |
     | Region | **North Europe** |
-    | | |
 
     ![](../images/lab20-image8.png)
 
