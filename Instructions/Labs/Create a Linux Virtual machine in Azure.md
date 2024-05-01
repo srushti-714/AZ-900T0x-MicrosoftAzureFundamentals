@@ -111,7 +111,7 @@ In this task, install the Apache Web Server and access it.
    ```   
 1. Open a new browser tab, paste the public IP address into the URL text box, and press the Enter key to browse to it. The custom created basic website shows up.
 
-    ![](../images/az900-t3_last.png)
+    ![](../images/apache.png)
 
     >**Congratulations** on completing the task! 
     
