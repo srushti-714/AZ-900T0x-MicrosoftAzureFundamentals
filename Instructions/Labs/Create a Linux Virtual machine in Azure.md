@@ -1,4 +1,4 @@
-# Lab 01 - Create a Linux virtual machine in the portal
+# Lab - Create a Linux virtual machine in the portal
 
 ## Lab overview
 
