@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Lab- Create a Azure virtual machine in the portal",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/Labs/LabIntro-V2.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/srushti-714/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/Labs/Create%20a%20Linux%20Virtual%20machine%20in%20Azure.md",
+        "Order": 2
+      }
+    ]
+  }
+]
