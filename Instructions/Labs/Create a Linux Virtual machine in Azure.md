@@ -43,7 +43,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
     | Inbound port rules  | **Allow select ports** (9)|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)** and **HTTPS** (443) (10)|
+    | Select inbound ports | **SSH (22)** and **HTTP (80)** and **HTTPS** (443) (10)|
     |||
    
     ![](../images/l1vm.png)
@@ -58,9 +58,9 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     | Settings | Values |
     | -- | -- |
-    | Select inbound ports | **HTTP (80), RDP (3389)** and **HTTPS** (443)|
+    | Select inbound ports | **HTTP (80), SSH (22)** and **HTTPS** (443)|
    
-    >**Note:** - Verify that both port 80 and 3389 are selected
+    >**Note:** - Verify that ports 80, 443 and 22 are selected
 
 1. Click **Next** to switch to the **Management** tab and leave everything as default.
 
