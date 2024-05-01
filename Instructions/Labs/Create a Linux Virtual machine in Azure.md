@@ -91,9 +91,13 @@ In this task, we will connect to our new virtual machine using RDP.
 
     >**Note:**: The following directions tell you how to connect to your VM from a Windows computer.
 
-1. Within the **Connect** page, click on **Select** under **Native SSH** and copy the **SSH command**
+1. Within the **Connect** page, click on **Select** under **Native SSH**.
 
-   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/SSH.png)
+   ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/SSH-U.png)
+
+1. Check the terms and conditions and click on **Configure**, Copy the SSH command
+
+    ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/SSH-U1.png)
 
 1. Next, open **Command Prompt** and paste the copied SSH command from previous step.
    
