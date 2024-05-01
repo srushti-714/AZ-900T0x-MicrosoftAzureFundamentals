@@ -40,7 +40,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Location | **(US) East US** (4)|
     | Image | **Ubuntu Server 20.04 LTS** (5)|
     | Size | **Standard_D2s_v3** (6)|
-    | Authentication type: **Password** |
+    | Authentication type| **Password** |
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
     | Inbound port rules  | **Allow select ports** (9)|
