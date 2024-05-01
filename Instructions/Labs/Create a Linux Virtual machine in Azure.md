@@ -16,11 +16,9 @@ In this lab, you will complete the following tasks:
 
 ## Estimated timing: 30 minutes
 
-**Note**: Take time during this walk-through to click and read the Informational icons.
-
 ### Task 1: Create the virtual machine
 
-In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual machine. 
+In this task, we will create a **Ubuntu Server 20.04 LTS** virtual machine. 
 
 1. On Azure Portal page, in Search resources, services and docs (G+/) box at the top of the portal, enter **Virtual machines (1)**, and then select **Virtual machines (2)** under services.
 
