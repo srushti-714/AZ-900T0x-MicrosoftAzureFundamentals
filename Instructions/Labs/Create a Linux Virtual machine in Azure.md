@@ -1,16 +1,16 @@
-# Lab 01 - Create a virtual machine in the portal
+# Lab 01 - Create a Linux virtual machine in the portal
 
 ## Lab overview
 
 An Azure Virtual Machine (VM) is a computing resource provided by Microsoft Azure. It allows users to create and use virtualized computing instances in the cloud. Azure Virtual Machines enable users to run applications, host websites, and perform various computing tasks without needing to purchase and maintain physical hardware.
 
-In this walkthrough, we will create a virtual machine in the Azure portal, connect to the virtual machine, install the web server role and test.
+In this walkthrough, we will create a Linux virtual machine in the Azure portal, connect to the virtual machine, install the Apache web server and test.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Create the virtual machine
++ Task 1: Create the Linux virtual machine
 + Task 2: Connect to the virtual machine
 + Task 3: Host a Basic Website on your New Cloud VM
 
@@ -42,12 +42,12 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
     | Resource group | **myRGVM-<inject key="DeploymentID" enableCopy="false"/>** (2) |
     | Virtual machine name | **myVm** (3)|
     | Location | **(US) East US** (4)|
-    | Image | **Windows Server 2019 Datacenter - Gen2** (5)|
+    | Image | **Ubuntu Server 20.04 LTS** (5)|
     | Size | **Standard_D2s_v3** (6)|
     | Administrator account username | **azureuser** (7)|
     | Administrator account password | **Pa$$w0rd1234** (8)|
     | Inbound port rules  | **Allow select ports** (9)|
-    | Select inbound ports | **RDP (3389)** and **HTTP (80)** (10)|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)** and **HTTPS** (443) (10)|
     |||
    
     ![](../images/l1vm.png)
@@ -62,7 +62,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen2 virtual mac
 
     | Settings | Values |
     | -- | -- |
-    | Select inbound ports | **HTTP (80), RDP (3389)**|
+    | Select inbound ports | **HTTP (80), RDP (3389)** and **HTTPS** (443)|
    
     >**Note:** - Verify that both port 80 and 3389 are selected
 
