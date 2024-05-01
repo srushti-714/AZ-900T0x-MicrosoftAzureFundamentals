@@ -16,10 +16,6 @@ In this lab, you will complete the following tasks:
 
 ## Estimated timing: 30 minutes
 
-## Architecture diagram
-
-![](../images/az900lab01.PNG) 
-
 **Note**: Take time during this walk-through to click and read the Informational icons.
 
 ### Task 1: Create the virtual machine
